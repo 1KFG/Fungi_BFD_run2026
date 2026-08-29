@@ -1,0 +1,342 @@
+query_asmid	query_species_in	sketch_status	n_hits_reported	n_significant_hits	best_ani_pct	best_ref_asmid	best_ref_genus	needs_review
+GCA_041722915.1_BD655-Tylopilus-cordonbleu-nom-prov	aff. Porphyrellus sp. UT-M0000030	built	10	10	82.3748	GCA_038091315.1_MICH12342-Tylopilus-cyaneotinctus	Porphyrellus	False
+GCA_041722675.1_BD885	aff. Porphyrellus sp. UT-M0000367	built	10	10	81.9413	GCA_041722655.1_BD845-Porphyrellus-aff-excedens	Porphyrellus	False
+GCA_002718315.1_ASM271831v1	Agaricales sp. HM26-F1	built	10	10	67.9713	GCA_037041595.1_ASM3704159v1	Lodderomyces	False
+GCA_985805875.1_idMegDoli1.microsporidian_1.1	Amblyosporidae sp. gmOTU1 NHMUK015059140	built	10	10	98.2810	GCA_985568015.1_idNerComm1.microsporidian_1.1		False
+GCA_985568015.1_idNerComm1.microsporidian_1.1	Amblyosporidae sp. gmOTU1 Ox002245	built	10	10	98.2810	GCA_985805875.1_idMegDoli1.microsporidian_1.1		False
+GCA_985568185.1_iuLoeVari1.microsporidian_1.hap2.1	Amblyosporidae sp. gmOTU1 Ox002633	built	10	10	96.7510	GCA_985805875.1_idMegDoli1.microsporidian_1.1		False
+GCA_986199865.1_ilAceEphe1.microsporidian_1.1	Amblyosporidae sp. gmOTU10 Ox001727	built	10	10	70.8553	GCA_027248365.1_ASM2724836v1	Piromyces	False
+GCA_984766085.1_idDelPlat3.microsporidian_1.1_alternate_haplotypes	Amblyosporidae sp. gmOTU2 SAN22000470	built	10	10	98.6061	GCA_985568025.1_idDelPlat5.microsporidian_1.1_alternate_haplotypes		False
+GCA_985568205.1_idTanUsma1.microsporidian_1.1	Amblyosporidae sp. gmOTU2 SAN22000472	built	10	10	99.4903	GCA_985568115.1_idDelPlat4.microsporidian_1.1		False
+GCA_985568115.1_idDelPlat4.microsporidian_1.1	Amblyosporidae sp. gmOTU2 SAN22000475	built	10	10	99.4903	GCA_985568205.1_idTanUsma1.microsporidian_1.1		False
+GCA_985809255.1_idLucSpea1.microsporidian_1.1	Amblyosporidae sp. gmOTU2 SAN22000477	built	10	10	99.3745	GCA_985568205.1_idTanUsma1.microsporidian_1.1		False
+GCA_985568025.1_idDelPlat5.microsporidian_1.1_alternate_haplotypes	Amblyosporidae sp. gmOTU2 SAN22000478	built	10	10	98.6206	GCA_985568205.1_idTanUsma1.microsporidian_1.1		False
+GCA_985568195.1_iiMysAzur1.microsporidian_1.1_alternate_haplotypes	Amblyosporidae sp. gmOTU8 NHMUK014451618	built	10	10	73.6978	GCA_037055185.1_ASM3705518v1	Capillidium	False
+GCA_985568005.1_idChiSpeb1.microsporidian_1.1	Amblyosporidae sp. gmOTU9 SAN22000474	built	10	10	77.7536	GCA_027248705.1_ASM2724870v1	Neocallimastix	False
+GCA_964257325.1_public_SRR14721982_metabat2_bin.3	Arthoniomycetes sp.	built	10	10	68.7048	GCA_000222955.2_AciTa_1.0	Epichloe	False
+GCA_049996255.1_ASM4999625v1	Arthoniomycetes sp. BF10	built	10	10	69.3402	GCA_020631695.1_ASM2063169v1	Trichoderma	False
+GCA_029297955.1_ASM2929795v1	Ascomycota sp.	existing	10	10	94.9255	GCA_964257155.1_public_SRR11456918_metabat2_merged.0	Peltigera	False
+GCA_029295915.1_ASM2929591v1	Ascomycota sp.	existing	10	10	98.9177	GCA_022661205.1_E_lata_WV-1	Eutypa	False
+GCA_029294875.1_ASM2929487v1	Ascomycota sp.	existing	10	10	99.2422	GCA_001006365.1_UCDDA912v1.0	Diaporthe	False
+GCA_029293645.1_ASM2929364v1	Ascomycota sp.	existing	10	10	89.7732	GCA_029293605.1_ASM2929360v1		False
+GCA_029302335.1_ASM2930233v1	Ascomycota sp.	existing	10	10	82.9074	GCA_029302105.1_ASM2930210v1		False
+GCA_029302195.1_ASM2930219v1	Ascomycota sp.	existing	10	10	66.0414	GCA_030789025.1_ASM3078902v1	Arthroderma	False
+GCA_029302095.1_ASM2930209v1	Ascomycota sp.	existing	10	10	67.9713	GCA_043230705.1_ASM4323070v1	Aureobasidium	False
+GCA_029302105.1_ASM2930210v1	Ascomycota sp.	existing	10	10	82.9074	GCA_029302335.1_ASM2930233v1		False
+GCA_029300655.1_ASM2930065v1	Ascomycota sp.	existing	10	10	99.9383	GCA_964254685.1_public_SRR1531517_concoct_bin.16	Dibaeis	False
+GCA_029300615.1_ASM2930061v1	Ascomycota sp.	existing	10	10	99.4461	GCA_964255575.1_public_SRR1531545_concoct_bin.10	Leptogium	False
+GCA_029300415.1_ASM2930041v1	Ascomycota sp.	existing	10	10	99.7898	GCA_964256975.1_public_SRR1531569_concoct_bin.26	Peltula	False
+GCA_029300195.1_ASM2930019v1	Ascomycota sp.	existing	10	10	98.6543	GCA_964256995.1_public_SRR1532736_concoct_bin.13	Physcia	False
+GCA_029303315.1_ASM2930331v1	Ascomycota sp.	existing	10	10	99.5304	GCA_023627875.1_ASM2362787v1	Geotrichum	False
+GCA_029300035.1_ASM2930003v1	Ascomycota sp.	existing	10	10	97.9766	GCA_937873075.1_SRR1562005_bin.67_CONCOCT_v1.1_MAG		False
+GCA_029300015.1_ASM2930001v1	Ascomycota sp.	existing	10	10	94.0255	GCA_022701375.1_ASM2270137v1	Trichothecium	False
+GCA_057558295.1_FM_MARS-14.71_MAG_AntObs_1.0	Ascomycota sp. Antarctolithica obscura	existing	10	10	99.2923	GCA_057558075.1_FM_MARS-17.30_MAG_AntObs_1.0		False
+GCA_057558075.1_FM_MARS-17.30_MAG_AntObs_1.0	Ascomycota sp. Antarctolithica obscura	existing	10	10	99.4967	GCA_057558195.1_FM_MARS-52.25_MAG_AntObs_1.0		False
+GCA_057558275.1_FM_MARS-19.38_MAG_AntObs_1.0	Ascomycota sp. Antarctolithica obscura	existing	10	10	99.0918	GCA_057558075.1_FM_MARS-17.30_MAG_AntObs_1.0		False
+GCA_057558195.1_FM_MARS-52.25_MAG_AntObs_1.0	Ascomycota sp. Antarctolithica obscura	existing	10	10	99.4967	GCA_057558075.1_FM_MARS-17.30_MAG_AntObs_1.0		False
+GCA_057558155.1_FM_MARS-55.28_MAG_AntObs_1.0	Ascomycota sp. Antarctolithica obscura	existing	10	10	99.4628	GCA_057558045.1_FM_MARS-82.9_MAG_AntObs_1.0		False
+GCA_057558035.1_FM_MARS-62.17_MAG_AntObs_1.0	Ascomycota sp. Antarctolithica obscura	existing	10	10	98.9324	GCA_057558045.1_FM_MARS-82.9_MAG_AntObs_1.0		False
+GCA_057558045.1_FM_MARS-82.9_MAG_AntObs_1.0	Ascomycota sp. Antarctolithica obscura	existing	10	10	99.4758	GCA_057558075.1_FM_MARS-17.30_MAG_AntObs_1.0		False
+GCA_057558165.1_FM_MARS-9.1_MAG_AntObs_1.0	Ascomycota sp. Antarctolithica obscura	existing	10	10	99.1871	GCA_057558075.1_FM_MARS-17.30_MAG_AntObs_1.0		False
+GCA_029299965.1_ASM2929996v1	Aspergillaceae sp.	built	10	10	96.9763	GCF_028827035.1_ASM2882703v1	Penicillium	False
+GCA_003004485.1_ASM300448v1	Aspergillaceae sp. MA 6039	built	10	10	97.0454	GCA_003004525.2_ASM300452v2	Aspergillus	False
+GCA_020744175.1_Olipa1	Auriculariales sp. MPI-PUGE-AT-0066	built	10	10	68.7048	GCA_019190125.1_ASM1919012v1	Rhodotorula	False
+GCA_964254815.1_public_SRR14722098_metabat2_bin.9	Baeomycetales sp.	built	10	10	86.6433	GCA_964257415.1_public_SRR14721959_metabat2_bin.2	Ionaspis	False
+GCA_041722455.1_DLT08-010	Boletaceae sp. DLT08-010	built	10	10	90.3154	GCA_038089655.1_NY796215-Imleria-badia	Imleria	False
+GCA_041722295.1_MAD-m10-Boletaceae	Boletaceae sp. KM206666	built	10	10	80.7742	GCA_038091165.1_MICH24411-Boletus-pulcherrimus	Rubroboletus	False
+GCA_041722255.1_MAD-m38-Xerocomus-sp	Boletaceae sp. KM206700	built	10	10	94.3736	GCA_041722135.1_MAD-m73-Boletellus-sp		False
+GCA_041722215.1_MAD-m47-Boletaceae	Boletaceae sp. KM206711	built	10	10	80.9307	GCA_041722195.1_MAD-m49-Boletaceae		False
+GCA_041722195.1_MAD-m49-Boletaceae	Boletaceae sp. KM206713	built	10	10	80.9307	GCA_041722215.1_MAD-m47-Boletaceae		False
+GCA_041722055.1_MAD-m75-Boletellus-sp	Boletaceae sp. KM206733	built	10	10	89.9364	GCA_041722255.1_MAD-m38-Xerocomus-sp		False
+GCA_041722135.1_MAD-m73-Boletellus-sp	Boletaceae sp. KM206735	built	10	10	96.2614	GCA_041722155.1_MAD-m63-Boletellus-sp		False
+GCA_041722175.1_MAD-m71-Xerocomus-sp	Boletaceae sp. KM206737	built	10	10	84.3627	GCA_041722255.1_MAD-m38-Xerocomus-sp		False
+GCA_041722155.1_MAD-m63-Boletellus-sp	Boletaceae sp. KM206743	built	10	10	96.2614	GCA_041722135.1_MAD-m73-Boletellus-sp		False
+GCA_041722575.1_CTN08-007-Boletaceae	Boletaceae sp. TRTC157208	built	10	10	83.7063	GCA_041722895.1_BD667-Xdrocomus-sp8	Xerocomus	False
+GCA_041722635.1_CTN08-029	Boletaceae sp. TRTC157229	built	10	10	80.3295	GCA_041721755.1_SWK373-Phylloporus-sp	Phylloporus	False
+GCA_041722495.1_CTN08-049-Leccinum-sp	Boletaceae sp. TRTC157249	built	10	10	78.6675	GCA_038089755.1_NY577517-Leccinum-rugosiceps	Leccinellum	False
+GCA_041722475.1_CTN08-051-Boletaceae	Boletaceae sp. TRTC157251	built	10	10	77.4410	GCA_038094095.1_BD921Chile-Boletus-putidus	Boletus	False
+GCA_041722115.1_MU-11-Boletaceae	Boletaceae sp. TRTC163558	built	10	10	86.4466	GCA_038090955.1_MICH4995-Boletellus-intermedius	Xerocomellus	False
+GCA_041721915.1_SWK177-Boletaceae	Boletaceae sp. TRTC168347	built	10	10	83.8997	GCA_038092715.1_MICH10047-Boletus-smithii	Boletus	False
+GCA_041721795.1_SWK351-Boletaceae	Boletaceae sp. TRTC168532	built	10	10	81.3708	GCA_038092535.1_MICH10054-Boletus-subilludens	Xerocomus	False
+GCA_041721715.1_SWK385-Boletaceae	Boletaceae sp. TRTC168571	built	10	10	89.2424	GCA_039955225.1_Aver_NBRC115547_1.0	Aspergillus	False
+GCA_041721695.1_SWK386-Pulchroboletus-cf	Boletaceae sp. TRTC168574	built	10	10	81.1314	GCA_003316065.1_ASM331606v1	Retiboletus	False
+GCA_041722595.1_BD890-Emersons-bolete	Boletaceae sp. UT-M0000358	built	10	10	81.0820	GCA_038094095.1_BD921Chile-Boletus-putidus	Boletus	False
+GCA_038090395.1_NY1393526-Hemioporus-cooloolae	Boletales sp. KT-2023a	built	10	10	90.2899	GCA_038089675.1_NY815477-Hemioporus-ivoryi		False
+GCA_038089675.1_NY815477-Hemioporus-ivoryi	Boletales sp. KT-2023b	built	10	10	90.2899	GCA_038090395.1_NY1393526-Hemioporus-cooloolae		False
+GCA_029302275.1_ASM2930227v1	Brachybasidiaceae sp.	built	10	10	70.8553	GCA_023273805.1_ASM2327380v1	Exobasidium	False
+GCA_030566955.1_ASM3056695v1	Candida anutae	built	10	10	72.0022	GCA_030565005.1_ASM3056500v1	Scheffersomyces	False
+GCA_030581555.1_ASM3058155v1	Candida argentea	built	10	10	69.9006	GCA_030580355.1_ASM3058035v1		False
+GCA_030674335.1_ASM3067433v1	Candida ascalaphidarum	built	10	10	73.6978	GCA_008065175.1_ASM806517v1	Metschnikowia	False
+GCA_030571295.1_ASM3057129v1	Candida citri	built	10	10	77.9511	GCA_030568875.1_ASM3056887v1	Sungouiella	False
+GCA_003707735.2_ASM370773v2	Candida freyschussii	built	10	10	74.1507	GCA_030572555.1_ASM3057255v1		False
+GCA_030572315.1_ASM3057231v1	Candida glucosophila	built	10	10	72.6371	GCA_000697015.1_CunEleB9769-1.0	Cunninghamella	False
+GCA_058218595.1_ASM5821859v1	Candida mesenterica	existing	10	10	99.9957	GCA_058218575.1_ASM5821857v1		False
+GCA_058218575.1_ASM5821857v1	Candida mesenterica	existing	10	10	99.9957	GCA_058218595.1_ASM5821859v1		False
+GCA_030559045.1_ASM3055904v1	Candida mesenterica	existing	10	10	99.9144	GCA_058218575.1_ASM5821857v1		False
+GCA_015708695.1_ASM1570869v1	Candida mesenterica	existing	10	10	99.8572	GCA_058218595.1_ASM5821859v1		False
+GCA_030579995.1_ASM3057999v1	Candida sp.	existing	10	10	89.1930	GCA_030571015.1_ASM3057101v1	Ogataea	False
+GCA_030570575.1_ASM3057057v1	Candida sp.	existing	10	10	92.4869	GCA_050613735.1_ASM5061373v1	Starmera	False
+GCA_030567185.1_ASM3056718v1	Candida sp.	existing	10	10	82.7365	GCA_003707745.2_ASM370774v2	Williopsis	False
+GCA_030574675.1_ASM3057467v1	Candida sp.	existing	10	10	99.0375	GCA_060251805.1_ASM6025180v1	Wickerhamomyces	False
+GCA_030563385.1_ASM3056338v1	Candida sp.	existing	10	10	80.2708	GCA_030568155.1_ASM3056815v1	Wenyingozyma	False
+GCA_030567915.1_ASM3056791v1	Candida sp.	existing	10	10	76.9890	GCA_030568155.1_ASM3056815v1	Wenyingozyma	False
+GCA_030572555.1_ASM3057255v1	Candida sp.	existing	10	10	85.8347	GCA_030567175.1_ASM3056717v1	Williopsis	False
+GCA_030580075.1_ASM3058007v1	Candida sp.	existing	10	10	80.3874	GCA_030557985.1_ASM3055798v1	Millerago	False
+GCA_030557335.1_ASM3055733v1	Candida sp.	existing	10	10	91.0318	GCA_030557345.1_ASM3055734v1	Petasospora	False
+GCA_030567895.1_ASM3056789v1	Candida sp.	existing	10	10	83.2624	GCA_030567875.1_ASM3056787v1	Wenyingozyma	False
+GCA_030567955.1_ASM3056795v1	Candida sp.	existing	10	10	85.7453	GCA_003706095.2_ASM370609v2	Ogataea	False
+GCA_030564165.1_ASM3056416v1	Candida sp.	existing	10	10	84.9367	GCA_030571115.1_ASM3057111v1	Wickerhamomyces	False
+GCA_030567155.1_ASM3056715v1	Candida sp.	existing	10	10	78.5837	GCA_030567185.1_ASM3056718v1		False
+GCA_030705185.1_ASM3070518v1	Candida sp.	existing	10	10	73.1970	GCA_030568875.1_ASM3056887v1	Sungouiella	False
+GCA_030571215.1_ASM3057121v1	Candida sp.	existing	10	10	74.3619	GCA_030558275.1_ASM3055827v1	Chernovozyma	False
+GCA_030407195.1_ASM3040719v1	Candida tunisiensis	built	10	10	70.8553	GCA_029299085.1_OphIps_1.0	Ophiostoma	False
+GCA_000372705.1_YLSCbra_1.0	Cerataphis brasiliensis yeast-like symbiont	built	10	10	89.4736	GCA_000758425.1_ASM75842v1		False
+GCA_041722615.1_BTNG35	cf. Tylopilus sp. TRTC175157	built	10	10	77.4410	GCA_026108285.1_ASM2610828v1	Diplocarpon	False
+GCA_057978885.1_Crustfungi10_Chaeto	Chaetomiaceae sp. 537B	built	10	10	97.7216	GCA_023627195.1_ASM2362719v1	Penicillium	False
+GCA_023628455.1_ASM2362845v1	Chaetomiaceae sp. B2702	built	10	10	79.2158	GCA_023628475.1_ASM2362847v1		False
+GCA_023628475.1_ASM2362847v1	Chaetomiaceae sp. PF1801	built	10	10	83.0721	GCA_033575675.1_Thihy1	Parathielavia	False
+GCA_023628495.1_ASM2362849v1	Chaetomiaceae sp. PT3202	built	10	10	99.7167	GCA_023628555.1_ASM2362855v1		False
+GCA_023628425.1_ASM2362842v1	Chaetomiaceae sp. PYS4301M	built	10	10	82.7365	GCA_056776735.1_ASM5677673v1	Humicola	False
+GCA_023628555.1_ASM2362855v1	Chaetomiaceae sp. R4402	built	10	10	99.7167	GCA_023628495.1_ASM2362849v1		False
+GCA_964255365.1_public_SRR14722083_concoct_bin.1	Chaetothyriales sp.	built	10	10	73.6978	GCA_016109495.1_ASM1610949v1	Phialophora	False
+GCA_049996355.1_ASM4999635v1	Chaetothyriales sp. BF4	built	10	10	69.3402	GCA_003709845.1_ASM370984v1		False
+GCA_003709865.1_ASM370986v1	Chaetothyriales sp. CBS 132003	built	10	10	86.5536	GCA_003709845.1_ASM370984v1		False
+GCA_003709845.1_ASM370984v1	Chaetothyriales sp. CBS 134916	built	10	10	86.5536	GCA_003709865.1_ASM370986v1		False
+GCA_003693665.1_ASM369366v1	Chaetothyriales sp. CBS 134920	built	10	10	86.7745	GCA_003709825.1_ASM370982v1		False
+GCA_003709825.1_ASM370982v1	Chaetothyriales sp. CBS 135597	built	10	10	86.7745	GCA_003693665.1_ASM369366v1		False
+GCA_027604305.1_ASM2760430v1	Chytridiales sp. JEL 0842	built	10	10	70.4019	GCA_001599055.1_JCM_6961_assembly_v001	Thielaviopsis	False
+GCA_023347005.1_ASM2334700v1	Chytridiomycetes sp.	built	10	10	66.0414	GCA_023212605.1_ASM2321260v1	Moesziomyces	False
+GCA_023347045.1_ASM2334704v1	Chytridiomycetes sp.	built	10	10	62.7417	GCA_018344405.1_ASM1834440v1	Hansenula	False
+GCA_024708745.1_USC_Clado_1.0	Cladosporiales sp.	built	10	10	91.0103	GCA_059336645.1_ASM5933664v1	Alternaria	False
+GCA_904855205.1_Cyphbasidiales_sp_Tagirdzhanova-0007_MAG	Cyphobasidiales sp. Tagirdzhanova-0007	built	10	10	67.9713	GCA_037951295.1_ASM3795129v1	Ogataea	False
+GCA_003351005.1_ASM335100v1	Cystobasidiaceae sp. HBUAS51001	built	10	10	69.3402	GCA_019775285.1_ASM1977528v1	Cystobasidium	False
+GCA_964257715.1_public_SRR7232212_concoct_bin.12	Cystobasidiomycetes sp.	built	10	10	67.9713	GCA_030580275.1_ASM3058027v1	Groenewaldozyma	False
+GCA_051047955.1_ASM5104795v1	Cystobasidiomycetes sp. EMM_F5	built	10	10	68.7048	GCA_008802785.1_ASM880278v1	Symmetrospora	False
+GCA_023625755.1_ASM2362575v1	Debaryomycetaceae sp. 2NP920	built	10	10	99.9990	GCA_023625715.1_ASM2362571v1		False
+GCA_023625695.1_ASM2362569v1	Debaryomycetaceae sp. 2NP930A	built	10	10	99.9971	GCA_023625675.1_ASM2362567v1	Kurtzmaniella	False
+GCA_023625775.1_ASM2362577v1	Debaryomycetaceae sp. 2NR913A	built	10	10	99.9852	GCA_023625755.1_ASM2362575v1		False
+GCA_023625795.1_ASM2362579v1	Debaryomycetaceae sp. 2NR914	built	10	10	74.1507	GCA_054123655.1_ASM5412365v1	Sporendonema	False
+GCA_031081755.1_CAB1570	Debaryomycetaceae sp. CAB 1570	built	10	10	94.8178	GCA_031081905.1_ZIM2471		False
+GCA_032598715.1_ASM3259871v1	Debaryomycetaceae sp. JAC-2022a	built	10	10	99.9066	GCA_023625675.1_ASM2362567v1	Kurtzmaniella	False
+GCA_023625715.1_ASM2362571v1	Debaryomycetaceae sp. NP9010	built	10	10	99.9998	GCA_023625635.1_ASM2362563v1	Kurtzmaniella	False
+GCA_031081785.1_UD68_643	Debaryomycetaceae sp. UCDFST 68-643	built	10	10	99.7319	GCA_031081845.1_UD68_768_1		False
+GCA_031081845.1_UD68_768_1	Debaryomycetaceae sp. UCDFST 68-768.1	built	10	10	99.7319	GCA_031081785.1_UD68_643		False
+GCA_023625735.1_ASM2362573v1	Debaryomycetaceae sp. Y9007B	built	10	10	99.9998	GCA_023625635.1_ASM2362563v1	Kurtzmaniella	False
+GCA_023625815.1_ASM2362581v1	Debaryomycetaceae sp. Y9007B-2	built	10	10	89.0754	GCA_014839905.1_ASM1483990v1	Aphanoascus	False
+GCA_030580355.1_ASM3058035v1	Debaryomycetaceae sp. yHKB357	built	10	10	69.9006	GCA_030581555.1_ASM3058155v1		False
+GCA_031081905.1_ZIM2471	Debaryomycetaceae sp. ZIM 2471	built	10	10	94.8178	GCA_031081755.1_CAB1570		False
+GCA_057978275.1_Crustfungi11_Didyme	Didymellaceae sp. 537F	built	10	10	84.9367	GCF_010093625.1_Macan1	Macroventuria	False
+GCA_032595095.1_ASM3259509v1	Didymellaceae sp. YAFEF048	built	10	10	80.4447	GCA_015266435.1_ASM1526643v1	Epicoccum	False
+GCA_964255855.1_public_SRR14722213_metabat2_bin.1	Dothideomycetes sp.	built	10	10	71.6498	GCA_049996175.1_ASM4999617v1		False
+GCA_051311975.2_ASM5131197v2	Dothideomycetes sp. EMM_F3	built	10	10	72.6371	GCA_054600455.1_NU459_1.0		False
+GCA_054600495.1_NU197_1.0	Dothideomycetes sp. NU197	built	10	10	77.4410	GCA_963674455.1_LECACI7	Lecanosticta	False
+GCA_027943355.1_NU200_1.0	Dothideomycetes sp. NU200	built	10	10	99.0770	GCA_030412615.1_ASM3041261v1	Neodothiora	False
+GCA_026013035.2_NU30_1.0	Dothideomycetes sp. NU30	built	10	10	76.2180	GCA_004917485.1_ASM491748v1	Aureobasidium	False
+GCA_054600615.1_NU332_1.0	Dothideomycetes sp. NU332	built	10	10	75.9302	GCA_054600495.1_NU197_1.0		False
+GCA_054600575.1_NU457_1.0	Dothideomycetes sp. NU457	built	10	10	72.0022	GCA_004917595.1_ASM491759v1	Aureobasidium	False
+GCA_054600455.1_NU459_1.0	Dothideomycetes sp. NU459	built	10	10	76.7457	GCA_055774095.1_ASM5577409v1	Sphaerulina	False
+GCA_000836255.1_fungal_sp._No.11243_ver1.0	Dothideomycetidae sp. 11243	built	10	10	70.4019	GCA_007556535.1_ASM755653v1	Elsinoe	False
+GCA_986194475.1_ilChaFerr1.microsporidian_1.1	Enterocytozoonidae sp. gmOTU24 Ox000445	built	10	10	64.6720	GCA_030563805.1_ASM3056380v1	Ruyongia	False
+GCA_985568305.1_iyOphElle1.microsporidian_1.1	Enterocytozoonidae sp. gmOTU25 NHMUK014425822	built	10	10	66.0414	GCA_002549865.1_AtyMaFurf	Malassezia	False
+GCA_985568325.1_ihTemGrac1.microsporidian_1.1_alternate_haplotype	Enterocytozoonidae sp. gmOTU26 Ox002348	built	10	10	67.1035	GCA_056153265.1_UG_MB_1.1		False
+GCA_985805835.1_idNeuQuad1.microsporidian_1.1	Enterocytozoonidae sp. gmOTU27 Ox002306	built	10	10	64.6720	GCA_056153265.1_UG_MB_1.1		False
+GCA_023625935.1_ASM2362593v1	Eurotiales sp. R13A2	built	10	10	99.4395	GCA_023625835.1_ASM2362583v1	Talaromyces	False
+GCA_023625855.1_ASM2362585v1	Eurotiales sp. R3503	built	10	10	99.9789	GCA_023625835.1_ASM2362583v1	Talaromyces	False
+GCA_964255605.1_public_SRR14722135_concoct_merged.1	Eurotiomycetes sp.	existing	10	10	70.4019	GCA_022814105.1_ASM2281410v1	Ptychographa	False
+GCA_002916945.1_ASM291694v1	Eurotiomycetes sp.	existing	10	10	95.0990	GCA_035927085.1_ASM3592708v1	Lithohypha	False
+GCA_002917005.1_ASM291700v1	Eurotiomycetes sp.	existing	10	10	94.7326	GCA_002319055.1_ASM231905v1	Knufia	False
+GCA_002917015.1_ASM291701v1	Eurotiomycetes sp.	existing	10	10	71.2691	GCA_003693665.1_ASM369366v1		False
+GCA_023347065.1_ASM2334706v1	fungal sp.	built	10	10	64.6720	GCA_001664025.1_Hanva1_1	Hanseniaspora	False
+GCA_054392365.1_ASM5439236v1	fungal sp. IPV F-433	built	10	10	79.7729	GCA_033297235.1_Thian1	Trichocladium	False
+GCA_000292665.1_ASM29266v1	Helotiales sp. EF0021	built	10	10	74.1507	GCA_003988865.1_ASM398886v1	Phialocephala	False
+GCA_002554605.1_Helotiales_sp._F229_1.0	Helotiales sp. F229	built	10	10	82.3748	GCA_003073865.1_Cadsp1	Cadophora	False
+GCA_029293655.1_ASM2929365v1	Herpotrichiellaceae sp.	existing	10	10	88.9281	GCA_029293645.1_ASM2929364v1		False
+GCA_029293605.1_ASM2929360v1	Herpotrichiellaceae sp.	existing	10	10	89.7732	GCA_029293645.1_ASM2929364v1		False
+GCA_029293295.1_ASM2929329v1	Herpotrichiellaceae sp.	existing	10	10	91.1425	GCA_029293375.1_ASM2929337v1		False
+GCA_029293375.1_ASM2929337v1	Herpotrichiellaceae sp.	existing	10	10	91.1425	GCA_029293295.1_ASM2929329v1		False
+GCA_029293275.1_ASM2929327v1	Herpotrichiellaceae sp.	existing	10	10	88.3139	GCA_029293295.1_ASM2929329v1		False
+GCA_049996315.1_ASM4999631v1	Herpotrichiellaceae sp. BF7	built	10	10	73.4540	GCA_016109495.1_ASM1610949v1	Phialophora	False
+GCA_049996295.1_ASM4999629v1	Herpotrichiellaceae sp. BF8	built	10	10	84.8496	GCA_030247875.1_UCR_TK_41	Cladophialophora	False
+GCA_000315175.1_Herpo1.0	Herpotrichiellaceae sp. UM238	built	10	10	71.2691	GCF_036327395.1_ASM3632739v1	Knufia	False
+GCA_029290895.1_ASM2929089v1	Hypocreaceae sp.	existing	10	10	99.2649	GCA_048182565.1_ASM4818256v1	Trichoderma	False
+GCA_029290855.1_ASM2929085v1	Hypocreaceae sp.	existing	10	10	94.0645	GCA_048182565.1_ASM4818256v1	Trichoderma	False
+GCA_029290815.1_ASM2929081v1	Hypocreaceae sp.	existing	10	10	96.5931	GCA_049345875.1_ASM4934587v1	Trichoderma	False
+GCA_964026325.1_ERR7163067_concoct_90_euk	Hypocreales sp.	existing	10	10	99.2811	GCA_051528495.1_YNP90	Simplicillium	False
+GCA_029295655.1_ASM2929565v1	Hypocreales sp.	existing	10	10	93.0994	GCA_029295265.1_ASM2929526v1		False
+GCA_029290695.1_ASM2929069v1	Hypocreales sp.	existing	10	10	69.9006	GCA_001600555.1_JCM_11844_assembly_v001	Albophoma	False
+GCA_051170975.1_iisc_KLYLS	Hypocreales sp. KLYLS	built	10	10	96.5797	GCA_058369715.1_StYLS		False
+GCA_033060795.1_pgTrit_morethan500	Hypocreales sp. ML197-S3	built	10	10	99.7775	GCA_039700845.1_ASM3970084v1	Alternaria	False
+GCA_002939055.1_ASM293905v1	Hypocreales sp. Mo6-1	built	10	10	82.8398	GCA_051528675.1_YNP81	Ophiocordyceps	False
+GCA_040955585.1_ASM4095558v1	Hypocreales sp. O35	built	10	10	73.4540	GCA_002991585.1_ASM299158v1	Ilyonectria	False
+GCA_058369715.1_StYLS	Hypocreales sp. StYLS	built	10	10	96.5797	GCA_051170975.1_iisc_KLYLS		False
+GCA_027569635.1_ASM2756963v1	Lasiosphaeriaceae sp. G1095	built	10	10	79.6396	GCA_033439775.1_Poddi1	Podospora	False
+GCA_964254455.1_public_SRR14722160_concoct_bin.3	Lecanorales sp.	built	10	10	77.9511	GCA_033220425.1_Lene_EWU_01	Lepraria	False
+GCA_937857895.1_SRR13685132_bin.23_CONCOCT_v1.1_MAG	Lecanoromycetes sp.	built	10	10	99.8657	GCA_964256505.1_public_SRR14721987_metabat2_bin.1	Lecanora	False
+GCA_035521555.1_Uapishka_2	Lecanoromycetidae sp. Uapishka_2	built	10	10	69.3402	GCA_022814085.1_ASM2281408v1	Puttea	False
+GCA_964256305.1_public_SRR14722188_metabat2_bin.28	leotiomyceta sp.	built	10	10	76.2180	GCA_964256245.1_public_SRR14722176_concoct_bin.30		False
+GCA_043791855.1_ASM4379185v1	Leotiomycetes sp. Styx10C10m-37	built	10	10	69.3402	GCA_035926935.1_ASM3592693v1	Lithohypha	False
+GCA_964255695.1_public_SRR14722165_metabat2_bin.16	Leprocaulales sp.	built	10	10	67.9713	GCA_964257295.1_public_SRR14721974_metabat2_bin.1	Hypotrachyna	False
+GCA_964255385.1_public_SRR14722086_metabat2_bin.14	Lichinales sp.	built	10	10	69.3402	GCA_000223175.2_ClPasp_1.0	Claviceps	False
+GCA_046254935.1_ASM4625493v1	Lobulomycetales sp.	built	10	10	67.1035	GCA_000347475.1_Ppaxilli_v.1.0	Penicillium	False
+GCA_003709005.1_ASM370900v1	Magnaporthales sp. P1609	built	10	10	99.9683	GCA_041721605.1_FAFU-Ppen-JC-1-v1.0	Pyricularia	False
+GCA_963379275.1_SMGC_7566_bin.1_MetaWRAP_v1.2.1_MAG	Malasseziomycetes sp.	built	10	10	74.3619	GCA_001600795.1_JCM_11963_assembly_v001	Malassezia	False
+GCA_018606675.1_ASM1860667v1	Malasseziomycetes sp.	built	10	10	80.3295	GCA_036584355.1_ASM3658435v1	Malassezia	False
+GCA_033819885.2_DUKE_Aeri_2.0	Microbotryomycetes sp. JL201	built	10	10	75.7795	GCA_054471015.1_ASM5447101v1		False
+GCA_033819875.2_DUKE_Acar_2.0	Microbotryomycetes sp. JL221	built	10	10	71.2691	GCA_033819885.2_DUKE_Aeri_2.0		False
+GCA_052696405.1_DUKE_Asor_1.0	Microbotryomycetes sp. NB124-2	built	10	10	98.0565	GCA_054471015.1_ASM5447101v1		False
+GCA_032191455.1_ICIPE_MspMB_1.0	Microsporidia sp. MB	built	10	10	98.5171	GCA_050230985.1_KEMRI_ICIPE_ABN394		False
+GCA_049634765.1_KEMRI_ICIPE_Tes0708gam	Microsporidia sp. MB	built	10	10	98.4341	GCA_049634785.1_KEMRI_ICIPE_Tes094gam		False
+GCA_049634785.1_KEMRI_ICIPE_Tes094gam	Microsporidia sp. MB	built	10	10	98.4341	GCA_049634765.1_KEMRI_ICIPE_Tes0708gam		False
+GCA_050230985.1_KEMRI_ICIPE_ABN394	Microsporidia sp. MB	built	10	10	98.5171	GCA_032191455.1_ICIPE_MspMB_1.0		False
+GCA_056153265.1_UG_MB_1.1	Microsporidia sp. MB	built	10	10	97.8221	GCA_049634765.1_KEMRI_ICIPE_Tes0708gam		False
+GCA_009613015.1_ASM961301v1	Mollisiaceae sp. DMI_Dod_QoI	built	10	10	87.4532	GCA_003988865.1_ASM398886v1	Phialocephala	False
+GCA_020087025.1_ASM2008702v1	Mrakiaceae sp. VS III B KN 2	built	10	10	99.6190	GCA_046867365.1_ASM4686736v1	Tausonia	False
+GCA_049996215.1_ASM4999621v1	Mycosphaerellales sp. BF13	built	10	10	71.2691	GCA_005059865.1_ASM505986v1	Friedmanniomyces	False
+GCA_049996175.1_ASM4999617v1	Mycosphaerellales sp. BF15	built	10	10	71.6498	GCA_964255855.1_public_SRR14722213_metabat2_bin.1		False
+GCA_054392435.1_ASM5439243v1	Naviculisporaceae sp. PSN 640	built	10	10	85.7090	GCA_059311635.1_ASM5931163v1	Pseudorhypophila	False
+GCA_029299895.1_ASM2929989v1	Nectriaceae sp.	existing	10	10	89.8164	GCA_056248065.1_ASM5624806v1	Fusarium	False
+GCA_029299875.1_ASM2929987v1	Nectriaceae sp.	existing	10	10	99.0330	GCA_056248065.1_ASM5624806v1	Fusarium	False
+GCA_023628695.1_ASM2362869v1	Nectriaceae sp. PG4201	built	10	10	85.8875	GCA_045526805.1_TL_CC_CBS341.70	Cosmospora	False
+GCA_985805865.1_idTipConf1.microsporidian_1.1	Neopereziidae sp. gmOTU28 NHMUK014561543	built	10	10	71.6498	GCA_001649435.1_CEM2dn	Pichia	False
+GCA_985806015.1_ieEphVulg1.microsporidian_1.1	Neopereziidae sp. gmOTU29 Ox002475	built	10	10	75.9302	GCA_037055185.1_ASM3705518v1	Capillidium	False
+GCA_000758425.1_ASM75842v1	Nilaparvata lugens yeast-like symbiont	built	10	10	89.4736	GCA_000372705.1_YLSCbra_1.0		False
+GCA_985801395.1_iyForRufa2.microsporidian_1.1	Nosematidae sp. gmOTU23 NHMUK014425611	built	10	10	75.6239	GCA_027248525.1_ASM2724852v1	Neocallimastix	False
+GCA_032988465.1_ASM3298846v1	Onygenales sp. PD_10	built	10	10	98.1356	GCA_032988185.1_ASM3298818v1		False
+GCA_032988185.1_ASM3298818v1	Onygenales sp. PD_12	built	10	10	98.1929	GCA_032988205.1_ASM3298820v1		False
+GCA_032988205.1_ASM3298820v1	Onygenales sp. PD_40	built	10	10	98.1929	GCA_032988185.1_ASM3298818v1		False
+GCA_029293055.1_ASM2929305v1	Ophiocordycipitaceae sp.	existing	10	10	87.3911	GCA_029292965.1_ASM2929296v1		False
+GCA_029292995.1_ASM2929299v1	Ophiocordycipitaceae sp.	existing	10	10	99.8441	GCA_029292925.1_ASM2929292v1		False
+GCA_029293035.1_ASM2929303v1	Ophiocordycipitaceae sp.	existing	10	10	98.5077	GCA_029292915.1_ASM2929291v1		False
+GCA_029292965.1_ASM2929296v1	Ophiocordycipitaceae sp.	existing	10	10	98.8982	GCA_029292925.1_ASM2929292v1		False
+GCA_029292985.1_ASM2929298v1	Ophiocordycipitaceae sp.	existing	10	10	93.4462	GCA_004026455.1_ASM402645v1	Purpureocillium	False
+GCA_029292925.1_ASM2929292v1	Ophiocordycipitaceae sp.	existing	10	10	99.8441	GCA_029292995.1_ASM2929299v1		False
+GCA_029292915.1_ASM2929291v1	Ophiocordycipitaceae sp.	existing	10	10	98.5077	GCA_029293035.1_ASM2929303v1		False
+GCA_029292835.1_ASM2929283v1	Ophiocordycipitaceae sp.	existing	10	10	97.2496	GCA_004026455.1_ASM402645v1	Purpureocillium	False
+GCA_029292885.1_ASM2929288v1	Ophiocordycipitaceae sp.	existing	10	10	96.0233	GCA_029292995.1_ASM2929299v1		False
+GCA_937822555.1_SRR13685168_bin.22_CONCOCT_v1.1_MAG	Parmeliaceae sp.	built	10	10	99.9000	GCA_964257435.1_public_SRR14721996_metabat2_bin.8	Hypogymnia	False
+GCA_964254795.1_public_SRR14722032_metabat2_bin.2	Pertusariales sp.	built	10	10	89.6484	GCA_964255865.1_private_T1912_concoct_bin.14	Varicellaria	False
+GCA_002224055.1_ASM222405v1	Pezizomycotina sp. ARF18	built	10	10	98.2037	GCA_047716705.1_ASM4771670v1	Hyalorbilia	False
+GCA_051820495.1_ASM5182049v1	Pezizomycotina sp. MK-2025a	built	10	10	74.1507	GCA_046056245.1_ASM4605624v1	Ceratostomella	False
+GCA_963974035.1_ERR2762104_concoct_6	Phaeosphaeriaceae sp.	built	10	10	80.7742	GCA_030544205.1_ASM3054420v1	Paraphoma	False
+GCA_021365335.1_PhaPMI808	Phaeosphaeriaceae sp. PMI808	built	10	10	83.1682	GCA_028457625.1_ASM2845762v1	Ophiosphaerella	False
+GCA_001644525.1_Stasp1	Phaeosphaeriaceae sp. SRC1lsM3a	built	10	10	85.2293	GCA_020747045.1_Phapo1	Phaeosphaeria	False
+GCA_000263175.2_Pleo_1.0	Phaeosphaeriaceae sp. UM 1110	built	10	10	86.4466	GCA_003503105.1_ASM350310v1	Phaeosphaeria	False
+GCA_977014405.1_UCD2329_Bar	Phaffomycetaceae sp. UCD2329	built	10	10	81.4173	GCA_030557985.1_ASM3055798v1	Millerago	False
+GCA_937854325.1_SRR12240182_bin.18_CONCOCT_v1.1_MAG	Physciaceae sp.	built	10	10	86.4156	GCA_964255615.1_public_SRR14722141_concoct_bin.2	Phaeophyscia	False
+GCA_041498895.1_ASM4149889v1	Pichiaceae sp.	built	10	10	98.9328	GCA_002008015.1_ASM200801v1	Ogataea	False
+GCA_001950555.1_JCM_15000_assembly_v001	Pichiaceae sp. JCM 15000	built	10	10	72.9253	GCA_030574155.1_ASM3057415v1	Xiuguozyma	False
+GCA_057978915.1_Crustfungi12_Pleosp	Pleosporales sp. 538A	built	10	10	81.8157	GCA_022609365.1_ASM2260936v1	Mycocentrospora	False
+GCA_048340545.1_ASM4834054v1	Pleosporales sp. CAS-2024a	built	10	10	77.4410	GCA_003503115.1_ASM350311v1	Parastagonospora	False
+GCA_001414375.1_H_laetus_v1	Pleosporales sp. CS-2015	built	10	10	99.6112	GCA_003503205.1_ASM350320v1	Parastagonospora	False
+GCA_024196135.1_ASM2419613v1	Pleurotus ostreatus-Saccharomyces cerevisiae fusant	built	10	10	95.3399	GCA_001599475.1_JCM_22674_assembly_v001	Schizophyllum	False
+GCA_003988805.1_ASM398880v1	Ploettnerulaceae sp. D365	built	10	10	80.3874	GCA_058969415.1_ASM5896941v1	Cadophora	False
+GCA_049996235.1_ASM4999623v1	Pseudopyrenochaetaceae sp. BF11	built	10	10	77.3320	GCA_000601435.1_P_lyc_v1	Pseudopyrenochaeta	False
+GCA_058411105.1_ASM5841110v1	Pucciniomycotina sp. clade gs25	built	10	10	69.3402	GCA_015502565.1_UCR_MambBC1291	Actinomortierella	False
+GCA_964256575.1_public_ERR4179390_metabat2_bin.6	Ramalinaceae sp.	built	10	10	68.7048	GCA_000299195.2_KM02r2	Kluyveromyces	False
+GCA_047651925.1_ASM4765192v1	Saccharomyces cerevisiae-Schizosaccharomyces pombe fusant	built	10	10	99.7434	GCA_002807125.1_S_cerevisiae_SPSC01_v1	Saccharomyces	False
+GCA_029303885.1_ASM2930388v1	Saccharomycetaceae sp.	existing	10	10	98.0982	GCA_002151565.1_ASM215156v1	Kluyveromyces	False
+GCA_029303855.1_ASM2930385v1	Saccharomycetaceae sp.	existing	10	10	99.9349	GCF_000091025.4_ASM9102v4	Eremothecium	False
+GCA_029300815.1_ASM2930081v1	Saccharomycetaceae sp.	existing	10	10	99.9207	GCA_030580015.1_ASM3058001v1	Lachancea	False
+GCA_029303775.1_ASM2930377v1	Saccharomycetaceae sp.	existing	10	10	92.8580	GCA_009805645.1_ASM980564v1	Saccharomyces	False
+GCA_029303725.1_ASM2930372v1	Saccharomycetaceae sp.	existing	10	10	96.5752	GCA_029300675.1_ASM2930067v1		False
+GCA_029303675.1_ASM2930367v1	Saccharomycetaceae sp.	existing	10	10	99.9048	GCA_012850935.1_ASM1285093v1	Naumovozyma	False
+GCA_029303655.1_ASM2930365v1	Saccharomycetaceae sp.	existing	10	10	94.0426	GCF_000209165.1_ASM20916v1	Scheffersomyces	False
+GCA_029300755.1_ASM2930075v1	Saccharomycetaceae sp.	existing	10	10	95.5876	GCA_029303675.1_ASM2930367v1		False
+GCA_029303615.1_ASM2930361v1	Saccharomycetaceae sp.	existing	10	10	93.7127	GCA_030580015.1_ASM3058001v1	Lachancea	False
+GCA_029303555.1_ASM2930355v1	Saccharomycetaceae sp.	existing	10	10	99.6851	GCA_012850935.1_ASM1285093v1	Naumovozyma	False
+GCA_029300735.1_ASM2930073v1	Saccharomycetaceae sp.	existing	10	10	98.9328	GCA_000149225.2_ASM14922v2	Lachancea	False
+GCA_029303455.1_ASM2930345v1	Saccharomycetaceae sp.	existing	10	10	97.4434	GCA_029300815.1_ASM2930081v1		False
+GCA_029300685.1_ASM2930068v1	Saccharomycetaceae sp.	existing	10	10	92.0558	GCA_029303885.1_ASM2930388v1		False
+GCA_029300675.1_ASM2930067v1	Saccharomycetaceae sp.	existing	10	10	96.5752	GCA_029303725.1_ASM2930372v1		False
+GCA_029290875.1_ASM2929087v1	Saccharomycetales sp.	existing	10	10	99.8030	GCA_000755205.1_ASM75520v1	Meyerozyma	False
+GCA_029296565.1_ASM2929656v1	Saccharomycetales sp.	existing	10	10	99.9726	GCA_029293515.1_ASM2929351v1		False
+GCA_029295605.1_ASM2929560v1	Saccharomycetales sp.	existing	10	10	99.0256	GCA_023623335.1_ASM2362333v1	Meyerozyma	False
+GCA_029293515.1_ASM2929351v1	Saccharomycetales sp.	existing	10	10	99.9726	GCA_029296565.1_ASM2929656v1		False
+GCA_029301665.1_ASM2930166v1	Saccharomycetales sp.	existing	10	10	95.6716	GCF_001661235.1_Picme2	Pichia	False
+GCA_029301595.1_ASM2930159v1	Saccharomycetales sp.	existing	10	10	98.9341	GCA_014176175.1_P.AWRI1613	Brettanomyces	False
+GCA_029301555.1_ASM2930155v1	Saccharomycetales sp.	existing	10	10	99.0358	GCA_025531575.1_ASM2553157v1	Pichia	False
+GCA_029300795.1_ASM2930079v1	Saccharomycetales sp.	existing	10	10	99.9438	GCF_000209165.1_ASM20916v1	Scheffersomyces	False
+GCA_029300705.1_ASM2930070v1	Saccharomycetales sp.	existing	10	10	99.1650	GCA_029300795.1_ASM2930079v1		False
+GCA_057557315.1_ASM5755731v1	Saccharomycetes sp.	built	10	10	98.2311	GCF_011074885.1_ASM1107488v2	Brettanomyces	False
+GCA_029299855.1_ASM2929985v1	Saccharomycopsidaceae sp.	existing	10	10	97.5986	GCA_012062855.1_ASM1206285v1	Saccharomycopsis	False
+GCA_029299835.1_ASM2929983v1	Saccharomycopsidaceae sp.	existing	10	10	92.4421	GCA_001936155.1_KPH12	Saccharomycopsis	False
+GCA_022457085.1_ASM2245708v1	Saccharomycotina sp. CBS 16003	built	10	10	96.6064	GCA_022023595.1_ASM2202359v1	Sungouiella	False
+GCA_054471075.1_ASM5447107v1	Saccharomycotina sp. YJ-2025a	built	10	10	71.2691	GCA_054771755.1_JCM5354_assembly01	Erythrobasidium	False
+GCA_054471015.1_ASM5447101v1	Saccharomycotina sp. YJ-2025b	built	10	10	98.0565	GCA_052696405.1_DUKE_Asor_1.0		False
+GCA_021347865.1_ASM2134786v1	Sarocladiaceae sp. CBMAI 1973	built	10	10	94.4572	GCA_042370655.1_Acrst1	Sarocladium	False
+GCA_023628655.1_ASM2362865v1	Sarocladiaceae sp. R1802	built	10	10	99.4706	GCA_021176775.1_ASM2117677v1	Sarocladium	False
+GCA_019633565.1_Serend407_1.0	Serendipita sp. 407	built	10	10	99.3033	GCA_019627725.1_Serend401_1.0	Serendipita	False
+GCA_053477585.1_ASM5347758v1	Sinodiscula camellicola	built	10	10	76.6192	GCA_003012995.1_ASM301299v1	Juglanconis	False
+GCA_029295265.1_ASM2929526v1	Sordariomycetes sp.	existing	10	10	96.7320	GCA_029295075.1_ASM2929507v1		False
+GCA_029295175.1_ASM2929517v1	Sordariomycetes sp.	existing	10	10	89.0154	GCA_029295265.1_ASM2929526v1		False
+GCA_029295075.1_ASM2929507v1	Sordariomycetes sp.	existing	10	10	96.7320	GCA_029295265.1_ASM2929526v1		False
+GCA_029294915.1_ASM2929491v1	Sordariomycetes sp.	existing	10	10	89.0326	GCA_029295075.1_ASM2929507v1		False
+GCA_025503055.1_ASM2550305v1	Sordariomycetes sp. B11D1	built	10	10	93.0581	GCA_030411695.1_ASM3041169v1	Scopulariopsis	False
+GCA_037040145.1_ASM3704014v1	Sordariomycetes sp. M70-01Q	built	10	10	74.3619	GCA_023628855.1_ASM2362885v1	Coniochaeta	False
+GCA_060154425.1_ASM6015442v1	Sordariomycetes sp. QZ-2024a	built	10	10	73.9297	GCA_001676865.1_ASM167686v1	Ceratocystiopsis	False
+GCA_023628875.1_ASM2362887v1	Sordariomycetes sp. R4601	built	10	10	99.9976	GCA_023628835.1_ASM2362883v1		False
+GCA_023628835.1_ASM2362883v1	Sordariomycetes sp. S4602	built	10	10	99.9976	GCA_023628875.1_ASM2362887v1		False
+GCA_037042185.1_ASM3704218v1	Sordariomycetes sp. S80-01Y	built	10	10	98.7758	GCA_037074925.2_ASM3707492v2	Tetracladium	False
+GCA_963379365.1_SMGC_7567_bin.1_MetaWRAP_v1.2.1_MAG	Sordariomycetidae sp.	built	10	10	72.3303	GCA_019925495.1_ASM1992549v1	Ophiostoma	False
+GCA_029299915.1_ASM2929991v1	Sporidiobolaceae sp.	built	10	10	99.9636	GCA_019190135.1_ASM1919013v1	Rhodotorula	False
+GCA_056507755.1_ASM5650775v1	Tarzettaceae sp. PLDXAR	built	10	10	76.4892	GCA_037055185.1_ASM3705518v1	Capillidium	False
+GCA_030247885.1_UCR_JES119	Taxawa tesnikishii nom. ined.	built	10	10	77.5475	GCA_040142845.1_UCR_Afum_ATCC42202_1.0	Aspergillus	False
+GCA_964255085.1_public_SRR14722085_metabat2_bin.6	Teloschistales sp.	built	10	10	70.4019	GCA_023646635.1_KEW_Foas	Flavoplaca	False
+GCA_049996275.1_ASM4999627v1	Teratosphaeriaceae sp. BF9	built	10	10	77.8534	GCA_005059865.1_ASM505986v1	Friedmanniomyces	False
+GCA_033119285.1_ASM3311928v1	Teratosphaeriaceae sp. CCFEE 6253	built	10	10	79.1412	GCA_030553435.1_ASM3055343v1	Friedmanniomyces	False
+GCA_000825705.1_Allpaths-LG	Torrubiella hemipterigena	built	10	10	73.4540	GCA_003056565.1_ASM305656v1	Lecanicillium	False
+GCA_964255395.1_private_X1_concoct_bin.0	Tremellales sp.	built	10	10	84.3627	GCA_904859935.1_Tremellales_sp_Tagirdzhanova-0007_MAG		False
+GCA_022813505.1_ASM2281350v1	Tremellales sp. FJII-L8-SW-PAB2	built	10	10	74.5641	GCA_060229505.1_ASM6022950v1	Vishniacozyma	False
+GCA_904859935.1_Tremellales_sp_Tagirdzhanova-0007_MAG	Tremellales sp. Tagirdzhanova-0007	built	10	10	84.3627	GCA_964255395.1_private_X1_concoct_bin.0		False
+GCA_035521475.1_Uapishka_1	Tremellales sp. Uapishka_1	built	10	10	69.3402	GCA_008065275.1_ASM806527v1	Vanrija	False
+GCA_023625875.1_ASM2362587v1	Trichocomaceae sp. PYS4502	built	10	10	86.4774	GCA_049901525.1_ZNU_Talaro_1	Talaromyces	False
+GCA_037040845.1_ASM3704084v1	Trichomonascaceae sp. B5901	built	10	10	99.9995	GCA_041430575.1_ASM4143057v1		False
+GCA_055797495.1_UFMG_Dzmpeteri_v1.0	Trichomonascaceae sp. UFMG-CM-Y2876	built	10	10	70.4019	GCA_056507785.1_ASM5650778v1	Limtongella	False
+GCA_041430575.1_ASM4143057v1	Trichomonascaceae sp. VP_10	built	10	10	99.9995	GCA_037040845.1_ASM3704084v1		False
+GCA_023628915.1_ASM2362891v1	Trichomonascaceae sp. Y4102	built	10	10	71.2691	GCA_037074825.1_ASM3707482v1	Blastobotrys	False
+GCA_019633535.1_Tulinq235_1.0	Tulasnella sp. JGI-2019a	existing	10	10	99.6208	GCA_019633545.1_Tulinq238_1.0		False
+GCA_019633545.1_Tulinq238_1.0	Tulasnella sp. JGI-2019a	existing	10	10	99.6208	GCA_019633535.1_Tulinq235_1.0		False
+GCA_019633555.1_Tulinq7632_1.0	Tulasnella sp. JGI-2019a	existing	10	10	99.3051	GCA_019633545.1_Tulinq238_1.0		False
+GCA_937857905.1_SRR13685131_bin.26_CONCOCT_v1.1_MAG	uncultured Alectoria	built	10	10	98.3349	GCA_905337325.1_GTX0161_lecanoromycete	Alectoria	False
+GCA_937900785.1_ERR1332601_bin.1_CONCOCT_v1.1_MAG	uncultured Arthrodermataceae	built	10	10	99.4054	GCA_001651445.1_CMCC_F_T1i	Trichophyton	False
+GCA_935753355.1_ERR7747324_bin.10	uncultured Ascochyta	built	10	10	84.6702	GCF_010093625.1_Macan1	Macroventuria	False
+GCA_937873075.1_SRR1562005_bin.67_CONCOCT_v1.1_MAG	uncultured Hypocreales	built	10	10	98.1362	GCA_003012175.1_Trichothecium_roseum_DAOM197141_TROSE1_contigs	Trichothecium	False
+GCA_937857585.1_SRR13685157_bin.1_CONCOCT_v1.1_MAG	uncultured Lecanoromycetes	built	10	10	98.8235	GCA_964256425.1_public_SRR14721960_metabat2_bin.2	Phyllopsora	False
+GCA_937832625.1_SRR13685160_bin.30_CONCOCT_v1.1_MAG	uncultured Leotiomyceta	built	10	10	68.7048	GCA_002989075.1_artRad1.0	Arthonia	False
+GCA_902712315.1_SRR3187450_bin.5	uncultured Malassezia	built	10	10	99.4202	GCA_001264765.1_ASM126476v1	Malassezia	False
+GCA_937888215.1_SRR3185024_bin.1_CONCOCT_v1.1_MAG	uncultured Malasseziomycetes	built	10	10	98.6171	GCA_010577765.1_ASM1057776v1	Malassezia	False
+GCA_937863695.1_ERR868474_bin.13_CONCOCT_v1.1_MAG	uncultured Microbotryomycetes	built	10	10	74.1507	GCA_026119225.1_ASM2611922v1	Rhodotorula	False
+GCA_937900885.1_SRR6853383_bin.36_CONCOCT_v1.1_MAG	uncultured Penicillium	built	10	10	99.7803	GCA_023624335.1_ASM2362433v1	Penicillium	False
+GCA_937873565.1_ERR599223_bin.4_CONCOCT_v1.1_MAG	uncultured Pleosporineae	built	10	10	76.6192	GCA_052323575.1_ASM5232357v1	Paraleptosphaeria	False
+GCA_937898395.1_SRR4028131_bin.1_CONCOCT_v1.1_MAG	uncultured Psathyrellaceae	built	10	10	70.4019	GCA_051997435.1_ASM5199743v1	Psathyrella	False
+GCA_937863395.1_SRR6425773_bin.116_CONCOCT_v1.1_MAG	uncultured Pseudogymnoascus	built	10	10	72.3303	GCA_000750665.1_DG3	Pseudogymnoascus	False
+GCA_937872955.1_SRR3017105_bin.41_CONCOCT_v1.1_MAG	uncultured Saccharomyces	built	10	10	99.9013	GCA_019394655.1_ASM1939465v1	Saccharomyces	False
+GCA_937898345.1_SRR3997477_bin.88_CONCOCT_v1.1_MAG	uncultured Saccharomycetales	built	10	10	99.8161	GCA_029296565.1_ASM2929656v1		False
+GCA_935751715.1_ERR7738209_bin.119_149_154_merged	uncultured Sordaria	built	10	10	86.6875	GCA_008692325.1_ASM869232v1	Sordaria	False
+GCA_937902615.1_SRR6853352_bin.14_CONCOCT_v1.1_MAG	uncultured Tremellales	built	10	10	99.3916	GCA_012922615.1_ASM1292261v1	Papiliotrema	False
+GCA_023078705.1_ASM2307870v1	Venturiaceae sp. KMAF11	built	10	10	75.2963	GCA_003689355.1_ASM368935v1	Venturia	False
+GCA_964256245.1_public_SRR14722176_concoct_bin.30	Verrucariales sp.	built	10	10	76.2180	GCA_964256305.1_public_SRR14722188_metabat2_bin.28		False
+GCA_023159215.1_XyAK1471_1	Xylariaceae sp. AK1471	built	10	10	78.1407	GCA_023159155.1_Kredeu1	Ustulina	False
+GCA_022578815.1_XylFL0016	Xylariaceae sp. FL0016	built	10	10	71.6498	GCA_001599175.1_JCM_9685_assembly_v001	Pestalotiopsis	False
+GCA_022578795.1_XylFL0255	Xylariaceae sp. FL0255	built	10	10	79.5026	GCA_027248765.1_ASM2724876v1	Neocallimastix	False
+GCA_022385605.1_XylFL0594	Xylariaceae sp. FL0594	built	10	10	73.1970	GCA_022578495.1_Nemani1	Nemania	False
+GCA_022376535.1_XylFL0662B	Xylariaceae sp. FL0662B	built	10	10	78.1407	GCA_027248925.1_ASM2724892v1	Neocallimastix	False
+GCA_022539325.1_XyFL0804_2	Xylariaceae sp. FL0804	built	10	10	73.9297	GCA_022495205.1_HyFL1150_1	Hypoxylon	False
+GCA_022578705.1_XylFL1019	Xylariaceae sp. FL1019	built	10	10	84.4595	GCA_022432385.1_XyFL1272_2		False
+GCA_022432385.1_XyFL1272_2	Xylariaceae sp. FL1272	built	10	10	84.4595	GCA_022578705.1_XylFL1019		False
+GCA_025201745.1_XylFL1651	Xylariaceae sp. FL1651	built	10	10	77.9511	GCA_027248625.1_ASM2724862v1	Neocallimastix	False
+GCA_028637885.1_ASM2863788v1	Xylariaceae sp. Mn132	built	10	10	98.9095	GCA_028637585.1_ASM2863758v1		False
+GCA_028638325.1_ASM2863832v1	Xylariaceae sp. Mn153	built	10	10	98.8307	GCA_028637885.1_ASM2863788v1		False
+GCA_028637775.1_ASM2863777v1	Xylariaceae sp. X167	built	10	10	98.2734	GCA_028637685.1_ASM2863768v1		False
+GCA_028637755.1_ASM2863775v1	Xylariaceae sp. X170	built	10	10	98.1014	GCA_028637775.1_ASM2863777v1		False
+GCA_028637585.1_ASM2863758v1	Xylariaceae sp. X187	built	10	10	98.9095	GCA_028637885.1_ASM2863788v1		False
+GCA_028637685.1_ASM2863768v1	Xylariaceae sp. X3-2	built	10	10	98.2734	GCA_028637775.1_ASM2863777v1		False
+GCA_028637635.1_ASM2863763v1	Xylariaceae sp. X802	built	10	10	82.6664	GCA_022385655.1_Xylint1	Xylaria	False
+GCA_054227815.1_ASM5422781v1	Xylariales sp. 2024	built	10	10	99.5544	GCA_060307455.1_ASM6030745v1		False
+GCA_022432505.1_Plecto1	Xylariales sp. AK1849	built	10	10	70.8553	GCA_037074995.1_ASM3707499v1	Apiospora	False
+GCA_002003505.1_fungal_sp._No.14919_ver1.0	Xylariales sp. No.14919	built	10	10	98.5092	GCA_022495055.1_Xylgra1	Xylaria	False
+GCA_021365275.1_XylPMI506	Xylariales sp. PMI_506	built	10	10	73.1970	GCA_038362815.1_ASM3836281v1	Apiospora	False
+GCA_060307505.1_ASM6030750v1	Xylariales sp. SJ507	built	10	10	93.9006	GCA_060307455.1_ASM6030745v1		False
+GCA_060307455.1_ASM6030745v1	Xylariales sp. XT01	built	10	10	99.5544	GCA_054227815.1_ASM5422781v1		False
+GCA_022376655.1_XyFL0641_1	Xylariomycetidae sp. FL0641	built	10	10	74.7580	GCA_018398605.1_FBL658_Bm01	Biscogniauxia	False
+GCA_022376275.1_XylFL2044	Xylariomycetidae sp. FL2044	built	10	10	77.7536	GCA_051622775.1_ASM5162277v1	Xylaria	False
