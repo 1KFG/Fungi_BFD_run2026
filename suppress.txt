@@ -1,7 +1,7 @@
+GCA_017654775.1_ASM1765477v1,Seems to be mix of Basidiomycete and Ascomycete genome FCS-GX purges so much it is too small of genome
 GCA_986281615.1_DAH1003FM,Too small should be removed
 GCA_986280865.1_DAH1008FM,Too small should be removed
 GCA_029267275.1_ASM2926727v1,All contigs too small
-GCA_982397245.1_T46-F,Entirely Bacteria
 GCA_000091065.2_ASM9106v2,Too Small for Yeast genome
 GCA_975850065.1_BH_BASALT_bin502_ASM_v1,Too Small MAG
 GCA_900018355.1_Em_KVL-14-118,Too small
@@ -292,3 +292,41 @@ GCA_986280875.1_DAH1010FM,Too short
 GCA_986281645.1_DAH1049FM,Too short
 GCA_986194575.1_ilOchDupl1.microsporidian_1.1,Too short
 GCA_985803815.1_iyNetVirg2.microsporidian_1.1,Too short
+GCA_056822185.1_ASM5682218v1,Microsporidia - not predicted by funannotate
+GCA_059492115.1_UIUC_Nbom_1,Microsporidia - not predicted by funannotate
+GCA_984766085.1_idDelPlat3.microsporidian_1.1_alternate_haplotypes,Microsporidia - not predicted by funannotate
+GCA_985568005.1_idChiSpeb1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985568015.1_idNerComm1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985568025.1_idDelPlat5.microsporidian_1.1_alternate_haplotypes,Microsporidia - not predicted by funannotate
+GCA_985568055.1_idPhaFune2.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985568115.1_idDelPlat4.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985568155.1_ilYpoCagn5.microsporidian_1.1_alternate_haplotypes,Microsporidia - not predicted by funannotate
+GCA_985568165.1_ilEpiFoen1.microsporidian_1.1_alternate_haplotypes,Microsporidia - not predicted by funannotate
+GCA_985568185.1_iuLoeVari1.microsporidian_1.hap2.1,Microsporidia - not predicted by funannotate
+GCA_985568195.1_iiMysAzur1.microsporidian_1.1_alternate_haplotypes,Microsporidia - not predicted by funannotate
+GCA_985568205.1_idTanUsma1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985568285.1_ilEudLacu3.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985568305.1_iyOphElle1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985568325.1_ihTemGrac1.microsporidian_1.1_alternate_haplotype,Microsporidia - not predicted by funannotate
+GCA_985800635.1_iySphCras2.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985801395.1_iyForRufa2.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985801995.1_iyVulBima1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985805035.1_idAstConc1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985805755.1_ihCicViri2.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985805795.1_ihGraVent1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985805865.1_idTipConf1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985805875.1_idMegDoli1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985806015.1_ieEphVulg1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_985809255.1_idLucSpea1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_986194475.1_ilChaFerr1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_986194495.1_ilEupExig1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_986194725.1_iyChoSubc1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_986194805.1_ilCraPere1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_986194925.1_ilBlaLact1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_986195055.1_ilMytImpu1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_986195105.1_ilNemKoen2.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_986195235.1_iyCepSpin2.microsporidian_1.1_alternate_haplotype,Microsporidia - not predicted by funannotate
+GCA_986199865.1_ilAceEphe1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_986264945.1_ilEreLige1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_986264975.1_ilNocJanh1.microsporidian_1.1,Microsporidia - not predicted by funannotate
+GCA_010725545.3_Ls_assembly01,Collybia sordida NBRC 112841 - genome assembly has systematic ~85% transcript-to-genome identity (indel-heavy, fragmented splice sites) causing PASA/funannotate training to fail almost all transcript alignments despite ~98% ANI to other Collybia sordida strains
