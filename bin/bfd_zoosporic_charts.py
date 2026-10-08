@@ -13,7 +13,7 @@ p.add_argument("--out", default="docs/BFD_Blastocladio_Chytridio_counts.pdf")
 p.add_argument("--png-dir", default=None)
 a = p.parse_args()
 
-PHYLA = ["Chytridiomycota", "Blastocladiomycota"]
+PHYLA = ["Chytridiomycota", "Blastocladiomycota", "Neocallimastigomycota"]
 d = pd.read_csv(a.samples, dtype=str)
 d = d[d.PHYLUM.isin(PHYLA)].copy()
 # collapse "Xxx sp. STRAIN" to one "Xxx sp." entry, as in bfd_taxon_barcharts.py
@@ -40,7 +40,7 @@ figs = []
 # Page 1: taxa at each rank, one panel per phylum
 ranks = [("CLASS", "Classes"), ("ORDER", "Orders"), ("FAMILY", "Families"),
          ("GENUS", "Genera"), ("SPKEY", "Species"), ("ASMID", "Genomes")]
-fig, axes = plt.subplots(1, 2, figsize=(13.33, 7.5), sharex=True)
+fig, axes = plt.subplots(1, 3, figsize=(13.33, 7.5), sharex=True)
 for ax, ph in zip(axes, PHYLA):
     s = d[d.PHYLUM == ph]
     fam = s[s.FAMILY != "(no family assigned)"].FAMILY.nunique()
@@ -48,10 +48,10 @@ for ax, ph in zip(axes, PHYLA):
     labels = [l for _, l in ranks][::-1]
     b = ax.barh(labels, vals[::-1], color="#4C78A8")
     ax.bar_label(b, fmt=lambda v: f"{int(v)}", padding=3, fontsize=12)
-    ax.set_title(ph, fontsize=16, fontweight="bold", loc="left")
+    ax.set_title(ph, fontsize=14, fontweight="bold", loc="left")
     ax.set_xlabel("Number of taxa / genomes")
     ax.set_xlim(0, 100)
-fig.suptitle("Taxonomic breadth of Chytridiomycota and Blastocladiomycota in BFD",
+fig.suptitle("Taxonomic breadth of the zoosporic phyla in BFD",
              fontsize=18, fontweight="bold", x=0.01, ha="left")
 fig.tight_layout(rect=(0, 0.02, 1, 0.95))
 figs.append(fig)
@@ -59,16 +59,23 @@ figs.append(fig)
 # Pages 2-3: per family genomes / species / genera
 for ph in PHYLA:
     s = d[d.PHYLUM == ph]
-    t = s.groupby("FAMILY").agg(Genomes=("ASMID", "size"), Species=("SPKEY", "nunique"),
-                                Genera=("GENUS", "nunique"))
-    t["noname"] = t.index == "(no family assigned)"
+    one_family = s[s.FAMILY != "(no family assigned)"].FAMILY.nunique() <= 1
+    key, rank = ("GENUS", "genus") if one_family else ("FAMILY", "family")
+    if one_family:
+        s = s.assign(GENUS=s.GENUS.fillna("(no genus assigned)"))
+    t = s.groupby(key).agg(Genomes=("ASMID", "size"), Species=("SPKEY", "nunique"),
+                           Genera=("GENUS", "nunique"))
+    if one_family:
+        t = t.drop(columns="Genera")
+    t["noname"] = t.index.str.startswith("(no ")
     t = t.sort_values(["noname", "Genomes"], ascending=[True, False]).drop(columns="noname")
     t = t[::-1]
     fig, ax = plt.subplots(figsize=(13.33, 7.5))
-    bars(ax, list(t.index), {c: t[c].tolist() for c in ["Genomes", "Species", "Genera"]})
+    bars(ax, list(t.index), {c: t[c].tolist() for c in t.columns})
     ax.set_xlabel("Count")
-    ax.set_title(f"{ph}: genomes, species and genera per family\n"
-                 f"({len(s)} genomes, {s.SPKEY.nunique()} species, {s.GENUS.nunique()} genera)",
+    ax.set_title(f"{ph}: genomes, species{'' if one_family else ' and genera'} per {rank}\n"
+                 f"({len(s)} genomes, {s.SPKEY.nunique()} species, {s.GENUS.nunique()} genera"
+                 f"{', single family ' + s.FAMILY.iloc[0] if one_family else ''})",
                  fontsize=14, fontweight="bold", loc="left")
     ax.legend(loc="lower right", frameon=False)
     fig.tight_layout(rect=(0, 0.02, 1, 1))
