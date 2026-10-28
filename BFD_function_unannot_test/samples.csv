@@ -1,0 +1,6 @@
+ASMID,SPECIES_IN,STRAIN,BIOPROJECT,NCBI_TAXONID,BUSCO_LINEAGE,PHYLUM,SUBPHYLUM,CLASS,SUBCLASS,ORDER,FAMILY,GENUS,SPECIES,TRANSL_TABLE,LOCUSTAG
+GCA_018985225.1_ASM1898522v1,Amoeboradix gromovi,X-113,PRJNA668693,2109901,fungi,Sanchytriomycota,,Sanchytriomycetes,,Sanchytriales,Sanchytriaceae,Amoeboradix,Amoeboradix gromovi,1,F8E7AE41
+GCA_056822185.1_ASM5682218v1,Areospora rohanae,ARG002,PRJNA1330140,3157660,microsporidia,Microsporidia,,,,,Areosporiidae,Areospora,Areospora rohanae,1,F3962479
+GCA_029293645.1_ASM2929364v1,Ascomycota sp.,CTeuk-1625,PRJNA810309,1709939,dikarya,Ascomycota,,,,,,,Ascomycota sp.,1,FA35D8FD
+GCA_000313815.1_ASM31381v1,Anncaliia algerae,Undeen,PRJEA84437,67680,microsporidia,Microsporidia,,,,,Tubulinosematidae,Anncaliia,Anncaliia algerae,1,F5BF1495
+GCA_057558165.1_FM_MARS-9.1_MAG_AntObs_1.0,Ascomycota sp. Antarctolithica obscura,Mars-9.1,PRJNA1448026,3698444,dikarya,Ascomycota,,,,,,,Ascomycota sp. Antarctolithica obscura,1,FD4728EA
