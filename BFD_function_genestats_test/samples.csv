@@ -1,0 +1,6 @@
+ASMID,SPECIES_IN,STRAIN,BIOPROJECT,NCBI_TAXONID,BUSCO_LINEAGE,PHYLUM,SUBPHYLUM,CLASS,SUBCLASS,ORDER,FAMILY,GENUS,SPECIES,TRANSL_TABLE,LOCUSTAG
+GCA_900074715.1_LAME0,Lachancea meyersii CBS 8951,CBS 8951,PRJEB12931,1266667,dikarya,Ascomycota,,Saccharomycetes,,Saccharomycetales,Saccharomycetaceae,Lachancea,Lachancea meyersii,1,F7AB479E
+GCA_057659005.1_ASM5765900v1,Candidozyma auris,LACPHL-CAUR-2026-00114,PRJNA642852;PRJNA850520,498019,dikarya,Ascomycota,,Pichiomycetes,,Serinales,Metschnikowiaceae,Candidozyma,Candidozyma auris,1,F11C1388
+GCA_012182645.1_ASM1218264v1,Trichophyton interdigitale,UCMS-IGIB-CI12,PRJNA604098,101480,dikarya,Ascomycota,,Eurotiomycetes,,Onygenales,Arthrodermataceae,Trichophyton,Trichophyton interdigitale,1,F8B4ADBD
+GCA_014839955.1_ASM1483995v1,Trichophyton simii,IHEM 4420,PRJNA656715,63406,dikarya,Ascomycota,,Eurotiomycetes,,Onygenales,Arthrodermataceae,Trichophyton,Trichophyton simii,1,F2DA6B58
+GCA_023627935.1_ASM2362793v1,Pascua sp. PK3308B-1,PK3308B-1,PRJNA833221,2939541,dikarya,Basidiomycota,,Tremellomycetes,,Trichosporonales,Trichosporonaceae,Pascua,Pascua sp. PK3308B-1,1,F0326C96
