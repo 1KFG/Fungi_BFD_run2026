@@ -30,6 +30,8 @@ Agaricus bisporus,Agaricus_bisporus_H39,False,Agaricus_bisporus_A10_9,98.26,Fals
 Agaricus bisporus,Agaricus_bisporus_H97,False,Agaricus_bisporus_A10_9,99.09,True
 Agaricus bisporus,Agaricus_bisporus_JB137-s8,False,Agaricus_bisporus_A10_9,97.02,False
 Agaricus bisporus,Agaricus_bisporus_KMCC00540,False,Agaricus_bisporus_A10_9,98.06,False
+Agmasoma carcini nom. nud.,Agmasoma_carcini_nom._nud._v1,True,Agmasoma_carcini_nom._nud._v1,100.0,False
+Agmasoma carcini nom. nud.,Agmasoma_carcini_nom._nud._v2,False,Agmasoma_carcini_nom._nud._v1,98.97,False
 Agroathelia rolfsii,Agroathelia_rolfsii_CCF1,False,Agroathelia_rolfsii_MR10,97.08,False
 Agroathelia rolfsii,Agroathelia_rolfsii_GP3,False,Agroathelia_rolfsii_MR10,98.72,False
 Agroathelia rolfsii,Agroathelia_rolfsii_LC-1,False,Agroathelia_rolfsii_MR10,85.94,False
@@ -341,6 +343,9 @@ Amphichorda felina,Amphichorda_felina_45539,True,Amphichorda_felina_45539,100.0,
 Amphichorda felina,Amphichorda_felina_DSM_4678,False,Amphichorda_felina_45539,94.39,False
 Amphichorda felina,Amphichorda_felina_MB116173,False,Amphichorda_felina_45539,94.27,False
 Amphichorda felina,Amphichorda_felina_SYSU-MS7908,False,Amphichorda_felina_45539,90.36,False
+Anncaliia algerae,Anncaliia_algerae_PRA109,True,Anncaliia_algerae_PRA109,100.0,False
+Anncaliia algerae,Anncaliia_algerae_PRA339,False,Anncaliia_algerae_PRA109,91.37,False
+Anncaliia algerae,Anncaliia_algerae_Undeen,False,Anncaliia_algerae_PRA109,96.88,False
 Annulohypoxylon stygium,Annulohypoxylon_stygium_FL0470,False,Annulohypoxylon_stygium_TJAS01,99.62,True
 Annulohypoxylon stygium,Annulohypoxylon_stygium_Jinjiling,False,Annulohypoxylon_stygium_TJAS01,99.97,True
 Annulohypoxylon stygium,Annulohypoxylon_stygium_MG137,False,Annulohypoxylon_stygium_TJAS01,99.97,True
@@ -416,7 +421,7 @@ Arthrobotrys musiformis,Arthrobotrys_musiformis_YMF1.07173,False,Arthrobotrys_mu
 Arthroderma uncinatum,Arthroderma_uncinatum_CBS_119779,False,Arthroderma_uncinatum_T10,100.0,True
 Arthroderma uncinatum,Arthroderma_uncinatum_T10,True,Arthroderma_uncinatum_T10,100.0,False
 Arthromyces matolae,Arthromyces_matolae_D32,True,Arthromyces_matolae_D32,100.0,False
-Arthromyces matolae,Arthromyces_matolae_D50,False,Arthromyces_matolae_D32,97.98,False
+Arthromyces matolae,Arthromyces_matolae_D50,False,Arthromyces_matolae_D32,97.97,False
 Arxiozyma bovina,Arxiozyma_bovina_CBS_16326,True,Arxiozyma_bovina_CBS_16326,100.0,False
 Arxiozyma bovina,Arxiozyma_bovina_NRRL_Y-7283,False,Arxiozyma_bovina_CBS_16326,99.25,True
 Arxiozyma heterogenica,Arxiozyma_heterogenica_NRRL_Y-27499,False,Arxiozyma_heterogenica_weizmannii,99.85,True
@@ -432,7 +437,7 @@ Arxiozyma pintolopesii,Arxiozyma_pintolopesii_RIGP,False,Arxiozyma_pintolopesii_
 Arxiozyma pintolopesii,Arxiozyma_pintolopesii_RIM,False,Arxiozyma_pintolopesii_ID1LA,99.77,True
 Arxiozyma pintolopesii,Arxiozyma_pintolopesii_W26G,False,Arxiozyma_pintolopesii_ID1LA,99.77,True
 Arxiozyma slooffiae,Arxiozyma_slooffiae_ABBL,True,Arxiozyma_slooffiae_ABBL,100.0,False
-Arxiozyma slooffiae,Arxiozyma_slooffiae_NRRL_Y-4349,False,Arxiozyma_slooffiae_ABBL,97.97,False
+Arxiozyma slooffiae,Arxiozyma_slooffiae_NRRL_Y-4349,False,Arxiozyma_slooffiae_ABBL,97.99,False
 Arxiozyma telluris,Arxiozyma_telluris_NRRL_Y-4302,False,Arxiozyma_telluris_UCD400,99.06,True
 Arxiozyma telluris,Arxiozyma_telluris_UCD400,True,Arxiozyma_telluris_UCD400,100.0,False
 Ascochyta fabae,Ascochyta_fabae_206-15,False,Ascochyta_fabae_247-15,99.6,True
@@ -1675,7 +1680,7 @@ Aspergillus oryzae,Aspergillus_oryzae_TK-67,False,Aspergillus_oryzae_BL18,99.97,
 Aspergillus oryzae,Aspergillus_oryzae_TK-68,False,Aspergillus_oryzae_BL18,99.97,True
 Aspergillus oryzae,Aspergillus_oryzae_TK-69,False,Aspergillus_oryzae_BL18,99.97,True
 Aspergillus oryzae,Aspergillus_oryzae_TK-7,False,Aspergillus_oryzae_BL18,99.7,True
-Aspergillus oryzae,Aspergillus_oryzae_TK-70,False,Aspergillus_oryzae_BL18,99.72,True
+Aspergillus oryzae,Aspergillus_oryzae_TK-70,False,Aspergillus_oryzae_BL18,99.73,True
 Aspergillus oryzae,Aspergillus_oryzae_TK-71,False,Aspergillus_oryzae_BL18,99.59,True
 Aspergillus oryzae,Aspergillus_oryzae_TK-72,False,Aspergillus_oryzae_BL18,99.27,True
 Aspergillus oryzae,Aspergillus_oryzae_TK-73,False,Aspergillus_oryzae_BL18,99.28,True
@@ -1685,7 +1690,7 @@ Aspergillus oryzae,Aspergillus_oryzae_TK-76,False,Aspergillus_oryzae_BL18,99.7,T
 Aspergillus oryzae,Aspergillus_oryzae_TK-77,False,Aspergillus_oryzae_BL18,99.27,True
 Aspergillus oryzae,Aspergillus_oryzae_TK-78,False,Aspergillus_oryzae_BL18,99.23,True
 Aspergillus oryzae,Aspergillus_oryzae_TK-79,False,Aspergillus_oryzae_BL18,99.28,True
-Aspergillus oryzae,Aspergillus_oryzae_TK-8,False,Aspergillus_oryzae_BL18,99.27,True
+Aspergillus oryzae,Aspergillus_oryzae_TK-8,False,Aspergillus_oryzae_BL18,99.23,True
 Aspergillus oryzae,Aspergillus_oryzae_TK-80,False,Aspergillus_oryzae_BL18,99.32,True
 Aspergillus oryzae,Aspergillus_oryzae_TK-81,False,Aspergillus_oryzae_BL18,99.27,True
 Aspergillus oryzae,Aspergillus_oryzae_TK-82,False,Aspergillus_oryzae_BL18,99.59,True
@@ -2081,11 +2086,6 @@ Australozyma saopauloensis,Australozyma_saopauloensis_19XY460,True,Australozyma_
 Australozyma saopauloensis,Australozyma_saopauloensis_NRRL_Y-27815,False,Australozyma_saopauloensis_19XY460,99.13,True
 Austroboletus festivus,Austroboletus_festivus_G4425,True,Austroboletus_festivus_G4425,100.0,False
 Austroboletus festivus,Austroboletus_festivus_MICH11833,False,Austroboletus_festivus_G4425,,False
-Austropuccinia psidii,Austropuccinia_psidii,False,Austropuccinia_psidii_Au3-C622-A115012,98.8,False
-Austropuccinia psidii,Austropuccinia_psidii_Apsidii_AM,False,Austropuccinia_psidii_Au3-C622-A115012,97.16,False
-Austropuccinia psidii,Austropuccinia_psidii_Au3-C622-A115012,True,Austropuccinia_psidii_Au3-C622-A115012,100.0,False
-Austropuccinia psidii,Austropuccinia_psidii_Aus_3,False,Austropuccinia_psidii_Au3-C622-A115012,99.03,True
-Austropuccinia psidii,Austropuccinia_psidii_MF-1,False,Austropuccinia_psidii_Au3-C622-A115012,97.28,False
 Bachmanniomyces sp. S44760,Bachmanniomyces_sp._S44760,False,Bachmanniomyces_sp._S44760_T1894,99.92,True
 Bachmanniomyces sp. S44760,Bachmanniomyces_sp._S44760_T1894,True,Bachmanniomyces_sp._S44760_T1894,100.0,False
 Backusella australiensis,Backusella_australiensis_UoMAU34,False,Backusella_australiensis_UoMAU90,99.36,True
@@ -2106,7 +2106,7 @@ Batrachochytrium dendrobatidis,Batrachochytrium_dendrobatidis_JEL423,False,Batra
 Batrachochytrium dendrobatidis,Batrachochytrium_dendrobatidis_RTP6,False,Batrachochytrium_dendrobatidis_CLFT044,98.96,False
 Batrachochytrium salamandrivorans,Batrachochytrium_salamandrivorans_AMFP13,False,Batrachochytrium_salamandrivorans_AMFP18-2,99.46,True
 Batrachochytrium salamandrivorans,Batrachochytrium_salamandrivorans_AMFP13-1,False,Batrachochytrium_salamandrivorans_AMFP18-2,99.12,True
-Batrachochytrium salamandrivorans,Batrachochytrium_salamandrivorans_AMFP14-2,False,Batrachochytrium_salamandrivorans_AMFP18-2,98.88,False
+Batrachochytrium salamandrivorans,Batrachochytrium_salamandrivorans_AMFP14-2,False,Batrachochytrium_salamandrivorans_AMFP18-2,98.69,False
 Batrachochytrium salamandrivorans,Batrachochytrium_salamandrivorans_AMFP15-1,False,Batrachochytrium_salamandrivorans_AMFP18-2,99.27,True
 Batrachochytrium salamandrivorans,Batrachochytrium_salamandrivorans_AMFP15-2,False,Batrachochytrium_salamandrivorans_AMFP18-2,99.26,True
 Batrachochytrium salamandrivorans,Batrachochytrium_salamandrivorans_AMFP15-3,False,Batrachochytrium_salamandrivorans_AMFP18-2,99.17,True
@@ -2586,12 +2586,9 @@ Blastomyces percursus,Blastomyces_percursus_MRL_BPSD,False,Blastomyces_percursus
 Blastomyces percursus,Blastomyces_percursus_MRL_BPX888,False,Blastomyces_percursus_MRL_BPNCPF4091,99.75,True
 Blastomyces percursus,Blastomyces_percursus_MRL_BPZV,False,Blastomyces_percursus_MRL_BPNCPF4091,99.77,True
 Blumeria graminis,Blumeria_graminis,False,Blumeria_graminis_THUN-12,99.42,True
-Blumeria graminis,Blumeria_graminis_94202,False,Blumeria_graminis_THUN-12,99.67,True
 Blumeria graminis,Blumeria_graminis_96224,False,Blumeria_graminis_THUN-12,99.44,True
-Blumeria graminis,Blumeria_graminis_Bgt-70,False,Blumeria_graminis_THUN-12,99.6,True
 Blumeria graminis,Blumeria_graminis_Bgt_Wtn1,False,Blumeria_graminis_THUN-12,99.29,True
 Blumeria graminis,Blumeria_graminis_ISR_7,False,Blumeria_graminis_THUN-12,99.33,True
-Blumeria graminis,Blumeria_graminis_JIW2,False,Blumeria_graminis_THUN-12,99.68,True
 Blumeria graminis,Blumeria_graminis_THUN-12,True,Blumeria_graminis_THUN-12,100.0,False
 Blumeria hordei,Blumeria_hordei_A6,False,Blumeria_hordei_DH14,99.7,True
 Blumeria hordei,Blumeria_hordei_DH14,True,Blumeria_hordei_DH14,100.0,False
@@ -3388,8 +3385,8 @@ Candidozyma auris,Candidozyma_auris_18-CA,False,Candidozyma_auris_455079,99.99,T
 Candidozyma auris,Candidozyma_auris_19-CA,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_2-CA,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_20,False,Candidozyma_auris_455079,99.99,True
-Candidozyma auris,Candidozyma_auris_20-1498,False,Candidozyma_auris_455079,98.54,False
-Candidozyma auris,Candidozyma_auris_20-15,False,Candidozyma_auris_455079,99.99,True
+Candidozyma auris,Candidozyma_auris_20-1498,False,Candidozyma_auris_455079,98.53,False
+Candidozyma auris,Candidozyma_auris_20-15,False,Candidozyma_auris_455079,99.98,True
 Candidozyma auris,Candidozyma_auris_20-16,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_20-17,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_20-19,False,Candidozyma_auris_455079,99.99,True
@@ -3419,7 +3416,7 @@ Candidozyma auris,Candidozyma_auris_26-CA,False,Candidozyma_auris_455079,99.99,T
 Candidozyma auris,Candidozyma_auris_27-CA,False,Candidozyma_auris_455079,,False
 Candidozyma auris,Candidozyma_auris_28,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_28-CA,False,Candidozyma_auris_455079,99.99,True
-Candidozyma auris,Candidozyma_auris_288,False,Candidozyma_auris_455079,99.96,True
+Candidozyma auris,Candidozyma_auris_288,False,Candidozyma_auris_455079,99.95,True
 Candidozyma auris,Candidozyma_auris_29-CA_1,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_3-CA_1,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_30-CA,False,Candidozyma_auris_455079,99.99,True
@@ -3448,7 +3445,7 @@ Candidozyma auris,Candidozyma_auris_45-CA,False,Candidozyma_auris_455079,99.99,T
 Candidozyma auris,Candidozyma_auris_455051,False,Candidozyma_auris_455079,100.0,True
 Candidozyma auris,Candidozyma_auris_455060,False,Candidozyma_auris_455079,100.0,True
 Candidozyma auris,Candidozyma_auris_455079,True,Candidozyma_auris_455079,100.0,False
-Candidozyma auris,Candidozyma_auris_456999,False,Candidozyma_auris_455079,99.99,True
+Candidozyma auris,Candidozyma_auris_456999,False,Candidozyma_auris_455079,100.0,True
 Candidozyma auris,Candidozyma_auris_46-CA,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_47-CA,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_470140,False,Candidozyma_auris_455079,99.99,True
@@ -3539,8 +3536,8 @@ Candidozyma auris,Candidozyma_auris_BJCA003,False,Candidozyma_auris_455079,99.98
 Candidozyma auris,Candidozyma_auris_C1M2287,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_C2M2283,False,Candidozyma_auris_455079,99.95,True
 Candidozyma auris,Candidozyma_auris_C3M2302,False,Candidozyma_auris_455079,99.97,True
-Candidozyma auris,Candidozyma_auris_C4M2322,False,Candidozyma_auris_455079,99.97,True
-Candidozyma auris,Candidozyma_auris_C5M2285,False,Candidozyma_auris_455079,98.43,False
+Candidozyma auris,Candidozyma_auris_C4M2322,False,Candidozyma_auris_455079,99.98,True
+Candidozyma auris,Candidozyma_auris_C5M2285,False,Candidozyma_auris_455079,98.42,False
 Candidozyma auris,Candidozyma_auris_C6M2518,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_C7M2513,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_C8M2516,False,Candidozyma_auris_455079,99.97,True
@@ -3629,9 +3626,9 @@ Candidozyma auris,Candidozyma_auris_CJ_273,False,Candidozyma_auris_455079,99.98,
 Candidozyma auris,Candidozyma_auris_CJ_3075,False,Candidozyma_auris_455079,99.98,True
 Candidozyma auris,Candidozyma_auris_CJ_3228,False,Candidozyma_auris_455079,99.98,True
 Candidozyma auris,Candidozyma_auris_CJ_3250,False,Candidozyma_auris_455079,99.99,True
-Candidozyma auris,Candidozyma_auris_CJ_3288,False,Candidozyma_auris_455079,99.98,True
+Candidozyma auris,Candidozyma_auris_CJ_3288,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_CJ_3331,False,Candidozyma_auris_455079,99.99,True
-Candidozyma auris,Candidozyma_auris_CJ_3334,False,Candidozyma_auris_455079,99.98,True
+Candidozyma auris,Candidozyma_auris_CJ_3334,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_CJ_3421,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_CJ_3469,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_CJ_3506,False,Candidozyma_auris_455079,99.97,True
@@ -3652,7 +3649,7 @@ Candidozyma auris,Candidozyma_auris_Case_4,False,Candidozyma_auris_455079,99.55,
 Candidozyma auris,Candidozyma_auris_Case_5,False,Candidozyma_auris_455079,99.56,True
 Candidozyma auris,Candidozyma_auris_Case_6,False,Candidozyma_auris_455079,99.98,True
 Candidozyma auris,Candidozyma_auris_Case_7,False,Candidozyma_auris_455079,99.56,True
-Candidozyma auris,Candidozyma_auris_Cau1901,False,Candidozyma_auris_455079,99.92,True
+Candidozyma auris,Candidozyma_auris_Cau1901,False,Candidozyma_auris_455079,99.9,True
 Candidozyma auris,Candidozyma_auris_Cau1902,False,Candidozyma_auris_455079,99.93,True
 Candidozyma auris,Candidozyma_auris_Cau1903,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_Cau1904,False,Candidozyma_auris_455079,99.94,True
@@ -3660,15 +3657,15 @@ Candidozyma auris,Candidozyma_auris_Cau1905,False,Candidozyma_auris_455079,99.93
 Candidozyma auris,Candidozyma_auris_Cau1906,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_Cau1907,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_Cau1908,False,Candidozyma_auris_455079,99.93,True
-Candidozyma auris,Candidozyma_auris_Cau1909,False,Candidozyma_auris_455079,99.93,True
+Candidozyma auris,Candidozyma_auris_Cau1909,False,Candidozyma_auris_455079,99.92,True
 Candidozyma auris,Candidozyma_auris_Cau1910,False,Candidozyma_auris_455079,99.93,True
 Candidozyma auris,Candidozyma_auris_Cau1911,False,Candidozyma_auris_455079,99.92,True
 Candidozyma auris,Candidozyma_auris_Cau1912,False,Candidozyma_auris_455079,99.93,True
 Candidozyma auris,Candidozyma_auris_Cau1913,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_Cau1914,False,Candidozyma_auris_455079,99.94,True
 Candidozyma auris,Candidozyma_auris_Cau1915,False,Candidozyma_auris_455079,99.93,True
-Candidozyma auris,Candidozyma_auris_Cau1916,False,Candidozyma_auris_455079,99.94,True
-Candidozyma auris,Candidozyma_auris_Cau1917,False,Candidozyma_auris_455079,99.87,True
+Candidozyma auris,Candidozyma_auris_Cau1916,False,Candidozyma_auris_455079,99.93,True
+Candidozyma auris,Candidozyma_auris_Cau1917,False,Candidozyma_auris_455079,99.86,True
 Candidozyma auris,Candidozyma_auris_Cau1918,False,Candidozyma_auris_455079,99.98,True
 Candidozyma auris,Candidozyma_auris_Cau1919,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_D1M2278,False,Candidozyma_auris_455079,99.97,True
@@ -3695,13 +3692,13 @@ Candidozyma auris,Candidozyma_auris_FG_GE8,False,Candidozyma_auris_455079,99.99,
 Candidozyma auris,Candidozyma_auris_FG_GE9,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_FUNED538,False,Candidozyma_auris_455079,98.5,False
 Candidozyma auris,Candidozyma_auris_FUNED558,False,Candidozyma_auris_455079,98.49,False
-Candidozyma auris,Candidozyma_auris_FUNED569,False,Candidozyma_auris_455079,98.5,False
+Candidozyma auris,Candidozyma_auris_FUNED569,False,Candidozyma_auris_455079,98.49,False
 Candidozyma auris,Candidozyma_auris_FUNED575,False,Candidozyma_auris_455079,98.5,False
 Candidozyma auris,Candidozyma_auris_FUNED593,False,Candidozyma_auris_455079,98.5,False
 Candidozyma auris,Candidozyma_auris_FUNED596,False,Candidozyma_auris_455079,98.5,False
 Candidozyma auris,Candidozyma_auris_FUNED726,False,Candidozyma_auris_455079,98.5,False
 Candidozyma auris,Candidozyma_auris_FUNED727,False,Candidozyma_auris_455079,98.5,False
-Candidozyma auris,Candidozyma_auris_G1M2321,False,Candidozyma_auris_455079,99.97,True
+Candidozyma auris,Candidozyma_auris_G1M2321,False,Candidozyma_auris_455079,99.94,True
 Candidozyma auris,Candidozyma_auris_G2M2243,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_GR-CANDIDOZYMA-AURIS-M106-24,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_GR-CANDIDOZYMA-AURIS-M405-23,False,Candidozyma_auris_455079,99.97,True
@@ -3710,7 +3707,7 @@ Candidozyma auris,Candidozyma_auris_GR-CANDIDOZYMA-AURIS-M956-24,False,Candidozy
 Candidozyma auris,Candidozyma_auris_GR-M13-24,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_GR-M296-23,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_GZ0008,False,Candidozyma_auris_455079,99.58,True
-Candidozyma auris,Candidozyma_auris_HM1M2299,False,Candidozyma_auris_455079,99.97,True
+Candidozyma auris,Candidozyma_auris_HM1M2299,False,Candidozyma_auris_455079,99.95,True
 Candidozyma auris,Candidozyma_auris_I-172,False,Candidozyma_auris_455079,98.57,False
 Candidozyma auris,Candidozyma_auris_IFRC2087,False,Candidozyma_auris_455079,97.55,False
 Candidozyma auris,Candidozyma_auris_JCM_15448,False,Candidozyma_auris_455079,99.36,True
@@ -3719,7 +3716,7 @@ Candidozyma auris,Candidozyma_auris_L10M1927,False,Candidozyma_auris_455079,99.9
 Candidozyma auris,Candidozyma_auris_L11M2519,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_L1537-2020,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_L1M1938,False,Candidozyma_auris_455079,99.97,True
-Candidozyma auris,Candidozyma_auris_L2M1937,False,Candidozyma_auris_455079,99.97,True
+Candidozyma auris,Candidozyma_auris_L2M1937,False,Candidozyma_auris_455079,99.94,True
 Candidozyma auris,Candidozyma_auris_L3M2192,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_L4M1936,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_L5M1947,False,Candidozyma_auris_455079,99.97,True
@@ -4171,8 +4168,8 @@ Candidozyma auris,Candidozyma_auris_MRSN456999,False,Candidozyma_auris_455079,99
 Candidozyma auris,Candidozyma_auris_MUTCD,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_N1M1994,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_N2M1976,False,Candidozyma_auris_455079,99.97,True
-Candidozyma auris,Candidozyma_auris_N4M1979,False,Candidozyma_auris_455079,99.95,True
-Candidozyma auris,Candidozyma_auris_N5M1975,False,Candidozyma_auris_455079,99.97,True
+Candidozyma auris,Candidozyma_auris_N4M1979,False,Candidozyma_auris_455079,99.97,True
+Candidozyma auris,Candidozyma_auris_N5M1975,False,Candidozyma_auris_455079,99.98,True
 Candidozyma auris,Candidozyma_auris_N6M1974,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_N7M1977,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_P1M2346,False,Candidozyma_auris_455079,99.97,True
@@ -4184,8 +4181,8 @@ Candidozyma auris,Candidozyma_auris_Pal1,False,Candidozyma_auris_455079,99.99,Tr
 Candidozyma auris,Candidozyma_auris_RCPF-1821,False,Candidozyma_auris_455079,99.98,True
 Candidozyma auris,Candidozyma_auris_RJF3019,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_S1M2452,False,Candidozyma_auris_455079,99.95,True
-Candidozyma auris,Candidozyma_auris_S2M2448,False,Candidozyma_auris_455079,99.98,True
-Candidozyma auris,Candidozyma_auris_S3M2446,False,Candidozyma_auris_455079,99.98,True
+Candidozyma auris,Candidozyma_auris_S2M2448,False,Candidozyma_auris_455079,99.97,True
+Candidozyma auris,Candidozyma_auris_S3M2446,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_SCHI0087.S.148,False,Candidozyma_auris_455079,99.99,True
 Candidozyma auris,Candidozyma_auris_SCO_240,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_SCO_242,False,Candidozyma_auris_455079,99.97,True
@@ -4198,7 +4195,7 @@ Candidozyma auris,Candidozyma_auris_SCO_279,False,Candidozyma_auris_455079,99.97
 Candidozyma auris,Candidozyma_auris_SCPM-O-F-2041_B48-20,False,Candidozyma_auris_455079,,False
 Candidozyma auris,Candidozyma_auris_SCPM-O-F-2056_KA1,False,Candidozyma_auris_455079,99.98,True
 Candidozyma auris,Candidozyma_auris_SCPM-O-F-2057_KA2,False,Candidozyma_auris_455079,99.99,True
-Candidozyma auris,Candidozyma_auris_SCPM-O-F-2058_KA3,False,Candidozyma_auris_455079,99.99,True
+Candidozyma auris,Candidozyma_auris_SCPM-O-F-2058_KA3,False,Candidozyma_auris_455079,100.0,True
 Candidozyma auris,Candidozyma_auris_SCPM-O-F-2059_KA4,False,Candidozyma_auris_455079,100.0,True
 Candidozyma auris,Candidozyma_auris_SCPM-O-F-2060_KA5,False,Candidozyma_auris_455079,100.0,True
 Candidozyma auris,Candidozyma_auris_SCPM-O-F-2061_KA6,False,Candidozyma_auris_455079,100.0,True
@@ -4218,11 +4215,11 @@ Candidozyma auris,Candidozyma_auris_SI-CAU-713,False,Candidozyma_auris_455079,99
 Candidozyma auris,Candidozyma_auris_SI-CAU-757,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_T1M2498,False,Candidozyma_auris_455079,99.98,True
 Candidozyma auris,Candidozyma_auris_T2M2497,False,Candidozyma_auris_455079,99.97,True
-Candidozyma auris,Candidozyma_auris_T3M2496,False,Candidozyma_auris_455079,99.98,True
+Candidozyma auris,Candidozyma_auris_T3M2496,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_U10M1997,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_U11M2015,False,Candidozyma_auris_455079,99.99,True
-Candidozyma auris,Candidozyma_auris_U12M2010,False,Candidozyma_auris_455079,99.97,True
-Candidozyma auris,Candidozyma_auris_U13M1991,False,Candidozyma_auris_455079,99.97,True
+Candidozyma auris,Candidozyma_auris_U12M2010,False,Candidozyma_auris_455079,99.94,True
+Candidozyma auris,Candidozyma_auris_U13M1991,False,Candidozyma_auris_455079,99.94,True
 Candidozyma auris,Candidozyma_auris_U14M2004,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_U15M2002,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_U1M2014,False,Candidozyma_auris_455079,99.97,True
@@ -4231,7 +4228,7 @@ Candidozyma auris,Candidozyma_auris_U3M2008,False,Candidozyma_auris_455079,99.97
 Candidozyma auris,Candidozyma_auris_U4M2009,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_U5M2007,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_U6M2005,False,Candidozyma_auris_455079,99.97,True
-Candidozyma auris,Candidozyma_auris_U7M1990,False,Candidozyma_auris_455079,99.98,True
+Candidozyma auris,Candidozyma_auris_U7M1990,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_U8M1992,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_U9M2006,False,Candidozyma_auris_455079,99.97,True
 Candidozyma auris,Candidozyma_auris_UANL-MX01,False,Candidozyma_auris_455079,98.5,False
@@ -4659,7 +4656,7 @@ Clitopilus hobsonii,Clitopilus_hobsonii_XST,True,Clitopilus_hobsonii_XST,100.0,F
 Clonostachys chloroleuca,Clonostachys_chloroleuca,False,Clonostachys_chloroleuca_CGMCC3.3655,99.08,True
 Clonostachys chloroleuca,Clonostachys_chloroleuca_CGMCC3.3655,True,Clonostachys_chloroleuca_CGMCC3.3655,100.0,False
 Clonostachys chloroleuca,Clonostachys_chloroleuca_CGMCC3.4252,False,Clonostachys_chloroleuca_CGMCC3.3655,100.0,True
-Clonostachys chloroleuca,Clonostachys_chloroleuca_Cc620,False,Clonostachys_chloroleuca_CGMCC3.3655,98.66,False
+Clonostachys chloroleuca,Clonostachys_chloroleuca_Cc620,False,Clonostachys_chloroleuca_CGMCC3.3655,98.65,False
 Clonostachys chloroleuca,Clonostachys_chloroleuca_Cc878,False,Clonostachys_chloroleuca_CGMCC3.3655,98.7,False
 Clonostachys rhizophaga,Clonostachys_rhizophaga,False,Clonostachys_rhizophaga_CGMCC3.3657,98.06,False
 Clonostachys rhizophaga,Clonostachys_rhizophaga_CGMCC3.3657,True,Clonostachys_rhizophaga_CGMCC3.3657,100.0,False
@@ -4692,8 +4689,8 @@ Coccidioides posadasii,Coccidioides_posadasii_C735_delta_SOWgp,False,Coccidioide
 Coccidioides posadasii,Coccidioides_posadasii_CPA_0001,False,Coccidioides_posadasii_Silveira,98.97,False
 Coccidioides posadasii,Coccidioides_posadasii_CPA_0020,False,Coccidioides_posadasii_Silveira,99.17,True
 Coccidioides posadasii,Coccidioides_posadasii_CPA_0066,False,Coccidioides_posadasii_Silveira,99.01,True
-Coccidioides posadasii,Coccidioides_posadasii_RMSCC_1037,False,Coccidioides_posadasii_Silveira,99.17,True
-Coccidioides posadasii,Coccidioides_posadasii_RMSCC_1038,False,Coccidioides_posadasii_Silveira,99.11,True
+Coccidioides posadasii,Coccidioides_posadasii_RMSCC_1037,False,Coccidioides_posadasii_Silveira,99.12,True
+Coccidioides posadasii,Coccidioides_posadasii_RMSCC_1038,False,Coccidioides_posadasii_Silveira,99.07,True
 Coccidioides posadasii,Coccidioides_posadasii_RMSCC_2133,False,Coccidioides_posadasii_Silveira,99.13,True
 Coccidioides posadasii,Coccidioides_posadasii_RMSCC_3488,False,Coccidioides_posadasii_Silveira,99.03,True
 Coccidioides posadasii,Coccidioides_posadasii_RMSCC_3700,False,Coccidioides_posadasii_Silveira,99.39,True
@@ -4826,7 +4823,7 @@ Colletotrichum fioriniae,Colletotrichum_fioriniae_IMI_355084,False,Colletotrichu
 Colletotrichum fioriniae,Colletotrichum_fioriniae_KY116,False,Colletotrichum_fioriniae_CREADC-F2471,97.82,False
 Colletotrichum fioriniae,Colletotrichum_fioriniae_KY119,False,Colletotrichum_fioriniae_CREADC-F2471,97.78,False
 Colletotrichum fioriniae,Colletotrichum_fioriniae_KY323,False,Colletotrichum_fioriniae_CREADC-F2471,97.87,False
-Colletotrichum fioriniae,Colletotrichum_fioriniae_KY6,False,Colletotrichum_fioriniae_CREADC-F2471,97.82,False
+Colletotrichum fioriniae,Colletotrichum_fioriniae_KY6,False,Colletotrichum_fioriniae_CREADC-F2471,97.85,False
 Colletotrichum fioriniae,Colletotrichum_fioriniae_KY615,False,Colletotrichum_fioriniae_CREADC-F2471,97.82,False
 Colletotrichum fioriniae,Colletotrichum_fioriniae_KY640,False,Colletotrichum_fioriniae_CREADC-F2471,97.78,False
 Colletotrichum fioriniae,Colletotrichum_fioriniae_KY646,False,Colletotrichum_fioriniae_CREADC-F2471,98.26,False
@@ -4903,9 +4900,9 @@ Colletotrichum graminicola,Colletotrichum_graminicola_F64330-2,False,Colletotric
 Colletotrichum graminicola,Colletotrichum_graminicola_F64330-7,False,Colletotrichum_graminicola_M1.001,99.65,True
 Colletotrichum graminicola,Colletotrichum_graminicola_LARS318,False,Colletotrichum_graminicola_M1.001,99.99,True
 Colletotrichum graminicola,Colletotrichum_graminicola_M1.001,True,Colletotrichum_graminicola_M1.001,100.0,False
-Colletotrichum graminicola,Colletotrichum_graminicola_M5.001,False,Colletotrichum_graminicola_M1.001,99.25,True
+Colletotrichum graminicola,Colletotrichum_graminicola_M5.001,False,Colletotrichum_graminicola_M1.001,99.24,True
 Colletotrichum graminicola,Colletotrichum_graminicola_NRRL13649,False,Colletotrichum_graminicola_M1.001,99.83,True
-Colletotrichum graminicola,Colletotrichum_graminicola_NRRL47511,False,Colletotrichum_graminicola_M1.001,99.51,True
+Colletotrichum graminicola,Colletotrichum_graminicola_NRRL47511,False,Colletotrichum_graminicola_M1.001,99.48,True
 Colletotrichum graminicola,Colletotrichum_graminicola_P7565-072-1,False,Colletotrichum_graminicola_M1.001,99.12,True
 Colletotrichum graminicola,Colletotrichum_graminicola_SW8046-1,False,Colletotrichum_graminicola_M1.001,99.12,True
 Colletotrichum graminicola,Colletotrichum_graminicola_SW8046-2,False,Colletotrichum_graminicola_M1.001,99.58,True
@@ -5258,7 +5255,7 @@ Corynespora cassiicola,Corynespora_cassiicola_UM_591,False,Corynespora_cassiicol
 Corynespora cassiicola,Corynespora_cassiicola_YN49,False,Corynespora_cassiicola_Philippines,94.96,False
 Corynespora cassiicola,Corynespora_cassiicola_ZM160181,False,Corynespora_cassiicola_Philippines,95.71,False
 Corynespora cassiicola,Corynespora_cassiicola_ZM170522,False,Corynespora_cassiicola_Philippines,97.68,False
-Cronartium quercuum,Cronartium_quercuum_CqE3WM,False,Cronartium_quercuum_G11,97.11,False
+Cronartium quercuum,Cronartium_quercuum_CqE3WM,False,Cronartium_quercuum_G11,97.0,False
 Cronartium quercuum,Cronartium_quercuum_G11,True,Cronartium_quercuum_G11,100.0,False
 Cryomyces antarcticus,Cryomyces_antarcticus_CBS_116301,True,Cryomyces_antarcticus_CBS_116301,100.0,False
 Cryomyces antarcticus,Cryomyces_antarcticus_CCFEE_515,False,Cryomyces_antarcticus_CBS_116301,99.97,True
@@ -5752,7 +5749,7 @@ Debaryomyces hansenii,Debaryomyces_hansenii_AOP43_D1_surf_bin_5,False,Debaryomyc
 Debaryomyces hansenii,Debaryomyces_hansenii_AOP43_E1_surf_bin_12,False,Debaryomyces_hansenii_TMW_3.1188,97.47,False
 Debaryomyces hansenii,Debaryomyces_hansenii_AOP4_A1_surf_bin_8,False,Debaryomyces_hansenii_TMW_3.1188,95.71,False
 Debaryomyces hansenii,Debaryomyces_hansenii_AOP4_B2_surf_bin_8,False,Debaryomyces_hansenii_TMW_3.1188,96.37,False
-Debaryomyces hansenii,Debaryomyces_hansenii_AOP4_E1_surf_bin_13,False,Debaryomyces_hansenii_TMW_3.1188,93.74,False
+Debaryomyces hansenii,Debaryomyces_hansenii_AOP4_E1_surf_bin_13,False,Debaryomyces_hansenii_TMW_3.1188,93.76,False
 Debaryomyces hansenii,Debaryomyces_hansenii_AOP5_B1_surf_bin_15,False,Debaryomyces_hansenii_TMW_3.1188,95.72,False
 Debaryomyces hansenii,Debaryomyces_hansenii_AOP5_CZ1_surf_bin_16,False,Debaryomyces_hansenii_TMW_3.1188,95.71,False
 Debaryomyces hansenii,Debaryomyces_hansenii_AOP5_FY1_surf_bin_4,False,Debaryomyces_hansenii_TMW_3.1188,95.72,False
@@ -5895,7 +5892,6 @@ Dioszegia hungarica,Dioszegia_hungarica_PDD-24b-2,False,Dioszegia_hungarica_CBS_
 Dioszegia hungarica,Dioszegia_hungarica_Y1,False,Dioszegia_hungarica_CBS_10163,97.91,False
 Dioszegia hungarica,Dioszegia_hungarica_Y22,False,Dioszegia_hungarica_CBS_10163,97.81,False
 Diplocarpon coronariae,Diplocarpon_coronariae,False,Diplocarpon_coronariae_YL1,98.89,False
-Diplocarpon coronariae,Diplocarpon_coronariae_GW01-2013,False,Diplocarpon_coronariae_YL1,,False
 Diplocarpon coronariae,Diplocarpon_coronariae_NL1,False,Diplocarpon_coronariae_YL1,98.79,False
 Diplocarpon coronariae,Diplocarpon_coronariae_YL1,True,Diplocarpon_coronariae_YL1,100.0,False
 Diplocarpon rosae,Diplocarpon_rosae_DiGER_003,False,Diplocarpon_rosae_R4,99.53,True
@@ -6009,6 +6005,11 @@ Dujonia zeylanoides,Dujonia_zeylanoides_NRRL_Y-1774,False,Dujonia_zeylanoides_UC
 Dujonia zeylanoides,Dujonia_zeylanoides_UCD849,True,Dujonia_zeylanoides_UCD849,100.0,False
 Echinosphaeria canescens,Echinosphaeria_canescens_IRGN_FVQSA248C1,False,Echinosphaeria_canescens_IRGN_UPH9WVSJ6L,100.0,True
 Echinosphaeria canescens,Echinosphaeria_canescens_IRGN_UPH9WVSJ6L,True,Echinosphaeria_canescens_IRGN_UPH9WVSJ6L,100.0,False
+Ecytonucleospora hepatopenaei,Ecytonucleospora_hepatopenaei_21-079B1,True,Ecytonucleospora_hepatopenaei_21-079B1,100.0,False
+Ecytonucleospora hepatopenaei,Ecytonucleospora_hepatopenaei_CIBAehp1,False,Ecytonucleospora_hepatopenaei_21-079B1,99.82,True
+Ecytonucleospora hepatopenaei,Ecytonucleospora_hepatopenaei_EHP-ID16,False,Ecytonucleospora_hepatopenaei_21-079B1,99.71,True
+Ecytonucleospora hepatopenaei,Ecytonucleospora_hepatopenaei_ERD1901,False,Ecytonucleospora_hepatopenaei_21-079B1,99.86,True
+Ecytonucleospora hepatopenaei,Ecytonucleospora_hepatopenaei_TH1,False,Ecytonucleospora_hepatopenaei_21-079B1,99.81,True
 Elaphomyces granulatus,Elaphomyces_granulatus_Maridalen,True,Elaphomyces_granulatus_Maridalen,100.0,False
 Elaphomyces granulatus,Elaphomyces_granulatus_OSC145934,False,Elaphomyces_granulatus_Maridalen,94.49,False
 Elasticomyces elasticus,Elasticomyces_elasticus_CCFEE_5313,False,Elasticomyces_elasticus_CCFEE_5805,92.51,False
@@ -6018,7 +6019,7 @@ Elasticomyces elasticus,Elasticomyces_elasticus_CCFEE_5320,False,Elasticomyces_e
 Elasticomyces elasticus,Elasticomyces_elasticus_CCFEE_5474,False,Elasticomyces_elasticus_CCFEE_5805,,False
 Elasticomyces elasticus,Elasticomyces_elasticus_CCFEE_5506,False,Elasticomyces_elasticus_CCFEE_5805,90.05,False
 Elasticomyces elasticus,Elasticomyces_elasticus_CCFEE_5537,False,Elasticomyces_elasticus_CCFEE_5805,90.27,False
-Elasticomyces elasticus,Elasticomyces_elasticus_CCFEE_5543,False,Elasticomyces_elasticus_CCFEE_5805,88.19,False
+Elasticomyces elasticus,Elasticomyces_elasticus_CCFEE_5543,False,Elasticomyces_elasticus_CCFEE_5805,88.18,False
 Elasticomyces elasticus,Elasticomyces_elasticus_CCFEE_5547,False,Elasticomyces_elasticus_CCFEE_5805,,False
 Elasticomyces elasticus,Elasticomyces_elasticus_CCFEE_5805,True,Elasticomyces_elasticus_CCFEE_5805,100.0,False
 Elasticomyces elasticus,Elasticomyces_elasticus_CCFEE_5806,False,Elasticomyces_elasticus_CCFEE_5805,100.0,True
@@ -6053,6 +6054,20 @@ Emergomyces orientalis,Emergomyces_orientalis_000701,False,Emergomyces_orientali
 Emergomyces orientalis,Emergomyces_orientalis_5z489,True,Emergomyces_orientalis_5z489,100.0,False
 Emmonsia crescens,Emmonsia_crescens_UAMH4076,True,Emmonsia_crescens_UAMH4076,100.0,False
 Emmonsia crescens,Emmonsia_crescens_UAMH_3008,False,Emmonsia_crescens_UAMH4076,94.55,False
+Encephalitozoon cuniculi,Encephalitozoon_cuniculi_ATCC_50602,True,Encephalitozoon_cuniculi_ATCC_50602,100.0,False
+Encephalitozoon cuniculi,Encephalitozoon_cuniculi_EC1,False,Encephalitozoon_cuniculi_ATCC_50602,99.58,True
+Encephalitozoon cuniculi,Encephalitozoon_cuniculi_EC2,False,Encephalitozoon_cuniculi_ATCC_50602,99.88,True
+Encephalitozoon cuniculi,Encephalitozoon_cuniculi_EC3,False,Encephalitozoon_cuniculi_ATCC_50602,99.99,True
+Encephalitozoon cuniculi,Encephalitozoon_cuniculi_EcunIII-L,False,Encephalitozoon_cuniculi_ATCC_50602,99.88,True
+Encephalitozoon cuniculi,Encephalitozoon_cuniculi_GB-M1,False,Encephalitozoon_cuniculi_ATCC_50602,99.48,True
+Encephalitozoon hellem,Encephalitozoon_hellem_ATCC_50451,True,Encephalitozoon_hellem_ATCC_50451,100.0,False
+Encephalitozoon hellem,Encephalitozoon_hellem_ATCC_50504,False,Encephalitozoon_hellem_ATCC_50451,99.7,True
+Encephalitozoon hellem,Encephalitozoon_hellem_ATCC_50604,False,Encephalitozoon_hellem_ATCC_50451,99.53,True
+Encephalitozoon hellem,Encephalitozoon_hellem_Swiss,False,Encephalitozoon_hellem_ATCC_50451,98.01,False
+Encephalitozoon intestinalis,Encephalitozoon_intestinalis_ATCC_50506,True,Encephalitozoon_intestinalis_ATCC_50506,100.0,False
+Encephalitozoon intestinalis,Encephalitozoon_intestinalis_ATCC_50507,False,Encephalitozoon_intestinalis_ATCC_50506,100.0,True
+Encephalitozoon intestinalis,Encephalitozoon_intestinalis_ATCC_50603,False,Encephalitozoon_intestinalis_ATCC_50506,99.99,True
+Encephalitozoon intestinalis,Encephalitozoon_intestinalis_ATCC_50651,False,Encephalitozoon_intestinalis_ATCC_50506,99.99,True
 Endocarpon pusillum,Endocarpon_pusillum_EPUS1.4,False,Endocarpon_pusillum_KoLRI_No._LF000583,90.33,False
 Endocarpon pusillum,Endocarpon_pusillum_KoLRI_No._LF000583,True,Endocarpon_pusillum_KoLRI_No._LF000583,100.0,False
 Endocarpon pusillum,Endocarpon_pusillum_Z07020,False,Endocarpon_pusillum_KoLRI_No._LF000583,90.83,False
@@ -6273,7 +6288,7 @@ Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_5784,False,Exophiala_xenobioti
 Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_5801,False,Exophiala_xenobiotica_CBS_118157,87.9,False
 Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_5811,False,Exophiala_xenobiotica_CBS_118157,87.81,False
 Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_5816,False,Exophiala_xenobiotica_CBS_118157,88.05,False
-Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_5819,False,Exophiala_xenobiotica_CBS_118157,88.0,False
+Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_5819,False,Exophiala_xenobiotica_CBS_118157,87.98,False
 Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_5823,False,Exophiala_xenobiotica_CBS_118157,87.93,False
 Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_5874,False,Exophiala_xenobiotica_CBS_118157,87.82,False
 Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_5877,False,Exophiala_xenobiotica_CBS_118157,87.83,False
@@ -6291,7 +6306,7 @@ Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_6182,False,Exophiala_xenobioti
 Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_6190,False,Exophiala_xenobiotica_CBS_118157,87.85,False
 Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_6194,False,Exophiala_xenobiotica_CBS_118157,87.87,False
 Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_6196,False,Exophiala_xenobiotica_CBS_118157,87.85,False
-Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_6221,False,Exophiala_xenobiotica_CBS_118157,87.81,False
+Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_6221,False,Exophiala_xenobiotica_CBS_118157,87.8,False
 Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_6233,False,Exophiala_xenobiotica_CBS_118157,87.96,False
 Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_6237,False,Exophiala_xenobiotica_CBS_118157,87.82,False
 Exophiala xenobiotica,Exophiala_xenobiotica_CCFEE_6238,False,Exophiala_xenobiotica_CBS_118157,87.91,False
@@ -6757,9 +6772,9 @@ Fusarium cf. falciforme,Fusarium_cf._falciforme_EthFoc-77,False,Fusarium_cf._fal
 Fusarium cf. falciforme,Fusarium_cf._falciforme_EthFoc-86,False,Fusarium_cf._falciforme_EtdFoc-186,99.11,True
 Fusarium cf. hostae,Fusarium_cf._hostae_EtdFoc-222,False,Fusarium_cf._hostae_EthFoc-22,99.64,True
 Fusarium cf. hostae,Fusarium_cf._hostae_EthFoc-22,True,Fusarium_cf._hostae_EthFoc-22,100.0,False
-Fusarium cf. hostae,Fusarium_cf._hostae_EthFoc-23,False,Fusarium_cf._hostae_EthFoc-22,99.85,True
+Fusarium cf. hostae,Fusarium_cf._hostae_EthFoc-23,False,Fusarium_cf._hostae_EthFoc-22,99.84,True
 Fusarium cf. nygamai,Fusarium_cf._nygamai_EthFoc-100,True,Fusarium_cf._nygamai_EthFoc-100,100.0,False
-Fusarium cf. nygamai,Fusarium_cf._nygamai_EthFoc-DSP1,False,Fusarium_cf._nygamai_EthFoc-100,95.67,False
+Fusarium cf. nygamai,Fusarium_cf._nygamai_EthFoc-DSP1,False,Fusarium_cf._nygamai_EthFoc-100,95.44,False
 Fusarium cf. solani,Fusarium_cf._solani_EtdFoc-155,False,Fusarium_cf._solani_NRRL62590,89.15,False
 Fusarium cf. solani,Fusarium_cf._solani_EtdFoc-178,False,Fusarium_cf._solani_NRRL62590,89.45,False
 Fusarium cf. solani,Fusarium_cf._solani_EtdFoc-208,False,Fusarium_cf._solani_NRRL62590,89.12,False
@@ -6787,7 +6802,7 @@ Fusarium cf. solani,Fusarium_cf._solani_UCR6395,False,Fusarium_cf._solani_NRRL62
 Fusarium cf. verticillioides,Fusarium_cf._verticillioides_EthFoc-133,True,Fusarium_cf._verticillioides_EthFoc-133,100.0,False
 Fusarium cf. verticillioides,Fusarium_cf._verticillioides_EthFoc-164,False,Fusarium_cf._verticillioides_EthFoc-133,99.74,True
 Fusarium cf. verticillioides,Fusarium_cf._verticillioides_EthFoc-26,False,Fusarium_cf._verticillioides_EthFoc-133,99.82,True
-Fusarium cf. verticillioides,Fusarium_cf._verticillioides_EthFoc-62,False,Fusarium_cf._verticillioides_EthFoc-133,99.94,True
+Fusarium cf. verticillioides,Fusarium_cf._verticillioides_EthFoc-62,False,Fusarium_cf._verticillioides_EthFoc-133,99.93,True
 Fusarium chaquense,Fusarium_chaquense_NRRL_66748,False,Fusarium_chaquense_NRRL_66750,99.51,True
 Fusarium chaquense,Fusarium_chaquense_NRRL_66749,False,Fusarium_chaquense_NRRL_66750,99.56,True
 Fusarium chaquense,Fusarium_chaquense_NRRL_66750,True,Fusarium_chaquense_NRRL_66750,100.0,False
@@ -7057,7 +7072,6 @@ Fusarium graminearum,Fusarium_graminearum_N8_2,False,Fusarium_graminearum_17-98,
 Fusarium graminearum,Fusarium_graminearum_NRRL28336,False,Fusarium_graminearum_17-98,99.64,True
 Fusarium graminearum,Fusarium_graminearum_NRRL_29169,False,Fusarium_graminearum_17-98,99.59,True
 Fusarium graminearum,Fusarium_graminearum_PH-1,False,Fusarium_graminearum_17-98,99.59,True
-Fusarium graminearum,Fusarium_graminearum_PH-1,False,Fusarium_graminearum_17-98,99.59,True
 Fusarium graminearum,Fusarium_graminearum_RA15A,False,Fusarium_graminearum_17-98,99.59,True
 Fusarium graminearum,Fusarium_graminearum_RH14A,False,Fusarium_graminearum_17-98,99.66,True
 Fusarium graminearum,Fusarium_graminearum_S17-12,False,Fusarium_graminearum_17-98,99.68,True
@@ -7167,7 +7181,7 @@ Fusarium odoratissimum,Fusarium_odoratissimum_FocTR4_190203,False,Fusarium_odora
 Fusarium odoratissimum,Fusarium_odoratissimum_Indo-1,False,Fusarium_odoratissimum_36102,99.62,True
 Fusarium odoratissimum,Fusarium_odoratissimum_MC3,False,Fusarium_odoratissimum_36102,99.02,True
 Fusarium odoratissimum,Fusarium_odoratissimum_Moz-1,False,Fusarium_odoratissimum_36102,99.59,True
-Fusarium odoratissimum,Fusarium_odoratissimum_race_4,False,Fusarium_odoratissimum_36102,99.51,True
+Fusarium odoratissimum,Fusarium_odoratissimum_race_4,False,Fusarium_odoratissimum_36102,99.54,True
 Fusarium oligoseptatum,Fusarium_oligoseptatum_CBS143241,True,Fusarium_oligoseptatum_CBS143241,100.0,False
 Fusarium oligoseptatum,Fusarium_oligoseptatum_NRRL62579,False,Fusarium_oligoseptatum_CBS143241,99.95,True
 Fusarium ophioides,Fusarium_ophioides_CMW_18679,True,Fusarium_ophioides_CMW_18679,100.0,False
@@ -8395,7 +8409,7 @@ Geotrichum candidum,Geotrichum_candidum_AOP28_A2_surf_bin_19,False,Geotrichum_ca
 Geotrichum candidum,Geotrichum_candidum_AOP28_C2_surf_bin_1,False,Geotrichum_candidum_PX1908B,98.99,False
 Geotrichum candidum,Geotrichum_candidum_AOP28_E1_surf_bin_6,False,Geotrichum_candidum_PX1908B,98.97,False
 Geotrichum candidum,Geotrichum_candidum_AOP29_E1_surf_bin_5,False,Geotrichum_candidum_PX1908B,98.95,False
-Geotrichum candidum,Geotrichum_candidum_AOP2_E1_surf_bin_1,False,Geotrichum_candidum_PX1908B,98.91,False
+Geotrichum candidum,Geotrichum_candidum_AOP2_E1_surf_bin_1,False,Geotrichum_candidum_PX1908B,98.96,False
 Geotrichum candidum,Geotrichum_candidum_AOP30_C2_surf_bin_20,False,Geotrichum_candidum_PX1908B,98.93,False
 Geotrichum candidum,Geotrichum_candidum_AOP30_D2_surf_bin_19,False,Geotrichum_candidum_PX1908B,98.95,False
 Geotrichum candidum,Geotrichum_candidum_AOP6_C1_surf_bin_1,False,Geotrichum_candidum_PX1908B,98.96,False
@@ -8411,7 +8425,7 @@ Geotrichum candidum,Geotrichum_candidum_AOP9_I1_surf_bin_15,False,Geotrichum_can
 Geotrichum candidum,Geotrichum_candidum_B1101,False,Geotrichum_candidum_PX1908B,98.27,False
 Geotrichum candidum,Geotrichum_candidum_B1109,False,Geotrichum_candidum_PX1908B,98.34,False
 Geotrichum candidum,Geotrichum_candidum_B1112B,False,Geotrichum_candidum_PX1908B,98.3,False
-Geotrichum candidum,Geotrichum_candidum_CBS_178.71,False,Geotrichum_candidum_PX1908B,98.11,False
+Geotrichum candidum,Geotrichum_candidum_CBS_178.71,False,Geotrichum_candidum_PX1908B,98.12,False
 Geotrichum candidum,Geotrichum_candidum_CLIB_918,False,Geotrichum_candidum_PX1908B,98.91,False
 Geotrichum candidum,Geotrichum_candidum_F2203,False,Geotrichum_candidum_PX1908B,98.36,False
 Geotrichum candidum,Geotrichum_candidum_K2,False,Geotrichum_candidum_PX1908B,98.91,False
@@ -8425,7 +8439,7 @@ Geotrichum candidum,Geotrichum_candidum_LMA-77,False,Geotrichum_candidum_PX1908B
 Geotrichum candidum,Geotrichum_candidum_M1113A,False,Geotrichum_candidum_PX1908B,98.29,False
 Geotrichum candidum,Geotrichum_candidum_M2401,False,Geotrichum_candidum_PX1908B,98.96,False
 Geotrichum candidum,Geotrichum_candidum_M2404,False,Geotrichum_candidum_PX1908B,98.92,False
-Geotrichum candidum,Geotrichum_candidum_M4009,False,Geotrichum_candidum_PX1908B,98.37,False
+Geotrichum candidum,Geotrichum_candidum_M4009,False,Geotrichum_candidum_PX1908B,98.39,False
 Geotrichum candidum,Geotrichum_candidum_PX1908B,True,Geotrichum_candidum_PX1908B,100.0,False
 Geotrichum candidum,Geotrichum_candidum_QAUGC01,False,Geotrichum_candidum_PX1908B,99.53,True
 Geotrichum candidum,Geotrichum_candidum_Y1111,False,Geotrichum_candidum_PX1908B,98.27,False
@@ -8446,8 +8460,6 @@ Geranomyces variabilis,Geranomyces_variabilis_JEL0389,False,Geranomyces_variabil
 Geranomyces variabilis,Geranomyces_variabilis_JEL0566,False,Geranomyces_variabilis_JEL0379,83.96,False
 Geranomyces variabilis,Geranomyces_variabilis_JEL0567,False,Geranomyces_variabilis_JEL0379,84.14,False
 Geranomyces variabilis,Geranomyces_variabilis_JEL_559,False,Geranomyces_variabilis_JEL0379,84.09,False
-Gigaspora margarita,Gigaspora_margarita_120-4_pot_B_10-14,False,Gigaspora_margarita_BEG34,95.41,False
-Gigaspora margarita,Gigaspora_margarita_BEG34,True,Gigaspora_margarita_BEG34,100.0,False
 Gigaspora rosea,Gigaspora_rosea_DAOM_194757,True,Gigaspora_rosea_DAOM_194757,100.0,False
 Gigaspora rosea,Gigaspora_rosea_FL105,False,Gigaspora_rosea_DAOM_194757,99.8,True
 Gilbertella persicaria,Gilbertella_persicaria_CBS_190.32,False,Gilbertella_persicaria_SHK1000,99.77,True
@@ -8501,6 +8513,11 @@ Gyromitra venenata,Gyromitra_venenata_ACD0556,False,Gyromitra_venenata_MICH35203
 Gyromitra venenata,Gyromitra_venenata_ACD0596,False,Gyromitra_venenata_MICH352032,97.34,False
 Gyromitra venenata,Gyromitra_venenata_MICH352032,True,Gyromitra_venenata_MICH352032,100.0,False
 Gyromitra venenata,Gyromitra_venenata_MICH352070,False,Gyromitra_venenata_MICH352032,99.26,True
+Hamiltosporidium magnivora,Hamiltosporidium_magnivora_BE-OM-2,True,Hamiltosporidium_magnivora_BE-OM-2,100.0,False
+Hamiltosporidium magnivora,Hamiltosporidium_magnivora_IL-BN-2,False,Hamiltosporidium_magnivora_BE-OM-2,97.91,False
+Hamiltosporidium tvaerminnensis,Hamiltosporidium_tvaerminnensis_FI-OER-3-3,True,Hamiltosporidium_tvaerminnensis_FI-OER-3-3,100.0,False
+Hamiltosporidium tvaerminnensis,Hamiltosporidium_tvaerminnensis_IL-G-3,False,Hamiltosporidium_tvaerminnensis_FI-OER-3-3,98.61,False
+Hamiltosporidium tvaerminnensis,Hamiltosporidium_tvaerminnensis_OER-3-3,False,Hamiltosporidium_tvaerminnensis_FI-OER-3-3,99.76,True
 Hanseniaspora guilliermondii,Hanseniaspora_guilliermondii_AWRI5769_F8,True,Hanseniaspora_guilliermondii_AWRI5769_F8,100.0,False
 Hanseniaspora guilliermondii,Hanseniaspora_guilliermondii_CBS_18551,False,Hanseniaspora_guilliermondii_AWRI5769_F8,99.09,True
 Hanseniaspora guilliermondii,Hanseniaspora_guilliermondii_NRRL_Y-1625,False,Hanseniaspora_guilliermondii_AWRI5769_F8,99.67,True
@@ -8528,11 +8545,8 @@ Hanseniaspora pseudoguilliermondii,Hanseniaspora_pseudoguilliermondii_R5919,Fals
 Hanseniaspora pseudoguilliermondii,Hanseniaspora_pseudoguilliermondii_ZIM213_Neza_Cadez,False,Hanseniaspora_pseudoguilliermondii_CBS_8772,100.0,True
 Hanseniaspora singularis,Hanseniaspora_singularis_NRRL_Y-63757,True,Hanseniaspora_singularis_NRRL_Y-63757,100.0,False
 Hanseniaspora singularis,Hanseniaspora_singularis_ZIM2326_Neza_Cadez,False,Hanseniaspora_singularis_NRRL_Y-63757,99.99,True
-Hanseniaspora sp. CRUB 1602,Hanseniaspora_sp._CRUB_1602_CRUB_1602,True,Hanseniaspora_sp._CRUB_1602_CRUB_1602,100.0,False
-Hanseniaspora sp. CRUB 1602,Hanseniaspora_sp._CRUB_1602_CRUB_1602,False,Hanseniaspora_sp._CRUB_1602_CRUB_1602,100.0,True
-Hanseniaspora thailandica,Hanseniaspora_thailandica_R80-11,False,Hanseniaspora_thailandica_ZIM_2325,95.55,False
+Hanseniaspora thailandica,Hanseniaspora_thailandica_R80-11,False,Hanseniaspora_thailandica_ZIM_2325,95.25,False
 Hanseniaspora thailandica,Hanseniaspora_thailandica_ZIM_2325,True,Hanseniaspora_thailandica_ZIM_2325,100.0,False
-Hanseniaspora thailandica,Hanseniaspora_thailandica_ZIM_2325,False,Hanseniaspora_thailandica_ZIM_2325,100.0,True
 Hanseniaspora uvarum,Hanseniaspora_uvarum,False,Hanseniaspora_uvarum_NRRL_Y-1614,99.33,True
 Hanseniaspora uvarum,Hanseniaspora_uvarum_34-9,False,Hanseniaspora_uvarum_NRRL_Y-1614,98.67,False
 Hanseniaspora uvarum,Hanseniaspora_uvarum_AWRI3580,False,Hanseniaspora_uvarum_NRRL_Y-1614,98.97,False
@@ -8605,13 +8619,14 @@ Helminthosporium solani,Helminthosporium_solani_B-AC-16A,False,Helminthosporium_
 Helminthosporium solani,Helminthosporium_solani_CBS_640.85,True,Helminthosporium_solani_CBS_640.85,100.0,False
 Hemileccinum hortonii,Hemileccinum_hortonii_MICH40049,True,Hemileccinum_hortonii_MICH40049,100.0,False
 Hemileccinum hortonii,Hemileccinum_hortonii_NY2449668,False,Hemileccinum_hortonii_MICH40049,98.52,False
-Hemileia vastatrix,Hemileia_vastatrix,False,Hemileia_vastatrix_Race_I,99.62,True
+Hemileia vastatrix,Hemileia_vastatrix,False,Hemileia_vastatrix_Race_I,99.67,True
 Hemileia vastatrix,Hemileia_vastatrix_CIFC_Hv_178a,False,Hemileia_vastatrix_Race_I,99.38,True
 Hemileia vastatrix,Hemileia_vastatrix_HvHI_421,False,Hemileia_vastatrix_Race_I,99.56,True
 Hemileia vastatrix,Hemileia_vastatrix_Race_I,True,Hemileia_vastatrix_Race_I,100.0,False
-Hemileia vastatrix,Hemileia_vastatrix_Race_XXXIII,False,Hemileia_vastatrix_Race_I,98.6,False
 Henningerozyma blattae,Henningerozyma_blattae_NRRL_Y-10934,False,Henningerozyma_blattae_type_strain_CBS_6284,99.95,True
 Henningerozyma blattae,Henningerozyma_blattae_type_strain_CBS_6284,True,Henningerozyma_blattae_type_strain_CBS_6284,100.0,False
+Hepatospora eriocheir,Hepatospora_eriocheir_GB1,True,Hepatospora_eriocheir_GB1,100.0,False
+Hepatospora eriocheir,Hepatospora_eriocheir_canceri,False,Hepatospora_eriocheir_GB1,96.99,False
 Hericium coralloides,Hericium_coralloides,True,Hericium_coralloides,100.0,False
 Hericium coralloides,Hericium_coralloides_tvtc0002,False,Hericium_coralloides,94.12,False
 Hericium erinaceus,Hericium_erinaceus,False,Hericium_erinaceus_CS-4,93.43,False
@@ -8621,11 +8636,10 @@ Hericium erinaceus,Hericium_erinaceus_CS-4,True,Hericium_erinaceus_CS-4,100.0,Fa
 Hermanssonia centrifuga,Hermanssonia_centrifuga_DSM_108282,False,Hermanssonia_centrifuga_KR-M-0090335,99.07,True
 Hermanssonia centrifuga,Hermanssonia_centrifuga_FBCC195,False,Hermanssonia_centrifuga_KR-M-0090335,96.92,False
 Hermanssonia centrifuga,Hermanssonia_centrifuga_KR-M-0090335,True,Hermanssonia_centrifuga_KR-M-0090335,100.0,False
-Herpotrichiellaceae sp.,Herpotrichiellaceae_sp._CTeuk-1624,False,Herpotrichiellaceae_sp._CTeuk-1631,,False
-Herpotrichiellaceae sp.,Herpotrichiellaceae_sp._CTeuk-1626,False,Herpotrichiellaceae_sp._CTeuk-1631,,False
-Herpotrichiellaceae sp.,Herpotrichiellaceae_sp._CTeuk-1631,True,Herpotrichiellaceae_sp._CTeuk-1631,100.0,False
-Herpotrichiellaceae sp.,Herpotrichiellaceae_sp._CTeuk-1632,False,Herpotrichiellaceae_sp._CTeuk-1631,99.83,True
-Herpotrichiellaceae sp.,Herpotrichiellaceae_sp._CTeuk-1634,False,Herpotrichiellaceae_sp._CTeuk-1631,99.95,True
+Herpotrichiellaceae sp.,Herpotrichiellaceae_sp._CTeuk-1624,False,Herpotrichiellaceae_sp._CTeuk-1626,,False
+Herpotrichiellaceae sp.,Herpotrichiellaceae_sp._CTeuk-1626,True,Herpotrichiellaceae_sp._CTeuk-1626,100.0,False
+Herpotrichiellaceae sp.,Herpotrichiellaceae_sp._CTeuk-1632,False,Herpotrichiellaceae_sp._CTeuk-1626,,False
+Herpotrichiellaceae sp.,Herpotrichiellaceae_sp._CTeuk-1634,False,Herpotrichiellaceae_sp._CTeuk-1626,,False
 Heterobasidion annosum,Heterobasidion_annosum,True,Heterobasidion_annosum,100.0,False
 Heterobasidion annosum,Heterobasidion_annosum_03012,False,Heterobasidion_annosum,98.77,False
 Heterobasidion irregulare,Heterobasidion_irregulare,False,Heterobasidion_irregulare_TC_32-1,98.97,False
@@ -8645,7 +8659,7 @@ Histoplasma ohiense,Histoplasma_ohiense_G217B,False,Histoplasma_ohiense_G217B-UC
 Histoplasma ohiense,Histoplasma_ohiense_G217B-UCSF2,True,Histoplasma_ohiense_G217B-UCSF2,100.0,False
 Histoplasma ohiense,Histoplasma_ohiense_G217B-UCSF3,False,Histoplasma_ohiense_G217B-UCSF2,100.0,True
 Hortaea werneckii,Hortaea_werneckii_A17,False,Hortaea_werneckii_EXF-562,,False
-Hortaea werneckii,Hortaea_werneckii_CBS_100455,False,Hortaea_werneckii_EXF-562,88.52,False
+Hortaea werneckii,Hortaea_werneckii_CBS_100455,False,Hortaea_werneckii_EXF-562,88.51,False
 Hortaea werneckii,Hortaea_werneckii_CBS_116.30,False,Hortaea_werneckii_EXF-562,88.46,False
 Hortaea werneckii,Hortaea_werneckii_CBS_410.51,False,Hortaea_werneckii_EXF-562,91.89,False
 Hortaea werneckii,Hortaea_werneckii_EXF-10304,False,Hortaea_werneckii_EXF-562,92.05,False
@@ -8653,7 +8667,7 @@ Hortaea werneckii,Hortaea_werneckii_EXF-10508,False,Hortaea_werneckii_EXF-562,92
 Hortaea werneckii,Hortaea_werneckii_EXF-10509,False,Hortaea_werneckii_EXF-562,92.05,False
 Hortaea werneckii,Hortaea_werneckii_EXF-10510,False,Hortaea_werneckii_EXF-562,92.05,False
 Hortaea werneckii,Hortaea_werneckii_EXF-10511,False,Hortaea_werneckii_EXF-562,92.3,False
-Hortaea werneckii,Hortaea_werneckii_EXF-10512,False,Hortaea_werneckii_EXF-562,94.55,False
+Hortaea werneckii,Hortaea_werneckii_EXF-10512,False,Hortaea_werneckii_EXF-562,94.65,False
 Hortaea werneckii,Hortaea_werneckii_EXF-10513,False,Hortaea_werneckii_EXF-562,92.03,False
 Hortaea werneckii,Hortaea_werneckii_EXF-10816,False,Hortaea_werneckii_EXF-562,98.83,False
 Hortaea werneckii,Hortaea_werneckii_EXF-10819,False,Hortaea_werneckii_EXF-562,98.83,False
@@ -8663,7 +8677,7 @@ Hortaea werneckii,Hortaea_werneckii_EXF-10904,False,Hortaea_werneckii_EXF-562,98
 Hortaea werneckii,Hortaea_werneckii_EXF-10907,False,Hortaea_werneckii_EXF-562,98.72,False
 Hortaea werneckii,Hortaea_werneckii_EXF-10919,False,Hortaea_werneckii_EXF-562,98.83,False
 Hortaea werneckii,Hortaea_werneckii_EXF-10958,False,Hortaea_werneckii_EXF-562,89.5,False
-Hortaea werneckii,Hortaea_werneckii_EXF-10974,False,Hortaea_werneckii_EXF-562,87.71,False
+Hortaea werneckii,Hortaea_werneckii_EXF-10974,False,Hortaea_werneckii_EXF-562,87.7,False
 Hortaea werneckii,Hortaea_werneckii_EXF-11540,False,Hortaea_werneckii_EXF-562,88.0,False
 Hortaea werneckii,Hortaea_werneckii_EXF-11650,False,Hortaea_werneckii_EXF-562,88.01,False
 Hortaea werneckii,Hortaea_werneckii_EXF-11651,False,Hortaea_werneckii_EXF-562,93.11,False
@@ -8750,9 +8764,9 @@ Hypocenomyce scalaris,Hypocenomyce_scalaris_T1881,True,Hypocenomyce_scalaris_T18
 Hypocreaceae sp.,Hypocreaceae_sp._CTeuk-1143,True,Hypocreaceae_sp._CTeuk-1143,100.0,False
 Hypocreaceae sp.,Hypocreaceae_sp._CTeuk-1145,False,Hypocreaceae_sp._CTeuk-1143,,False
 Hypocreaceae sp.,Hypocreaceae_sp._CTeuk-1147,False,Hypocreaceae_sp._CTeuk-1143,95.74,False
-Hypocreales sp.,Hypocreales_sp.,True,Hypocreales_sp.,100.0,False
-Hypocreales sp.,Hypocreales_sp._CTeuk-1492,False,Hypocreales_sp.,,False
-Hypocreales sp.,Hypocreales_sp._CTeuk-927,False,Hypocreales_sp.,,False
+Hypocreales sp.,Hypocreales_sp._CTeuk-1492,False,Hypocreales_sp._ERR7163067_concoct_90,,False
+Hypocreales sp.,Hypocreales_sp._CTeuk-927,False,Hypocreales_sp._ERR7163067_concoct_90,,False
+Hypocreales sp.,Hypocreales_sp._ERR7163067_concoct_90,True,Hypocreales_sp._ERR7163067_concoct_90,100.0,False
 Hypocrella siamensis,Hypocrella_siamensis_MBC_547,False,Hypocrella_siamensis_MTCC_10142,99.21,True
 Hypocrella siamensis,Hypocrella_siamensis_MBC_592,False,Hypocrella_siamensis_MTCC_10142,99.24,True
 Hypocrella siamensis,Hypocrella_siamensis_MBC_632,False,Hypocrella_siamensis_MTCC_10142,99.21,True
@@ -8807,7 +8821,7 @@ Imleria badia,Imleria_badia_84.06,True,Imleria_badia_84.06,100.0,False
 Imleria badia,Imleria_badia_NY796215,False,Imleria_badia_84.06,99.09,True
 Immersiporthe knoxdaviesiana,Immersiporthe_knoxdaviesiana_CMW_37318,True,Immersiporthe_knoxdaviesiana_CMW_37318,100.0,False
 Immersiporthe knoxdaviesiana,Immersiporthe_knoxdaviesiana_CMW_55904,False,Immersiporthe_knoxdaviesiana_CMW_37318,99.8,True
-Infundibulicybe gibba,Infundibulicybe_gibba,False,Infundibulicybe_gibba_IJFM_A808,97.45,False
+Infundibulicybe gibba,Infundibulicybe_gibba,False,Infundibulicybe_gibba_IJFM_A808,97.44,False
 Infundibulicybe gibba,Infundibulicybe_gibba_IJFM_A808,True,Infundibulicybe_gibba_IJFM_A808,100.0,False
 Inocybe asterospora,Inocybe_asterospora,True,Inocybe_asterospora,100.0,False
 Inocybe asterospora,Inocybe_asterospora_MR00461,False,Inocybe_asterospora,98.41,False
@@ -9150,7 +9164,7 @@ Laburnicola rhizohalophila,Laburnicola_rhizohalophila_JP-R2018DY-11A,False,Labur
 Laburnicola rhizohalophila,Laburnicola_rhizohalophila_JP-R2018DY-8A,True,Laburnicola_rhizohalophila_JP-R2018DY-8A,100.0,False
 Laburnicola rhizohalophila,Laburnicola_rhizohalophila_R22-1,False,Laburnicola_rhizohalophila_JP-R2018DY-8A,97.29,False
 Laccaria bicolor,Laccaria_bicolor_81306,False,Laccaria_bicolor_CBS_594.89,97.83,False
-Laccaria bicolor,Laccaria_bicolor_CBS_559.96,False,Laccaria_bicolor_CBS_594.89,97.75,False
+Laccaria bicolor,Laccaria_bicolor_CBS_559.96,False,Laccaria_bicolor_CBS_594.89,97.74,False
 Laccaria bicolor,Laccaria_bicolor_CBS_594.89,True,Laccaria_bicolor_CBS_594.89,100.0,False
 Laccaria bicolor,Laccaria_bicolor_Cham3,False,Laccaria_bicolor_CBS_594.89,97.53,False
 Laccaria bicolor,Laccaria_bicolor_D101,False,Laccaria_bicolor_CBS_594.89,94.84,False
@@ -9827,7 +9841,7 @@ Macrophomina phaseolina,Macrophomina_phaseolina_2012-496,False,Macrophomina_phas
 Macrophomina phaseolina,Macrophomina_phaseolina_2014-675,False,Macrophomina_phaseolina_mp053,98.9,False
 Macrophomina phaseolina,Macrophomina_phaseolina_2014-676,False,Macrophomina_phaseolina_mp053,99.01,True
 Macrophomina phaseolina,Macrophomina_phaseolina_2016-355,False,Macrophomina_phaseolina_mp053,99.97,True
-Macrophomina phaseolina,Macrophomina_phaseolina_2016-358,False,Macrophomina_phaseolina_mp053,99.98,True
+Macrophomina phaseolina,Macrophomina_phaseolina_2016-358,False,Macrophomina_phaseolina_mp053,99.97,True
 Macrophomina phaseolina,Macrophomina_phaseolina_2016-360,False,Macrophomina_phaseolina_mp053,99.97,True
 Macrophomina phaseolina,Macrophomina_phaseolina_2016-369,False,Macrophomina_phaseolina_mp053,99.98,True
 Macrophomina phaseolina,Macrophomina_phaseolina_2016-372,False,Macrophomina_phaseolina_mp053,99.98,True
@@ -9906,7 +9920,7 @@ Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_45154,False,Macrophomina_ph
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_46337_a,False,Macrophomina_phaseolina_mp053,98.53,False
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_48716_a,False,Macrophomina_phaseolina_mp053,98.01,False
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_52124_a,False,Macrophomina_phaseolina_mp053,98.56,False
-Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_5297_a,False,Macrophomina_phaseolina_mp053,98.47,False
+Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_5297_a,False,Macrophomina_phaseolina_mp053,98.46,False
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_53216_a,False,Macrophomina_phaseolina_mp053,98.47,False
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_53640_a,False,Macrophomina_phaseolina_mp053,98.58,False
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_54886_b,False,Macrophomina_phaseolina_mp053,98.52,False
@@ -9920,7 +9934,7 @@ Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_62562_a,False,Macrophomina_
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_64557_d,False,Macrophomina_phaseolina_mp053,98.64,False
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_64989_a,False,Macrophomina_phaseolina_mp053,99.98,True
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_65261_a,False,Macrophomina_phaseolina_mp053,98.71,False
-Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_65267_a,False,Macrophomina_phaseolina_mp053,98.53,False
+Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_65267_a,False,Macrophomina_phaseolina_mp053,98.57,False
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_66196_a,False,Macrophomina_phaseolina_mp053,99.21,True
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_67978_a,False,Macrophomina_phaseolina_mp053,99.98,True
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_68011_a,False,Macrophomina_phaseolina_mp053,99.98,True
@@ -9944,7 +9958,7 @@ Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_68350_a,False,Macrophomina_
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_69721_a,False,Macrophomina_phaseolina_mp053,98.38,False
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_70726,False,Macrophomina_phaseolina_mp053,98.08,False
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_70780_a,False,Macrophomina_phaseolina_mp053,99.98,True
-Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_70786_a,False,Macrophomina_phaseolina_mp053,98.73,False
+Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_70786_a,False,Macrophomina_phaseolina_mp053,98.72,False
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_70828_b,False,Macrophomina_phaseolina_mp053,98.78,False
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_71242_b,False,Macrophomina_phaseolina_mp053,99.07,True
 Macrophomina phaseolina,Macrophomina_phaseolina_BRIP_71249_a,False,Macrophomina_phaseolina_mp053,99.17,True
@@ -9971,11 +9985,11 @@ Macrophomina phaseolina,Macrophomina_phaseolina_CBS_460.70,False,Macrophomina_ph
 Macrophomina phaseolina,Macrophomina_phaseolina_CMM3615,False,Macrophomina_phaseolina_mp053,98.89,False
 Macrophomina phaseolina,Macrophomina_phaseolina_CMM3650,False,Macrophomina_phaseolina_mp053,99.98,True
 Macrophomina phaseolina,Macrophomina_phaseolina_CMM4034,False,Macrophomina_phaseolina_mp053,98.57,False
-Macrophomina phaseolina,Macrophomina_phaseolina_CMM4047,False,Macrophomina_phaseolina_mp053,98.91,False
+Macrophomina phaseolina,Macrophomina_phaseolina_CMM4047,False,Macrophomina_phaseolina_mp053,98.9,False
 Macrophomina phaseolina,Macrophomina_phaseolina_CMM4159,False,Macrophomina_phaseolina_mp053,98.53,False
 Macrophomina phaseolina,Macrophomina_phaseolina_CMM4185,False,Macrophomina_phaseolina_mp053,98.96,False
 Macrophomina phaseolina,Macrophomina_phaseolina_CMM4239,False,Macrophomina_phaseolina_mp053,98.49,False
-Macrophomina phaseolina,Macrophomina_phaseolina_CMP-33,False,Macrophomina_phaseolina_mp053,98.27,False
+Macrophomina phaseolina,Macrophomina_phaseolina_CMP-33,False,Macrophomina_phaseolina_mp053,98.23,False
 Macrophomina phaseolina,Macrophomina_phaseolina_CR_Red_1_R1,False,Macrophomina_phaseolina_mp053,98.19,False
 Macrophomina phaseolina,Macrophomina_phaseolina_Colonia_Iguaz_3,False,Macrophomina_phaseolina_mp053,98.14,False
 Macrophomina phaseolina,Macrophomina_phaseolina_DSA_09-001,False,Macrophomina_phaseolina_mp053,99.98,True
@@ -10084,7 +10098,7 @@ Macrophomina phaseolina,Macrophomina_phaseolina_M_15_12_R1,False,Macrophomina_ph
 Macrophomina phaseolina,Macrophomina_phaseolina_M_15_1_R1,False,Macrophomina_phaseolina_mp053,98.32,False
 Macrophomina phaseolina,Macrophomina_phaseolina_M_15_3_R1,False,Macrophomina_phaseolina_mp053,98.45,False
 Macrophomina phaseolina,Macrophomina_phaseolina_Md10_R1,False,Macrophomina_phaseolina_mp053,98.12,False
-Macrophomina phaseolina,Macrophomina_phaseolina_MpCh14Str,False,Macrophomina_phaseolina_mp053,98.71,False
+Macrophomina phaseolina,Macrophomina_phaseolina_MpCh14Str,False,Macrophomina_phaseolina_mp053,98.68,False
 Macrophomina phaseolina,Macrophomina_phaseolina_MpCh23Mel,False,Macrophomina_phaseolina_mp053,99.98,True
 Macrophomina phaseolina,Macrophomina_phaseolina_MpCh24Mel,False,Macrophomina_phaseolina_mp053,99.98,True
 Macrophomina phaseolina,Macrophomina_phaseolina_MpCh25Mel,False,Macrophomina_phaseolina_mp053,98.84,False
@@ -10114,11 +10128,11 @@ Macrophomina phaseolina,Macrophomina_phaseolina_NQS20,False,Macrophomina_phaseol
 Macrophomina phaseolina,Macrophomina_phaseolina_NQS21,False,Macrophomina_phaseolina_mp053,99.97,True
 Macrophomina phaseolina,Macrophomina_phaseolina_NQS22,False,Macrophomina_phaseolina_mp053,99.07,True
 Macrophomina phaseolina,Macrophomina_phaseolina_NQS4,False,Macrophomina_phaseolina_mp053,98.17,False
-Macrophomina phaseolina,Macrophomina_phaseolina_NQS8,False,Macrophomina_phaseolina_mp053,98.06,False
+Macrophomina phaseolina,Macrophomina_phaseolina_NQS8,False,Macrophomina_phaseolina_mp053,98.05,False
 Macrophomina phaseolina,Macrophomina_phaseolina_NQSC10,False,Macrophomina_phaseolina_mp053,98.03,False
 Macrophomina phaseolina,Macrophomina_phaseolina_NQSC14,False,Macrophomina_phaseolina_mp053,98.08,False
 Macrophomina phaseolina,Macrophomina_phaseolina_NQSC17,False,Macrophomina_phaseolina_mp053,98.03,False
-Macrophomina phaseolina,Macrophomina_phaseolina_NQSC18,False,Macrophomina_phaseolina_mp053,98.09,False
+Macrophomina phaseolina,Macrophomina_phaseolina_NQSC18,False,Macrophomina_phaseolina_mp053,98.08,False
 Macrophomina phaseolina,Macrophomina_phaseolina_NQSC19,False,Macrophomina_phaseolina_mp053,98.09,False
 Macrophomina phaseolina,Macrophomina_phaseolina_NQSC27,False,Macrophomina_phaseolina_mp053,98.1,False
 Macrophomina phaseolina,Macrophomina_phaseolina_NQSC30,False,Macrophomina_phaseolina_mp053,98.11,False
@@ -10136,7 +10150,7 @@ Macrophomina phaseolina,Macrophomina_phaseolina_NRRL_66194,False,Macrophomina_ph
 Macrophomina phaseolina,Macrophomina_phaseolina_NRRL_66195,False,Macrophomina_phaseolina_mp053,98.71,False
 Macrophomina phaseolina,Macrophomina_phaseolina_PJ1,False,Macrophomina_phaseolina_mp053,98.09,False
 Macrophomina phaseolina,Macrophomina_phaseolina_PJ11,False,Macrophomina_phaseolina_mp053,98.11,False
-Macrophomina phaseolina,Macrophomina_phaseolina_PJ17,False,Macrophomina_phaseolina_mp053,98.08,False
+Macrophomina phaseolina,Macrophomina_phaseolina_PJ17,False,Macrophomina_phaseolina_mp053,98.05,False
 Macrophomina phaseolina,Macrophomina_phaseolina_PJ19,False,Macrophomina_phaseolina_mp053,98.54,False
 Macrophomina phaseolina,Macrophomina_phaseolina_PJ22,False,Macrophomina_phaseolina_mp053,98.09,False
 Macrophomina phaseolina,Macrophomina_phaseolina_PJ32,False,Macrophomina_phaseolina_mp053,98.12,False
@@ -10178,7 +10192,7 @@ Macrophomina phaseolina,Macrophomina_phaseolina_TN-418,False,Macrophomina_phaseo
 Macrophomina phaseolina,Macrophomina_phaseolina_TN-419,False,Macrophomina_phaseolina_mp053,99.26,True
 Macrophomina phaseolina,Macrophomina_phaseolina_TN-420,False,Macrophomina_phaseolina_mp053,98.47,False
 Macrophomina phaseolina,Macrophomina_phaseolina_TN-438,False,Macrophomina_phaseolina_mp053,98.49,False
-Macrophomina phaseolina,Macrophomina_phaseolina_TN-439,False,Macrophomina_phaseolina_mp053,98.68,False
+Macrophomina phaseolina,Macrophomina_phaseolina_TN-439,False,Macrophomina_phaseolina_mp053,98.64,False
 Macrophomina phaseolina,Macrophomina_phaseolina_TN-448,False,Macrophomina_phaseolina_mp053,98.51,False
 Macrophomina phaseolina,Macrophomina_phaseolina_TN-449,False,Macrophomina_phaseolina_mp053,98.55,False
 Macrophomina phaseolina,Macrophomina_phaseolina_TN-5,False,Macrophomina_phaseolina_mp053,98.45,False
@@ -10382,9 +10396,9 @@ Maudiozyma humilis,Maudiozyma_humilis,False,Maudiozyma_humilis_YMX004033,96.52,F
 Maudiozyma humilis,Maudiozyma_humilis_KH-74,False,Maudiozyma_humilis_YMX004033,98.37,False
 Maudiozyma humilis,Maudiozyma_humilis_NRRL_Y-17074,False,Maudiozyma_humilis_YMX004033,96.4,False
 Maudiozyma humilis,Maudiozyma_humilis_NRRL_Y-7245,False,Maudiozyma_humilis_YMX004033,96.36,False
-Maudiozyma humilis,Maudiozyma_humilis_YMX000387,False,Maudiozyma_humilis_YMX004033,97.31,False
-Maudiozyma humilis,Maudiozyma_humilis_YMX000554,False,Maudiozyma_humilis_YMX004033,98.35,False
-Maudiozyma humilis,Maudiozyma_humilis_YMX003162,False,Maudiozyma_humilis_YMX004033,98.33,False
+Maudiozyma humilis,Maudiozyma_humilis_YMX000387,False,Maudiozyma_humilis_YMX004033,97.42,False
+Maudiozyma humilis,Maudiozyma_humilis_YMX000554,False,Maudiozyma_humilis_YMX004033,98.36,False
+Maudiozyma humilis,Maudiozyma_humilis_YMX003162,False,Maudiozyma_humilis_YMX004033,98.36,False
 Maudiozyma humilis,Maudiozyma_humilis_YMX004033,True,Maudiozyma_humilis_YMX004033,100.0,False
 Maudiozyma saulgeensis,Maudiozyma_saulgeensis,True,Maudiozyma_saulgeensis,100.0,False
 Maudiozyma saulgeensis,Maudiozyma_saulgeensis_CBS_14374,False,Maudiozyma_saulgeensis,99.94,True
@@ -10623,6 +10637,11 @@ Microbotryum violaceum,Microbotryum_violaceum_Mv_1441,False,Microbotryum_violace
 Microdochium nivale,Microdochium_nivale,False,Microdochium_nivale_F00608,99.03,True
 Microdochium nivale,Microdochium_nivale_F00246,False,Microdochium_nivale_F00608,99.13,True
 Microdochium nivale,Microdochium_nivale_F00608,True,Microdochium_nivale_F00608,100.0,False
+Microsporidia sp. MB,Microsporidia_sp._MB_AHL03,True,Microsporidia_sp._MB_AHL03,100.0,False
+Microsporidia sp. MB,Microsporidia_sp._MB_BSAL01234,False,Microsporidia_sp._MB_AHL03,98.66,False
+Microsporidia sp. MB,Microsporidia_sp._MB_BSALO12345,False,Microsporidia_sp._MB_AHL03,98.62,False
+Microsporidia sp. MB,Microsporidia_sp._MB_BUSABN394_1.0,False,Microsporidia_sp._MB_AHL03,98.82,False
+Microsporidia sp. MB,Microsporidia_sp._MB_SOUVK7,False,Microsporidia_sp._MB_AHL03,97.69,False
 Microsporum audouinii,Microsporum_audouinii_CBS_119449,False,Microsporum_audouinii_CBS_495.86,98.43,False
 Microsporum audouinii,Microsporum_audouinii_CBS_332.68,False,Microsporum_audouinii_CBS_495.86,98.45,False
 Microsporum audouinii,Microsporum_audouinii_CBS_495.86,True,Microsporum_audouinii_CBS_495.86,100.0,False
@@ -10693,6 +10712,8 @@ Millerozyma farinosa,Millerozyma_farinosa_CBS_7064,False,Millerozyma_farinosa_KC
 Millerozyma farinosa,Millerozyma_farinosa_KCTC_27753,True,Millerozyma_farinosa_KCTC_27753,100.0,False
 Millerozyma farinosa,Millerozyma_farinosa_NRRL_Y-7553,False,Millerozyma_farinosa_KCTC_27753,94.0,False
 Millerozyma farinosa,Millerozyma_farinosa_SM1,False,Millerozyma_farinosa_KCTC_27753,,False
+Mitosporidium daphniae,Mitosporidium_daphniae_CH-H,True,Mitosporidium_daphniae_CH-H,100.0,False
+Mitosporidium daphniae,Mitosporidium_daphniae_UGP3,False,Mitosporidium_daphniae_CH-H,99.9,True
 Mixia osmundae,Mixia_osmundae,False,Mixia_osmundae_IAM_14324,,False
 Mixia osmundae,Mixia_osmundae_IAM_14324,True,Mixia_osmundae_IAM_14324,100.0,False
 Moesziomyces antarcticus,Moesziomyces_antarcticus_ATCC_34888,False,Moesziomyces_antarcticus_Styx25C50m-22,99.23,True
@@ -10726,8 +10747,8 @@ Monascus purpureus,Monascus_purpureus_ZYXQ-2206,False,Monascus_purpureus_MP2022,
 Monascus ruber,Monascus_ruber,True,Monascus_ruber,100.0,False
 Monascus ruber,Monascus_ruber_BC20,False,Monascus_ruber,99.94,True
 Monascus ruber,Monascus_ruber_FM39-7,False,Monascus_ruber,99.94,True
-Monascus ruber,Monascus_ruber_FWB13,False,Monascus_ruber,99.93,True
-Monascus ruber,Monascus_ruber_KACC_46666,False,Monascus_ruber,99.93,True
+Monascus ruber,Monascus_ruber_FWB13,False,Monascus_ruber,99.94,True
+Monascus ruber,Monascus_ruber_KACC_46666,False,Monascus_ruber,99.94,True
 Monascus ruber,Monascus_ruber_NRRL_35690,False,Monascus_ruber,99.87,True
 Monilinia fructicola,Monilinia_fructicola_160E,False,Monilinia_fructicola_Mfrc123,99.08,True
 Monilinia fructicola,Monilinia_fructicola_BR-32,False,Monilinia_fructicola_Mfrc123,98.95,False
@@ -11004,7 +11025,6 @@ Nakaseomyces glabratus,Nakaseomyces_glabratus_EF1237Blo1,False,Nakaseomyces_glab
 Nakaseomyces glabratus,Nakaseomyces_glabratus_FFUL887,False,Nakaseomyces_glabratus_CBS138,99.17,True
 Nakaseomyces glabratus,Nakaseomyces_glabratus_Isolate_17,False,Nakaseomyces_glabratus_CBS138,99.99,True
 Nakaseomyces glabratus,Nakaseomyces_glabratus_Isolate_9,False,Nakaseomyces_glabratus_CBS138,99.22,True
-Nakaseomyces glabratus,Nakaseomyces_glabratus_KCTC_13826BP,False,Nakaseomyces_glabratus_CBS138,99.97,True
 Nakaseomyces glabratus,Nakaseomyces_glabratus_Karbala-1,False,Nakaseomyces_glabratus_CBS138,99.22,True
 Nakaseomyces glabratus,Nakaseomyces_glabratus_LG13MJ,False,Nakaseomyces_glabratus_CBS138,,False
 Nakaseomyces glabratus,Nakaseomyces_glabratus_LG290,False,Nakaseomyces_glabratus_CBS138,99.42,True
@@ -11022,7 +11042,6 @@ Nakaseomyces glabratus,Nakaseomyces_glabratus_M1215,False,Nakaseomyces_glabratus
 Nakaseomyces glabratus,Nakaseomyces_glabratus_M6,False,Nakaseomyces_glabratus_CBS138,99.14,True
 Nakaseomyces glabratus,Nakaseomyces_glabratus_M7,False,Nakaseomyces_glabratus_CBS138,99.14,True
 Nakaseomyces glabratus,Nakaseomyces_glabratus_ML72254,False,Nakaseomyces_glabratus_CBS138,99.28,True
-Nakaseomyces glabratus,Nakaseomyces_glabratus_MRD-KRBAY,False,Nakaseomyces_glabratus_CBS138,99.98,True
 Nakaseomyces glabratus,Nakaseomyces_glabratus_MY07,False,Nakaseomyces_glabratus_CBS138,99.28,True
 Nakaseomyces glabratus,Nakaseomyces_glabratus_NGMR01,False,Nakaseomyces_glabratus_CBS138,99.18,True
 Nakaseomyces glabratus,Nakaseomyces_glabratus_NRRL_Y-65,False,Nakaseomyces_glabratus_CBS138,99.99,True
@@ -11074,6 +11093,21 @@ Nemania diffusa,Nemania_diffusa_YAFEF818,False,Nemania_diffusa_NC0034,96.77,Fals
 Nemania serpens,Nemania_serpens_AK0226,True,Nemania_serpens_AK0226,100.0,False
 Nemania serpens,Nemania_serpens_AZ0576,False,Nemania_serpens_AK0226,84.31,False
 Nemania serpens,Nemania_serpens_CBS_679.86,False,Nemania_serpens_AK0226,84.71,False
+Nematocida ausubeli,Nematocida_ausubeli_ERTm2,True,Nematocida_ausubeli_ERTm2,100.0,False
+Nematocida ausubeli,Nematocida_ausubeli_ERTm6,False,Nematocida_ausubeli_ERTm2,97.56,False
+Nematocida ausubeli,Nematocida_ausubeli_JUm2520,False,Nematocida_ausubeli_ERTm2,97.74,False
+Nematocida ausubeli,Nematocida_ausubeli_JUm2796,False,Nematocida_ausubeli_ERTm2,94.54,False
+Nematocida ausubeli,Nematocida_ausubeli_LUAm26,False,Nematocida_ausubeli_ERTm2,97.71,False
+Nematocida ausubeli,Nematocida_ausubeli_LUAm27,False,Nematocida_ausubeli_ERTm2,97.66,False
+Nematocida ausubeli,Nematocida_ausubeli_LUAm28,False,Nematocida_ausubeli_ERTm2,97.62,False
+Nematocida parisii,Nematocida_parisii_ERTm1,True,Nematocida_parisii_ERTm1,100.0,False
+Nematocida parisii,Nematocida_parisii_ERTm3,False,Nematocida_parisii_ERTm1,99.84,True
+Nematocida parisii,Nematocida_parisii_JUm1248,False,Nematocida_parisii_ERTm1,99.89,True
+Nematocida parisii,Nematocida_parisii_JUm1762,False,Nematocida_parisii_ERTm1,99.27,True
+Nematocida parisii,Nematocida_parisii_JUm2106,False,Nematocida_parisii_ERTm1,99.44,True
+Nematocida parisii,Nematocida_parisii_JUm2132,False,Nematocida_parisii_ERTm1,99.41,True
+Nematocida parisii,Nematocida_parisii_LUAm12,False,Nematocida_parisii_ERTm1,99.83,True
+Nematocida parisii,Nematocida_parisii_LUAm13,False,Nematocida_parisii_ERTm1,99.83,True
 Neoaidaea tothii,Neoaidaea_tothii_CBS_759.85,True,Neoaidaea_tothii_CBS_759.85,100.0,False
 Neoaidaea tothii,Neoaidaea_tothii_NRRL_Y-12690,False,Neoaidaea_tothii_CBS_759.85,99.97,True
 Neoarthrinium moseri,Neoarthrinium_moseri_CBS_164.80,False,Neoarthrinium_moseri_TUCIM_5799,99.08,True
@@ -11151,7 +11185,7 @@ Neofusicoccum ribis,Neofusicoccum_ribis_CBS_115475,False,Neofusicoccum_ribis_M1-
 Neofusicoccum ribis,Neofusicoccum_ribis_CBS_121.26,False,Neofusicoccum_ribis_M1-105,99.86,True
 Neofusicoccum ribis,Neofusicoccum_ribis_M1-105,True,Neofusicoccum_ribis_M1-105,100.0,False
 Neogyromitra brunnea,Neogyromitra_brunnea_MICH352048,True,Neogyromitra_brunnea_MICH352048,100.0,False
-Neogyromitra brunnea,Neogyromitra_brunnea_MICH352054,False,Neogyromitra_brunnea_MICH352048,99.48,True
+Neogyromitra brunnea,Neogyromitra_brunnea_MICH352054,False,Neogyromitra_brunnea_MICH352048,99.46,True
 Neogyromitra caroliniana,Neogyromitra_caroliniana_MICH25515,False,Neogyromitra_caroliniana_MICH352092,97.99,False
 Neogyromitra caroliniana,Neogyromitra_caroliniana_MICH352092,True,Neogyromitra_caroliniana_MICH352092,100.0,False
 Neogyromitra grandis,Neogyromitra_grandis_LE247912,True,Neogyromitra_grandis_LE247912,100.0,False
@@ -11366,6 +11400,10 @@ Nigrospora osmanthi,Nigrospora_osmanthi_Z1,False,Nigrospora_osmanthi_LC4350,97.7
 Nigrospora sphaerica,Nigrospora_sphaerica_CBS_166.26,False,Nigrospora_sphaerica_ZJJ_C1,99.37,True
 Nigrospora sphaerica,Nigrospora_sphaerica_LC2840,False,Nigrospora_sphaerica_ZJJ_C1,98.06,False
 Nigrospora sphaerica,Nigrospora_sphaerica_ZJJ_C1,True,Nigrospora_sphaerica_ZJJ_C1,100.0,False
+Nosema astafloridana,Nosema_astafloridana_PP3,True,Nosema_astafloridana_PP3,100.0,False
+Nosema astafloridana,Nosema_astafloridana_PS1,False,Nosema_astafloridana_PP3,99.16,True
+Nosema wisconsonii,Nosema_wisconsonii_FP01,True,Nosema_wisconsonii_FP01,100.0,False
+Nosema wisconsonii,Nosema_wisconsonii_Fv49,False,Nosema_wisconsonii_FP01,99.26,True
 Nothopassalora personata,Nothopassalora_personata,False,Nothopassalora_personata_LLS_Mitchell_2,99.92,True
 Nothopassalora personata,Nothopassalora_personata_AY-1,False,Nothopassalora_personata_LLS_Mitchell_2,99.82,True
 Nothopassalora personata,Nothopassalora_personata_CPDP-13A,False,Nothopassalora_personata_LLS_Mitchell_2,99.96,True
@@ -11545,7 +11583,7 @@ Ophiocordyceps robertsii,Ophiocordyceps_robertsii_UoM1,False,Ophiocordyceps_robe
 Ophiocordyceps robertsii,Ophiocordyceps_robertsii_UoM4,True,Ophiocordyceps_robertsii_UoM4,100.0,False
 Ophiocordyceps sinensis,Ophiocordyceps_sinensis_1229,False,Ophiocordyceps_sinensis_IOZ07,99.76,True
 Ophiocordyceps sinensis,Ophiocordyceps_sinensis_CC1406-203,False,Ophiocordyceps_sinensis_IOZ07,99.71,True
-Ophiocordyceps sinensis,Ophiocordyceps_sinensis_CO18,False,Ophiocordyceps_sinensis_IOZ07,99.4,True
+Ophiocordyceps sinensis,Ophiocordyceps_sinensis_CO18,False,Ophiocordyceps_sinensis_IOZ07,99.42,True
 Ophiocordyceps sinensis,Ophiocordyceps_sinensis_IOZ07,True,Ophiocordyceps_sinensis_IOZ07,100.0,False
 Ophiocordyceps sinensis,Ophiocordyceps_sinensis_PAD37595,False,Ophiocordyceps_sinensis_IOZ07,98.22,False
 Ophiocordyceps sinensis,Ophiocordyceps_sinensis_ZJB12195,False,Ophiocordyceps_sinensis_IOZ07,99.02,True
@@ -11613,6 +11651,11 @@ Orbilia oligospora,Orbilia_oligospora_TWF706,False,Orbilia_oligospora_TWF154,98.
 Orbilia oligospora,Orbilia_oligospora_TWF751,False,Orbilia_oligospora_TWF154,99.78,True
 Orbilia oligospora,Orbilia_oligospora_TWF788,False,Orbilia_oligospora_TWF154,93.87,False
 Orbilia oligospora,Orbilia_oligospora_TWF970,False,Orbilia_oligospora_TWF154,94.96,False
+Ordospora colligata,Ordospora_colligata_FI-SK-17-1,True,Ordospora_colligata_FI-SK-17-1,100.0,False
+Ordospora colligata,Ordospora_colligata_GB-EP-1,False,Ordospora_colligata_FI-SK-17-1,99.92,True
+Ordospora colligata,Ordospora_colligata_GB-LK1-1,False,Ordospora_colligata_FI-SK-17-1,99.92,True
+Ordospora colligata,Ordospora_colligata_NO-V-7,False,Ordospora_colligata_FI-SK-17-1,99.92,True
+Ordospora colligata,Ordospora_colligata_OC4,False,Ordospora_colligata_FI-SK-17-1,99.92,True
 Paecilomyces dactylethromorphus,Paecilomyces_dactylethromorphus_CMW-IA005736,False,Paecilomyces_dactylethromorphus_FRR_5262,98.6,False
 Paecilomyces dactylethromorphus,Paecilomyces_dactylethromorphus_CMW-IA005737,False,Paecilomyces_dactylethromorphus_FRR_5262,98.53,False
 Paecilomyces dactylethromorphus,Paecilomyces_dactylethromorphus_CMW-IA005738,False,Paecilomyces_dactylethromorphus_FRR_5262,98.65,False
@@ -11716,7 +11759,7 @@ Paraphaeosphaeria minitans,Paraphaeosphaeria_minitans_CBS_641.80,False,Paraphaeo
 Paraphaeosphaeria minitans,Paraphaeosphaeria_minitans_Conio_IMI134523,True,Paraphaeosphaeria_minitans_Conio_IMI134523,100.0,False
 Paraphaeosphaeria minitans,Paraphaeosphaeria_minitans_ICMP_5635,False,Paraphaeosphaeria_minitans_Conio_IMI134523,99.49,True
 Paraphaeosphaeria minitans,Paraphaeosphaeria_minitans_IMI_291453,False,Paraphaeosphaeria_minitans_Conio_IMI134523,99.88,True
-Paraphaeosphaeria minitans,Paraphaeosphaeria_minitans_ZS-1,False,Paraphaeosphaeria_minitans_Conio_IMI134523,99.53,True
+Paraphaeosphaeria minitans,Paraphaeosphaeria_minitans_ZS-1,False,Paraphaeosphaeria_minitans_Conio_IMI134523,99.51,True
 Paraphaeosphaeria sporulosa,Paraphaeosphaeria_sporulosa_AP3s5-JAC2a,True,Paraphaeosphaeria_sporulosa_AP3s5-JAC2a,100.0,False
 Paraphaeosphaeria sporulosa,Paraphaeosphaeria_sporulosa_CBS_177.59,False,Paraphaeosphaeria_sporulosa_AP3s5-JAC2a,99.14,True
 Paraphaeosphaeria sporulosa,Paraphaeosphaeria_sporulosa_DISAAA10515,False,Paraphaeosphaeria_sporulosa_AP3s5-JAC2a,99.22,True
@@ -11814,7 +11857,7 @@ Parastagonospora nodorum,Parastagonospora_nodorum_53FG143_1,False,Parastagonospo
 Parastagonospora nodorum,Parastagonospora_nodorum_53FG143_2,False,Parastagonospora_nodorum_Sn79-1087,98.57,False
 Parastagonospora nodorum,Parastagonospora_nodorum_AR1-1,False,Parastagonospora_nodorum_Sn79-1087,98.56,False
 Parastagonospora nodorum,Parastagonospora_nodorum_B2.1b,False,Parastagonospora_nodorum_Sn79-1087,98.59,False
-Parastagonospora nodorum,Parastagonospora_nodorum_BRSn9870,False,Parastagonospora_nodorum_Sn79-1087,98.57,False
+Parastagonospora nodorum,Parastagonospora_nodorum_BRSn9870,False,Parastagonospora_nodorum_Sn79-1087,98.55,False
 Parastagonospora nodorum,Parastagonospora_nodorum_C1.2a,False,Parastagonospora_nodorum_Sn79-1087,98.55,False
 Parastagonospora nodorum,Parastagonospora_nodorum_FG106,False,Parastagonospora_nodorum_Sn79-1087,98.57,False
 Parastagonospora nodorum,Parastagonospora_nodorum_FG107,False,Parastagonospora_nodorum_Sn79-1087,98.47,False
@@ -12333,7 +12376,7 @@ Penicillium roqueforti,Penicillium_roqueforti_AOP25_B2_surf_bin_16,False,Penicil
 Penicillium roqueforti,Penicillium_roqueforti_AOP37_A2_surf_bin_4,False,Penicillium_roqueforti_DTO_002-I6,98.98,False
 Penicillium roqueforti,Penicillium_roqueforti_AOP43_C2_coeur_bin_16,False,Penicillium_roqueforti_DTO_002-I6,99.48,True
 Penicillium roqueforti,Penicillium_roqueforti_AOP4_A1_surf_bin_10,False,Penicillium_roqueforti_DTO_002-I6,99.48,True
-Penicillium roqueforti,Penicillium_roqueforti_AOP4_B2_surf_bin_7,False,Penicillium_roqueforti_DTO_002-I6,99.28,True
+Penicillium roqueforti,Penicillium_roqueforti_AOP4_B2_surf_bin_7,False,Penicillium_roqueforti_DTO_002-I6,99.29,True
 Penicillium roqueforti,Penicillium_roqueforti_CBS_147308,False,Penicillium_roqueforti_DTO_002-I6,99.59,True
 Penicillium roqueforti,Penicillium_roqueforti_CBS_147309,False,Penicillium_roqueforti_DTO_002-I6,99.39,True
 Penicillium roqueforti,Penicillium_roqueforti_CBS_147310,False,Penicillium_roqueforti_DTO_002-I6,99.45,True
@@ -12347,7 +12390,7 @@ Penicillium roqueforti,Penicillium_roqueforti_CBS_147331,False,Penicillium_roque
 Penicillium roqueforti,Penicillium_roqueforti_CBS_147332,False,Penicillium_roqueforti_DTO_002-I6,99.02,True
 Penicillium roqueforti,Penicillium_roqueforti_CBS_147333,False,Penicillium_roqueforti_DTO_002-I6,99.57,True
 Penicillium roqueforti,Penicillium_roqueforti_CBS_147337,False,Penicillium_roqueforti_DTO_002-I6,99.45,True
-Penicillium roqueforti,Penicillium_roqueforti_CBS_147338,False,Penicillium_roqueforti_DTO_002-I6,99.45,True
+Penicillium roqueforti,Penicillium_roqueforti_CBS_147338,False,Penicillium_roqueforti_DTO_002-I6,99.42,True
 Penicillium roqueforti,Penicillium_roqueforti_CBS_147339,False,Penicillium_roqueforti_DTO_002-I6,99.18,True
 Penicillium roqueforti,Penicillium_roqueforti_CBS_147354,False,Penicillium_roqueforti_DTO_002-I6,99.59,True
 Penicillium roqueforti,Penicillium_roqueforti_CBS_147355,False,Penicillium_roqueforti_DTO_002-I6,99.39,True
@@ -12452,7 +12495,7 @@ Petasospora fabianii,Petasospora_fabianii_JCM_3601,False,Petasospora_fabianii_TB
 Petasospora fabianii,Petasospora_fabianii_JOY008,False,Petasospora_fabianii_TBRC4498,98.9,False
 Petasospora fabianii,Petasospora_fabianii_NRRL_Y-1871,False,Petasospora_fabianii_TBRC4498,99.48,True
 Petasospora fabianii,Petasospora_fabianii_TBRC4498,True,Petasospora_fabianii_TBRC4498,100.0,False
-Petasospora fabianii,Petasospora_fabianii_YJS4271,False,Petasospora_fabianii_TBRC4498,99.22,True
+Petasospora fabianii,Petasospora_fabianii_YJS4271,False,Petasospora_fabianii_TBRC4498,99.18,True
 Pewenomyces kalosus,Pewenomyces_kalosus_CMW54228,True,Pewenomyces_kalosus_CMW54228,100.0,False
 Pewenomyces kalosus,Pewenomyces_kalosus_CMW56867,False,Pewenomyces_kalosus_CMW54228,99.13,True
 Pewenomyces lalenivora,Pewenomyces_lalenivora_CMW54250,False,Pewenomyces_lalenivora_CMW56868,98.4,False
@@ -12486,11 +12529,9 @@ Phakopsora pachyrhizi,Phakopsora_pachyrhizi_GA_Attapulgus_14,False,Phakopsora_pa
 Phakopsora pachyrhizi,Phakopsora_pachyrhizi_GA_Attapulgus_14.1,False,Phakopsora_pachyrhizi_AL_Elmore_14,100.0,True
 Phakopsora pachyrhizi,Phakopsora_pachyrhizi_GA_Attapulgus_14.2,False,Phakopsora_pachyrhizi_AL_Elmore_14,100.0,True
 Phakopsora pachyrhizi,Phakopsora_pachyrhizi_GA_Attapulgus_14.3,False,Phakopsora_pachyrhizi_AL_Elmore_14,100.0,True
-Phakopsora pachyrhizi,Phakopsora_pachyrhizi_GA_Attapulgus_14.4,False,Phakopsora_pachyrhizi_AL_Elmore_14,100.0,True
 Phakopsora pachyrhizi,Phakopsora_pachyrhizi_GA_Attapulgus_14.6,False,Phakopsora_pachyrhizi_AL_Elmore_14,100.0,True
 Phakopsora pachyrhizi,Phakopsora_pachyrhizi_GA_Attapulgus_14.7,False,Phakopsora_pachyrhizi_AL_Elmore_14,100.0,True
 Phakopsora pachyrhizi,Phakopsora_pachyrhizi_GA_Attapulgus_14.8,False,Phakopsora_pachyrhizi_AL_Elmore_14,100.0,True
-Phakopsora pachyrhizi,Phakopsora_pachyrhizi_GA_Attapulgus_16,False,Phakopsora_pachyrhizi_AL_Elmore_14,100.0,True
 Phakopsora pachyrhizi,Phakopsora_pachyrhizi_GA_Attapulgus_16.1,False,Phakopsora_pachyrhizi_AL_Elmore_14,100.0,True
 Phakopsora pachyrhizi,Phakopsora_pachyrhizi_GA_Attapulgus_16.2,False,Phakopsora_pachyrhizi_AL_Elmore_14,100.0,True
 Phakopsora pachyrhizi,Phakopsora_pachyrhizi_GA_GRIF_13,False,Phakopsora_pachyrhizi_AL_Elmore_14,100.0,True
@@ -12563,7 +12604,7 @@ Phycomyces nitens,Phycomyces_nitens_YXQ0117,True,Phycomyces_nitens_YXQ0117,100.0
 Phyllachora maydis,Phyllachora_maydis_PM01,False,Phyllachora_maydis_PM02,99.96,True
 Phyllachora maydis,Phyllachora_maydis_PM02,True,Phyllachora_maydis_PM02,100.0,False
 Phylloporus rhodoxanthus,Phylloporus_rhodoxanthus_MICH139813,True,Phylloporus_rhodoxanthus_MICH139813,100.0,False
-Phylloporus rhodoxanthus,Phylloporus_rhodoxanthus_MICH338577,False,Phylloporus_rhodoxanthus_MICH139813,96.86,False
+Phylloporus rhodoxanthus,Phylloporus_rhodoxanthus_MICH338577,False,Phylloporus_rhodoxanthus_MICH139813,96.71,False
 Phyllosticta ampelicida,Phyllosticta_ampelicida_GW18.1,True,Phyllosticta_ampelicida_GW18.1,100.0,False
 Phyllosticta ampelicida,Phyllosticta_ampelicida_Galicia,False,Phyllosticta_ampelicida_GW18.1,99.68,True
 Phyllosticta ampelicida,Phyllosticta_ampelicida_LB22.1,False,Phyllosticta_ampelicida_GW18.1,99.69,True
@@ -12594,7 +12635,7 @@ Phyllosticta citricarpa,Phyllosticta_citricarpa_CBS_141352,False,Phyllosticta_ci
 Phyllosticta citricarpa,Phyllosticta_citricarpa_CGMCC3.14348,False,Phyllosticta_citricarpa_CBS_122670,99.81,True
 Phyllosticta citricarpa,Phyllosticta_citricarpa_CPC_16586,False,Phyllosticta_citricarpa_CBS_122670,99.95,True
 Phyllosticta citricarpa,Phyllosticta_citricarpa_Gc12,False,Phyllosticta_citricarpa_CBS_122670,99.93,True
-Phyllosticta citricarpa,Phyllosticta_citricarpa_LGMF06,False,Phyllosticta_citricarpa_CBS_122670,99.87,True
+Phyllosticta citricarpa,Phyllosticta_citricarpa_LGMF06,False,Phyllosticta_citricarpa_CBS_122670,99.88,True
 Phyllosticta citricarpa,Phyllosticta_citricarpa_LSVM1123,False,Phyllosticta_citricarpa_CBS_122670,99.97,True
 Phyllosticta citricarpa,Phyllosticta_citricarpa_LSVM359,False,Phyllosticta_citricarpa_CBS_122670,99.95,True
 Phyllosticta citricarpa,Phyllosticta_citricarpa_USA106,False,Phyllosticta_citricarpa_CBS_122670,99.92,True
@@ -13061,7 +13102,7 @@ Psilocybe subaeruginosa,Psilocybe_subaeruginosa_BRIP_74433,False,Psilocybe_subae
 Psilocybe subaeruginosa,Psilocybe_subaeruginosa_POZ01-01,False,Psilocybe_subaeruginosa_BRIP75401,95.89,False
 Psilocybe subaeruginosa,Psilocybe_subaeruginosa_POZ13-2,False,Psilocybe_subaeruginosa_BRIP75401,96.78,False
 Psilocybe subaeruginosa,Psilocybe_subaeruginosa_POZ14-1,False,Psilocybe_subaeruginosa_BRIP75401,97.74,False
-Psilocybe subaeruginosa,Psilocybe_subaeruginosa_POZ14-3,False,Psilocybe_subaeruginosa_BRIP75401,97.79,False
+Psilocybe subaeruginosa,Psilocybe_subaeruginosa_POZ14-3,False,Psilocybe_subaeruginosa_BRIP75401,97.8,False
 Psilocybe subaeruginosa,Psilocybe_subaeruginosa_POZ14-4,False,Psilocybe_subaeruginosa_BRIP75401,97.73,False
 Psilocybe subaeruginosa,Psilocybe_subaeruginosa_POZ16-1,False,Psilocybe_subaeruginosa_BRIP75401,97.78,False
 Psilocybe subaeruginosa,Psilocybe_subaeruginosa_POZ16-3,False,Psilocybe_subaeruginosa_BRIP75401,97.76,False
@@ -13250,7 +13291,7 @@ Pyricularia grisea,Pyricularia_grisea_NI907,False,Pyricularia_grisea_PMg_Dl,86.4
 Pyricularia grisea,Pyricularia_grisea_PMg_Dl,True,Pyricularia_grisea_PMg_Dl,100.0,False
 Pyricularia grisea,Pyricularia_grisea_SCAU-2,False,Pyricularia_grisea_PMg_Dl,86.5,False
 Pyricularia grisea,Pyricularia_grisea_UFVPY210,False,Pyricularia_grisea_PMg_Dl,86.72,False
-Pyricularia grisea,Pyricularia_grisea_VO107,False,Pyricularia_grisea_PMg_Dl,86.27,False
+Pyricularia grisea,Pyricularia_grisea_VO107,False,Pyricularia_grisea_PMg_Dl,86.29,False
 Pyricularia grisea,Pyricularia_grisea_W97-11,False,Pyricularia_grisea_PMg_Dl,86.15,False
 Pyricularia grisea,Pyricularia_grisea_W98-20,False,Pyricularia_grisea_PMg_Dl,87.94,False
 Pyricularia oryzae,Pyricularia_oryzae,False,Pyricularia_oryzae_10100,99.57,True
@@ -13295,7 +13336,7 @@ Pyricularia oryzae,Pyricularia_oryzae_AV1-1-1,False,Pyricularia_oryzae_10100,99.
 Pyricularia oryzae,Pyricularia_oryzae_Arcadia,False,Pyricularia_oryzae_10100,99.44,True
 Pyricularia oryzae,Pyricularia_oryzae_Arcadia2,False,Pyricularia_oryzae_10100,99.34,True
 Pyricularia oryzae,Pyricularia_oryzae_B157,False,Pyricularia_oryzae_10100,99.89,True
-Pyricularia oryzae,Pyricularia_oryzae_B2,False,Pyricularia_oryzae_10100,98.94,False
+Pyricularia oryzae,Pyricularia_oryzae_B2,False,Pyricularia_oryzae_10100,98.89,False
 Pyricularia oryzae,Pyricularia_oryzae_B51,False,Pyricularia_oryzae_10100,98.48,False
 Pyricularia oryzae,Pyricularia_oryzae_B71,False,Pyricularia_oryzae_10100,98.94,False
 Pyricularia oryzae,Pyricularia_oryzae_BJ-90-611,False,Pyricularia_oryzae_10100,99.83,True
@@ -13311,20 +13352,20 @@ Pyricularia oryzae,Pyricularia_oryzae_BdMeh16-1,False,Pyricularia_oryzae_10100,9
 Pyricularia oryzae,Pyricularia_oryzae_Bm88312,False,Pyricularia_oryzae_10100,98.77,False
 Pyricularia oryzae,Pyricularia_oryzae_Bm88324,False,Pyricularia_oryzae_10100,98.78,False
 Pyricularia oryzae,Pyricularia_oryzae_Bm88503,False,Pyricularia_oryzae_10100,98.86,False
-Pyricularia oryzae,Pyricularia_oryzae_Bm88509,False,Pyricularia_oryzae_10100,98.89,False
+Pyricularia oryzae,Pyricularia_oryzae_Bm88509,False,Pyricularia_oryzae_10100,98.9,False
 Pyricularia oryzae,Pyricularia_oryzae_Br116,False,Pyricularia_oryzae_10100,98.95,False
 Pyricularia oryzae,Pyricularia_oryzae_Br118,False,Pyricularia_oryzae_10100,98.9,False
 Pyricularia oryzae,Pyricularia_oryzae_Br130,False,Pyricularia_oryzae_10100,98.91,False
 Pyricularia oryzae,Pyricularia_oryzae_Br35,False,Pyricularia_oryzae_10100,98.87,False
 Pyricularia oryzae,Pyricularia_oryzae_Br48,False,Pyricularia_oryzae_10100,98.95,False
-Pyricularia oryzae,Pyricularia_oryzae_Br58,False,Pyricularia_oryzae_10100,98.96,False
+Pyricularia oryzae,Pyricularia_oryzae_Br58,False,Pyricularia_oryzae_10100,98.95,False
 Pyricularia oryzae,Pyricularia_oryzae_Br62,False,Pyricularia_oryzae_10100,98.82,False
 Pyricularia oryzae,Pyricularia_oryzae_Br7,False,Pyricularia_oryzae_10100,98.95,False
 Pyricularia oryzae,Pyricularia_oryzae_Br80,False,Pyricularia_oryzae_10100,98.94,False
 Pyricularia oryzae,Pyricularia_oryzae_Br81,False,Pyricularia_oryzae_10100,98.95,False
 Pyricularia oryzae,Pyricularia_oryzae_CA205,False,Pyricularia_oryzae_10100,99.86,True
 Pyricularia oryzae,Pyricularia_oryzae_CHRF,False,Pyricularia_oryzae_10100,98.9,False
-Pyricularia oryzae,Pyricularia_oryzae_CHW,False,Pyricularia_oryzae_10100,98.94,False
+Pyricularia oryzae,Pyricularia_oryzae_CHW,False,Pyricularia_oryzae_10100,98.89,False
 Pyricularia oryzae,Pyricularia_oryzae_CQ11,False,Pyricularia_oryzae_10100,99.89,True
 Pyricularia oryzae,Pyricularia_oryzae_CR0029,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_Cd88215,False,Pyricularia_oryzae_10100,99.37,True
@@ -13333,7 +13374,7 @@ Pyricularia oryzae,Pyricularia_oryzae_D1-s50,False,Pyricularia_oryzae_10100,98.8
 Pyricularia oryzae,Pyricularia_oryzae_D1-s53b,False,Pyricularia_oryzae_10100,98.82,False
 Pyricularia oryzae,Pyricularia_oryzae_D10-s71,False,Pyricularia_oryzae_10100,98.87,False
 Pyricularia oryzae,Pyricularia_oryzae_D10-s9,False,Pyricularia_oryzae_10100,98.82,False
-Pyricularia oryzae,Pyricularia_oryzae_D14-s30,False,Pyricularia_oryzae_10100,98.4,False
+Pyricularia oryzae,Pyricularia_oryzae_D14-s30,False,Pyricularia_oryzae_10100,98.37,False
 Pyricularia oryzae,Pyricularia_oryzae_D15-s47,False,Pyricularia_oryzae_10100,98.34,False
 Pyricularia oryzae,Pyricularia_oryzae_D15-s6,False,Pyricularia_oryzae_10100,98.82,False
 Pyricularia oryzae,Pyricularia_oryzae_D8-s15,False,Pyricularia_oryzae_10100,98.29,False
@@ -13350,13 +13391,13 @@ Pyricularia oryzae,Pyricularia_oryzae_EI9604,False,Pyricularia_oryzae_10100,98.8
 Pyricularia oryzae,Pyricularia_oryzae_Ec883,False,Pyricularia_oryzae_10100,99.34,True
 Pyricularia oryzae,Pyricularia_oryzae_EtKY19-1,False,Pyricularia_oryzae_10100,98.82,False
 Pyricularia oryzae,Pyricularia_oryzae_F-2,False,Pyricularia_oryzae_10100,99.76,True
-Pyricularia oryzae,Pyricularia_oryzae_FH,False,Pyricularia_oryzae_10100,98.94,False
+Pyricularia oryzae,Pyricularia_oryzae_FH,False,Pyricularia_oryzae_10100,98.89,False
 Pyricularia oryzae,Pyricularia_oryzae_FJ0204804,False,Pyricularia_oryzae_10100,99.93,True
 Pyricularia oryzae,Pyricularia_oryzae_FJ11SH-527-1,False,Pyricularia_oryzae_10100,99.91,True
 Pyricularia oryzae,Pyricularia_oryzae_FJ11YD-673-1,False,Pyricularia_oryzae_10100,99.93,True
 Pyricularia oryzae,Pyricularia_oryzae_FJ12JN-084-3,False,Pyricularia_oryzae_10100,99.92,True
 Pyricularia oryzae,Pyricularia_oryzae_FJ13SH05-2,False,Pyricularia_oryzae_10100,99.92,True
-Pyricularia oryzae,Pyricularia_oryzae_FJ2000-62A,False,Pyricularia_oryzae_10100,99.92,True
+Pyricularia oryzae,Pyricularia_oryzae_FJ2000-62A,False,Pyricularia_oryzae_10100,99.93,True
 Pyricularia oryzae,Pyricularia_oryzae_FJ2000-69A,False,Pyricularia_oryzae_10100,99.9,True
 Pyricularia oryzae,Pyricularia_oryzae_FJ2001-112B,False,Pyricularia_oryzae_10100,99.93,True
 Pyricularia oryzae,Pyricularia_oryzae_FJ2003-001A1,False,Pyricularia_oryzae_10100,99.92,True
@@ -13371,7 +13412,7 @@ Pyricularia oryzae,Pyricularia_oryzae_FJ81-SW,False,Pyricularia_oryzae_10100,99.
 Pyricularia oryzae,Pyricularia_oryzae_FJ81-ZP,False,Pyricularia_oryzae_10100,99.86,True
 Pyricularia oryzae,Pyricularia_oryzae_FJ81221ZB11-14,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_FJ81278,False,Pyricularia_oryzae_10100,99.9,True
-Pyricularia oryzae,Pyricularia_oryzae_FJ86-CT,False,Pyricularia_oryzae_10100,99.86,True
+Pyricularia oryzae,Pyricularia_oryzae_FJ86-CT,False,Pyricularia_oryzae_10100,99.87,True
 Pyricularia oryzae,Pyricularia_oryzae_FJ86061ZE3-39,False,Pyricularia_oryzae_10100,99.83,True
 Pyricularia oryzae,Pyricularia_oryzae_FJ95054B,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_FJ95085AZB13-116,False,Pyricularia_oryzae_10100,99.91,True
@@ -13383,13 +13424,13 @@ Pyricularia oryzae,Pyricularia_oryzae_FR13,False,Pyricularia_oryzae_10100,99.83,
 Pyricularia oryzae,Pyricularia_oryzae_G17,False,Pyricularia_oryzae_10100,98.77,False
 Pyricularia oryzae,Pyricularia_oryzae_G22,False,Pyricularia_oryzae_10100,98.82,False
 Pyricularia oryzae,Pyricularia_oryzae_GD-05-029b,False,Pyricularia_oryzae_10100,99.88,True
-Pyricularia oryzae,Pyricularia_oryzae_GD06-53,False,Pyricularia_oryzae_10100,99.91,True
+Pyricularia oryzae,Pyricularia_oryzae_GD06-53,False,Pyricularia_oryzae_10100,99.92,True
 Pyricularia oryzae,Pyricularia_oryzae_GD08-2025,False,Pyricularia_oryzae_10100,99.93,True
 Pyricularia oryzae,Pyricularia_oryzae_GD22,False,Pyricularia_oryzae_10100,99.88,True
 Pyricularia oryzae,Pyricularia_oryzae_GG11,False,Pyricularia_oryzae_10100,98.94,False
 Pyricularia oryzae,Pyricularia_oryzae_GOV41,False,Pyricularia_oryzae_10100,99.88,True
 Pyricularia oryzae,Pyricularia_oryzae_GX01,False,Pyricularia_oryzae_10100,99.9,True
-Pyricularia oryzae,Pyricularia_oryzae_GrF52,False,Pyricularia_oryzae_10100,99.55,True
+Pyricularia oryzae,Pyricularia_oryzae_GrF52,False,Pyricularia_oryzae_10100,99.51,True
 Pyricularia oryzae,Pyricularia_oryzae_Guy11,False,Pyricularia_oryzae_10100,99.88,True
 Pyricularia oryzae,Pyricularia_oryzae_H-1,False,Pyricularia_oryzae_10100,99.83,True
 Pyricularia oryzae,Pyricularia_oryzae_H-2,False,Pyricularia_oryzae_10100,99.87,True
@@ -13407,15 +13448,15 @@ Pyricularia oryzae,Pyricularia_oryzae_HCT1701,False,Pyricularia_oryzae_10100,99.
 Pyricularia oryzae,Pyricularia_oryzae_HCT2,False,Pyricularia_oryzae_10100,99.91,True
 Pyricularia oryzae,Pyricularia_oryzae_HCT7,False,Pyricularia_oryzae_10100,99.88,True
 Pyricularia oryzae,Pyricularia_oryzae_HCT8,False,Pyricularia_oryzae_10100,99.87,True
-Pyricularia oryzae,Pyricularia_oryzae_HN-0812-3,False,Pyricularia_oryzae_10100,99.81,True
+Pyricularia oryzae,Pyricularia_oryzae_HN-0812-3,False,Pyricularia_oryzae_10100,99.78,True
 Pyricularia oryzae,Pyricularia_oryzae_HN-158,False,Pyricularia_oryzae_10100,99.94,True
 Pyricularia oryzae,Pyricularia_oryzae_HN06,False,Pyricularia_oryzae_10100,99.9,True
 Pyricularia oryzae,Pyricularia_oryzae_HN10-1604,False,Pyricularia_oryzae_10100,99.92,True
-Pyricularia oryzae,Pyricularia_oryzae_HN19311,False,Pyricularia_oryzae_10100,99.9,True
+Pyricularia oryzae,Pyricularia_oryzae_HN19311,False,Pyricularia_oryzae_10100,99.88,True
 Pyricularia oryzae,Pyricularia_oryzae_HO,False,Pyricularia_oryzae_10100,98.94,False
-Pyricularia oryzae,Pyricularia_oryzae_Hei-1,False,Pyricularia_oryzae_10100,99.77,True
+Pyricularia oryzae,Pyricularia_oryzae_Hei-1,False,Pyricularia_oryzae_10100,99.78,True
 Pyricularia oryzae,Pyricularia_oryzae_Hei-2,False,Pyricularia_oryzae_10100,99.84,True
-Pyricularia oryzae,Pyricularia_oryzae_Hei-3,False,Pyricularia_oryzae_10100,99.86,True
+Pyricularia oryzae,Pyricularia_oryzae_Hei-3,False,Pyricularia_oryzae_10100,99.85,True
 Pyricularia oryzae,Pyricularia_oryzae_Hu-1,False,Pyricularia_oryzae_10100,99.93,True
 Pyricularia oryzae,Pyricularia_oryzae_Hu-2,False,Pyricularia_oryzae_10100,99.87,True
 Pyricularia oryzae,Pyricularia_oryzae_IA1,False,Pyricularia_oryzae_10100,99.76,True
@@ -13481,7 +13522,7 @@ Pyricularia oryzae,Pyricularia_oryzae_O-137,False,Pyricularia_oryzae_10100,99.93
 Pyricularia oryzae,Pyricularia_oryzae_O-219,False,Pyricularia_oryzae_10100,99.87,True
 Pyricularia oryzae,Pyricularia_oryzae_OKI18,False,Pyricularia_oryzae_10100,98.96,False
 Pyricularia oryzae,Pyricularia_oryzae_P-0028,False,Pyricularia_oryzae_10100,98.89,False
-Pyricularia oryzae,Pyricularia_oryzae_P-0029,False,Pyricularia_oryzae_10100,98.95,False
+Pyricularia oryzae,Pyricularia_oryzae_P-0029,False,Pyricularia_oryzae_10100,98.94,False
 Pyricularia oryzae,Pyricularia_oryzae_P06-6,False,Pyricularia_oryzae_10100,99.92,True
 Pyricularia oryzae,Pyricularia_oryzae_P131,False,Pyricularia_oryzae_10100,99.9,True
 Pyricularia oryzae,Pyricularia_oryzae_P28,False,Pyricularia_oryzae_10100,98.87,False
@@ -13494,7 +13535,7 @@ Pyricularia oryzae,Pyricularia_oryzae_PR003,False,Pyricularia_oryzae_10100,99.85
 Pyricularia oryzae,Pyricularia_oryzae_PR01-37.V.1.05,False,Pyricularia_oryzae_10100,98.65,False
 Pyricularia oryzae,Pyricularia_oryzae_PR01-37.V.3.07,False,Pyricularia_oryzae_10100,98.52,False
 Pyricularia oryzae,Pyricularia_oryzae_PR72,False,Pyricularia_oryzae_10100,99.88,True
-Pyricularia oryzae,Pyricularia_oryzae_Pd88413,False,Pyricularia_oryzae_10100,99.0,True
+Pyricularia oryzae,Pyricularia_oryzae_Pd88413,False,Pyricularia_oryzae_10100,99.02,True
 Pyricularia oryzae,Pyricularia_oryzae_Pg1213-22,False,Pyricularia_oryzae_10100,98.94,False
 Pyricularia oryzae,Pyricularia_oryzae_Po221,False,Pyricularia_oryzae_10100,98.94,False
 Pyricularia oryzae,Pyricularia_oryzae_Po234,False,Pyricularia_oryzae_10100,98.82,False
@@ -13512,7 +13553,7 @@ Pyricularia oryzae,Pyricularia_oryzae_Py_13.1.012,False,Pyricularia_oryzae_10100
 Pyricularia oryzae,Pyricularia_oryzae_Py_13.1.014,False,Pyricularia_oryzae_10100,98.96,False
 Pyricularia oryzae,Pyricularia_oryzae_Py_13.1.018,False,Pyricularia_oryzae_10100,98.96,False
 Pyricularia oryzae,Pyricularia_oryzae_Py_13.1.019,False,Pyricularia_oryzae_10100,98.96,False
-Pyricularia oryzae,Pyricularia_oryzae_Py_13.1.021,False,Pyricularia_oryzae_10100,98.96,False
+Pyricularia oryzae,Pyricularia_oryzae_Py_13.1.021,False,Pyricularia_oryzae_10100,98.95,False
 Pyricularia oryzae,Pyricularia_oryzae_Py_13.1.023,False,Pyricularia_oryzae_10100,98.96,False
 Pyricularia oryzae,Pyricularia_oryzae_Py_13.1.024,False,Pyricularia_oryzae_10100,98.96,False
 Pyricularia oryzae,Pyricularia_oryzae_Py_15.1.008,False,Pyricularia_oryzae_10100,98.84,False
@@ -13529,19 +13570,19 @@ Pyricularia oryzae,Pyricularia_oryzae_Py_17.1.005,False,Pyricularia_oryzae_10100
 Pyricularia oryzae,Pyricularia_oryzae_Py_17.1.008,False,Pyricularia_oryzae_10100,98.96,False
 Pyricularia oryzae,Pyricularia_oryzae_Py_17.1.010,False,Pyricularia_oryzae_10100,98.97,False
 Pyricularia oryzae,Pyricularia_oryzae_Py_17.1.014,False,Pyricularia_oryzae_10100,98.93,False
-Pyricularia oryzae,Pyricularia_oryzae_R01-1,False,Pyricularia_oryzae_10100,99.87,True
+Pyricularia oryzae,Pyricularia_oryzae_R01-1,False,Pyricularia_oryzae_10100,99.86,True
 Pyricularia oryzae,Pyricularia_oryzae_RB22,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_RMg-Dl,False,Pyricularia_oryzae_10100,99.86,True
 Pyricularia oryzae,Pyricularia_oryzae_RN1,False,Pyricularia_oryzae_10100,87.42,False
 Pyricularia oryzae,Pyricularia_oryzae_Rep1-bas4-11,False,Pyricularia_oryzae_10100,99.76,True
 Pyricularia oryzae,Pyricularia_oryzae_Rep1-bas4-2,False,Pyricularia_oryzae_10100,99.76,True
-Pyricularia oryzae,Pyricularia_oryzae_Rep1-bas4-3,False,Pyricularia_oryzae_10100,99.77,True
+Pyricularia oryzae,Pyricularia_oryzae_Rep1-bas4-3,False,Pyricularia_oryzae_10100,99.76,True
 Pyricularia oryzae,Pyricularia_oryzae_Rep1-buf1-10,False,Pyricularia_oryzae_10100,99.63,True
 Pyricularia oryzae,Pyricularia_oryzae_Rep1-buf1-2,False,Pyricularia_oryzae_10100,99.64,True
-Pyricularia oryzae,Pyricularia_oryzae_Rep1-buf1-4,False,Pyricularia_oryzae_10100,99.77,True
+Pyricularia oryzae,Pyricularia_oryzae_Rep1-buf1-4,False,Pyricularia_oryzae_10100,99.76,True
 Pyricularia oryzae,Pyricularia_oryzae_Rep1-buf1-5,False,Pyricularia_oryzae_10100,99.76,True
 Pyricularia oryzae,Pyricularia_oryzae_Rep1-buf1-6,False,Pyricularia_oryzae_10100,99.76,True
-Pyricularia oryzae,Pyricularia_oryzae_Rep4-buf1-1,False,Pyricularia_oryzae_10100,99.69,True
+Pyricularia oryzae,Pyricularia_oryzae_Rep4-buf1-1,False,Pyricularia_oryzae_10100,99.68,True
 Pyricularia oryzae,Pyricularia_oryzae_Rep4-buf1-13,False,Pyricularia_oryzae_10100,99.68,True
 Pyricularia oryzae,Pyricularia_oryzae_Rep4-buf1-5,False,Pyricularia_oryzae_10100,99.64,True
 Pyricularia oryzae,Pyricularia_oryzae_S-1,False,Pyricularia_oryzae_10100,99.89,True
@@ -13553,7 +13594,7 @@ Pyricularia oryzae,Pyricularia_oryzae_SSFL02-1,False,Pyricularia_oryzae_10100,98
 Pyricularia oryzae,Pyricularia_oryzae_SSFL14-3,False,Pyricularia_oryzae_10100,98.72,False
 Pyricularia oryzae,Pyricularia_oryzae_SSTX16-11,False,Pyricularia_oryzae_10100,98.8,False
 Pyricularia oryzae,Pyricularia_oryzae_SV9610,False,Pyricularia_oryzae_10100,99.54,True
-Pyricularia oryzae,Pyricularia_oryzae_SV9623,False,Pyricularia_oryzae_10100,99.55,True
+Pyricularia oryzae,Pyricularia_oryzae_SV9623,False,Pyricularia_oryzae_10100,99.51,True
 Pyricularia oryzae,Pyricularia_oryzae_San_andrea,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_Sar-2-20-1,False,Pyricularia_oryzae_10100,99.94,True
 Pyricularia oryzae,Pyricularia_oryzae_Sar-AD3-5,False,Pyricularia_oryzae_10100,99.84,True
@@ -13582,7 +13623,7 @@ Pyricularia oryzae,Pyricularia_oryzae_TW-12HL-DF1-2,False,Pyricularia_oryzae_101
 Pyricularia oryzae,Pyricularia_oryzae_TW-12HL-YL2-1,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_TW-12TD-RH1-1,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_TW-12TN-HB2-2,False,Pyricularia_oryzae_10100,99.83,True
-Pyricularia oryzae,Pyricularia_oryzae_TW-12YL-DL3-2,False,Pyricularia_oryzae_10100,99.83,True
+Pyricularia oryzae,Pyricularia_oryzae_TW-12YL-DL3-2,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_TW-12YL-DP1-1,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_TW-12YL-TT4-1,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_TW-2-7-2-A-1,False,Pyricularia_oryzae_10100,99.84,True
@@ -13592,7 +13633,7 @@ Pyricularia oryzae,Pyricularia_oryzae_TW-CYBP1-3,False,Pyricularia_oryzae_10100,
 Pyricularia oryzae,Pyricularia_oryzae_TW-PT1-1,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_TW-PT3-1,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_TW-PT6-1,False,Pyricularia_oryzae_10100,99.84,True
-Pyricularia oryzae,Pyricularia_oryzae_TW-TN4-2,False,Pyricularia_oryzae_10100,99.83,True
+Pyricularia oryzae,Pyricularia_oryzae_TW-TN4-2,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_U13,False,Pyricularia_oryzae_10100,98.86,False
 Pyricularia oryzae,Pyricularia_oryzae_U168,False,Pyricularia_oryzae_10100,98.76,False
 Pyricularia oryzae,Pyricularia_oryzae_U247,False,Pyricularia_oryzae_10100,98.87,False
@@ -13609,13 +13650,13 @@ Pyricularia oryzae,Pyricularia_oryzae_UFVPY119,False,Pyricularia_oryzae_10100,98
 Pyricularia oryzae,Pyricularia_oryzae_UFVPY121,False,Pyricularia_oryzae_10100,98.76,False
 Pyricularia oryzae,Pyricularia_oryzae_UFVPY158,False,Pyricularia_oryzae_10100,98.9,False
 Pyricularia oryzae,Pyricularia_oryzae_UFVPY166,False,Pyricularia_oryzae_10100,98.86,False
-Pyricularia oryzae,Pyricularia_oryzae_UFVPY171,False,Pyricularia_oryzae_10100,88.55,False
+Pyricularia oryzae,Pyricularia_oryzae_UFVPY171,False,Pyricularia_oryzae_10100,88.54,False
 Pyricularia oryzae,Pyricularia_oryzae_UFVPY174,False,Pyricularia_oryzae_10100,98.95,False
 Pyricularia oryzae,Pyricularia_oryzae_UFVPY184,False,Pyricularia_oryzae_10100,98.44,False
 Pyricularia oryzae,Pyricularia_oryzae_UFVPY185,False,Pyricularia_oryzae_10100,98.44,False
 Pyricularia oryzae,Pyricularia_oryzae_UFVPY198,False,Pyricularia_oryzae_10100,98.82,False
 Pyricularia oryzae,Pyricularia_oryzae_UFVPY202,False,Pyricularia_oryzae_10100,88.55,False
-Pyricularia oryzae,Pyricularia_oryzae_UFVPY204,False,Pyricularia_oryzae_10100,88.58,False
+Pyricularia oryzae,Pyricularia_oryzae_UFVPY204,False,Pyricularia_oryzae_10100,88.57,False
 Pyricularia oryzae,Pyricularia_oryzae_UFVPY218,False,Pyricularia_oryzae_10100,98.8,False
 Pyricularia oryzae,Pyricularia_oryzae_UFVPY231,False,Pyricularia_oryzae_10100,98.62,False
 Pyricularia oryzae,Pyricularia_oryzae_UFVPY232,False,Pyricularia_oryzae_10100,88.55,False
@@ -13628,7 +13669,7 @@ Pyricularia oryzae,Pyricularia_oryzae_V86010,False,Pyricularia_oryzae_10100,99.9
 Pyricularia oryzae,Pyricularia_oryzae_WBKY11,False,Pyricularia_oryzae_10100,98.95,False
 Pyricularia oryzae,Pyricularia_oryzae_WBSS,False,Pyricularia_oryzae_10100,98.97,False
 Pyricularia oryzae,Pyricularia_oryzae_WD-3-1_1,False,Pyricularia_oryzae_10100,99.9,True
-Pyricularia oryzae,Pyricularia_oryzae_WHTQ,False,Pyricularia_oryzae_10100,98.77,False
+Pyricularia oryzae,Pyricularia_oryzae_WHTQ,False,Pyricularia_oryzae_10100,98.75,False
 Pyricularia oryzae,Pyricularia_oryzae_Wk3-1,False,Pyricularia_oryzae_10100,99.11,True
 Pyricularia oryzae,Pyricularia_oryzae_Y34,False,Pyricularia_oryzae_10100,99.83,True
 Pyricularia oryzae,Pyricularia_oryzae_YN010,False,Pyricularia_oryzae_10100,99.91,True
@@ -13647,7 +13688,7 @@ Pyricularia oryzae,Pyricularia_oryzae_YN08182c,False,Pyricularia_oryzae_10100,99
 Pyricularia oryzae,Pyricularia_oryzae_YN084,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_YN093,False,Pyricularia_oryzae_10100,99.91,True
 Pyricularia oryzae,Pyricularia_oryzae_YN094,False,Pyricularia_oryzae_10100,99.92,True
-Pyricularia oryzae,Pyricularia_oryzae_YN097,False,Pyricularia_oryzae_10100,99.87,True
+Pyricularia oryzae,Pyricularia_oryzae_YN097,False,Pyricularia_oryzae_10100,99.86,True
 Pyricularia oryzae,Pyricularia_oryzae_YN098,False,Pyricularia_oryzae_10100,99.88,True
 Pyricularia oryzae,Pyricularia_oryzae_YN099,False,Pyricularia_oryzae_10100,99.88,True
 Pyricularia oryzae,Pyricularia_oryzae_YN100,False,Pyricularia_oryzae_10100,99.83,True
@@ -13664,8 +13705,8 @@ Pyricularia oryzae,Pyricularia_oryzae_YN158,False,Pyricularia_oryzae_10100,99.86
 Pyricularia oryzae,Pyricularia_oryzae_YN161,False,Pyricularia_oryzae_10100,99.89,True
 Pyricularia oryzae,Pyricularia_oryzae_YN166,False,Pyricularia_oryzae_10100,99.86,True
 Pyricularia oryzae,Pyricularia_oryzae_YN179,False,Pyricularia_oryzae_10100,99.89,True
-Pyricularia oryzae,Pyricularia_oryzae_YN199,False,Pyricularia_oryzae_10100,99.89,True
-Pyricularia oryzae,Pyricularia_oryzae_YN208,False,Pyricularia_oryzae_10100,99.7,True
+Pyricularia oryzae,Pyricularia_oryzae_YN199,False,Pyricularia_oryzae_10100,99.88,True
+Pyricularia oryzae,Pyricularia_oryzae_YN208,False,Pyricularia_oryzae_10100,99.71,True
 Pyricularia oryzae,Pyricularia_oryzae_YN217,False,Pyricularia_oryzae_10100,99.82,True
 Pyricularia oryzae,Pyricularia_oryzae_YN220,False,Pyricularia_oryzae_10100,99.69,True
 Pyricularia oryzae,Pyricularia_oryzae_YN226,False,Pyricularia_oryzae_10100,99.86,True
@@ -13686,7 +13727,7 @@ Pyricularia oryzae,Pyricularia_oryzae_YN365,False,Pyricularia_oryzae_10100,99.88
 Pyricularia oryzae,Pyricularia_oryzae_YN376,False,Pyricularia_oryzae_10100,99.71,True
 Pyricularia oryzae,Pyricularia_oryzae_YN390,False,Pyricularia_oryzae_10100,99.92,True
 Pyricularia oryzae,Pyricularia_oryzae_YN391,False,Pyricularia_oryzae_10100,99.88,True
-Pyricularia oryzae,Pyricularia_oryzae_YN395,False,Pyricularia_oryzae_10100,99.7,True
+Pyricularia oryzae,Pyricularia_oryzae_YN395,False,Pyricularia_oryzae_10100,99.71,True
 Pyricularia oryzae,Pyricularia_oryzae_YN396,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_YN397,False,Pyricularia_oryzae_10100,99.86,True
 Pyricularia oryzae,Pyricularia_oryzae_YN398,False,Pyricularia_oryzae_10100,99.87,True
@@ -13698,11 +13739,11 @@ Pyricularia oryzae,Pyricularia_oryzae_YN442,False,Pyricularia_oryzae_10100,99.85
 Pyricularia oryzae,Pyricularia_oryzae_YN451,False,Pyricularia_oryzae_10100,99.76,True
 Pyricularia oryzae,Pyricularia_oryzae_YN455,False,Pyricularia_oryzae_10100,99.71,True
 Pyricularia oryzae,Pyricularia_oryzae_YN460,False,Pyricularia_oryzae_10100,99.93,True
-Pyricularia oryzae,Pyricularia_oryzae_YN462,False,Pyricularia_oryzae_10100,99.7,True
+Pyricularia oryzae,Pyricularia_oryzae_YN462,False,Pyricularia_oryzae_10100,99.71,True
 Pyricularia oryzae,Pyricularia_oryzae_YN463,False,Pyricularia_oryzae_10100,99.88,True
 Pyricularia oryzae,Pyricularia_oryzae_YN468,False,Pyricularia_oryzae_10100,99.87,True
 Pyricularia oryzae,Pyricularia_oryzae_YN476,False,Pyricularia_oryzae_10100,99.91,True
-Pyricularia oryzae,Pyricularia_oryzae_YN477,False,Pyricularia_oryzae_10100,99.93,True
+Pyricularia oryzae,Pyricularia_oryzae_YN477,False,Pyricularia_oryzae_10100,99.92,True
 Pyricularia oryzae,Pyricularia_oryzae_YN480,False,Pyricularia_oryzae_10100,99.86,True
 Pyricularia oryzae,Pyricularia_oryzae_YN485,False,Pyricularia_oryzae_10100,99.9,True
 Pyricularia oryzae,Pyricularia_oryzae_YN487,False,Pyricularia_oryzae_10100,99.92,True
@@ -13721,7 +13762,7 @@ Pyricularia oryzae,Pyricularia_oryzae_YN634,False,Pyricularia_oryzae_10100,99.84
 Pyricularia oryzae,Pyricularia_oryzae_YN635,False,Pyricularia_oryzae_10100,99.84,True
 Pyricularia oryzae,Pyricularia_oryzae_YN640,False,Pyricularia_oryzae_10100,99.88,True
 Pyricularia oryzae,Pyricularia_oryzae_YN642,False,Pyricularia_oryzae_10100,99.84,True
-Pyricularia oryzae,Pyricularia_oryzae_YN643,False,Pyricularia_oryzae_10100,99.89,True
+Pyricularia oryzae,Pyricularia_oryzae_YN643,False,Pyricularia_oryzae_10100,99.88,True
 Pyricularia oryzae,Pyricularia_oryzae_YN651,False,Pyricularia_oryzae_10100,99.75,True
 Pyricularia oryzae,Pyricularia_oryzae_YN657,False,Pyricularia_oryzae_10100,99.93,True
 Pyricularia oryzae,Pyricularia_oryzae_YN661,False,Pyricularia_oryzae_10100,99.86,True
@@ -13731,7 +13772,7 @@ Pyricularia oryzae,Pyricularia_oryzae_YN690,False,Pyricularia_oryzae_10100,99.88
 Pyricularia oryzae,Pyricularia_oryzae_YN694,False,Pyricularia_oryzae_10100,99.88,True
 Pyricularia oryzae,Pyricularia_oryzae_YN714,False,Pyricularia_oryzae_10100,99.91,True
 Pyricularia oryzae,Pyricularia_oryzae_YN716,False,Pyricularia_oryzae_10100,99.88,True
-Pyricularia oryzae,Pyricularia_oryzae_YN718,False,Pyricularia_oryzae_10100,99.88,True
+Pyricularia oryzae,Pyricularia_oryzae_YN718,False,Pyricularia_oryzae_10100,99.87,True
 Pyricularia oryzae,Pyricularia_oryzae_YN735,False,Pyricularia_oryzae_10100,99.87,True
 Pyricularia oryzae,Pyricularia_oryzae_YN745,False,Pyricularia_oryzae_10100,99.92,True
 Pyricularia oryzae,Pyricularia_oryzae_YN8773-19,False,Pyricularia_oryzae_10100,99.83,True
@@ -13779,7 +13820,7 @@ Rhinocladiella similis,Rhinocladiella_similis_LABIOMMI1217,True,Rhinocladiella_s
 Rhinocladiella similis,Rhinocladiella_similis_Poitiers_1,False,Rhinocladiella_similis_LABIOMMI1217,99.98,True
 Rhizoctonia solani,Rhizoctonia_solani_1-2-21,False,Rhizoctonia_solani_AG1-IA_HG81,,False
 Rhizoctonia solani,Rhizoctonia_solani_123E,False,Rhizoctonia_solani_AG1-IA_HG81,,False
-Rhizoctonia solani,Rhizoctonia_solani_1802-KB,False,Rhizoctonia_solani_AG1-IA_HG81,98.18,False
+Rhizoctonia solani,Rhizoctonia_solani_1802-KB,False,Rhizoctonia_solani_AG1-IA_HG81,98.17,False
 Rhizoctonia solani,Rhizoctonia_solani_3T-1,False,Rhizoctonia_solani_AG1-IA_HG81,,False
 Rhizoctonia solani,Rhizoctonia_solani_45062,False,Rhizoctonia_solani_AG1-IA_HG81,,False
 Rhizoctonia solani,Rhizoctonia_solani_AG-1_IA,False,Rhizoctonia_solani_AG1-IA_HG81,98.47,False
@@ -13869,7 +13910,7 @@ Rhizopogon rudus,Rhizopogon_rudus_AM-MX12-043h,False,Rhizopogon_rudus_AM-MX12-04
 Rhizopogon rudus,Rhizopogon_rudus_AM-MX12-054f,False,Rhizopogon_rudus_AM-MX12-043c,99.23,True
 Rhizopogon rudus,Rhizopogon_rudus_AM-MX12-062,False,Rhizopogon_rudus_AM-MX12-043c,99.34,True
 Rhizopogon rudus,Rhizopogon_rudus_AM-UT12-140b,False,Rhizopogon_rudus_AM-MX12-043c,98.68,False
-Rhizopogon salebrosus,Rhizopogon_salebrosus_AM-AZ12-036,False,Rhizopogon_salebrosus_TDB-379,96.39,False
+Rhizopogon salebrosus,Rhizopogon_salebrosus_AM-AZ12-036,False,Rhizopogon_salebrosus_TDB-379,96.38,False
 Rhizopogon salebrosus,Rhizopogon_salebrosus_TDB-379,True,Rhizopogon_salebrosus_TDB-379,100.0,False
 Rhizopogon sp. AM-2018a,Rhizopogon_sp._AM-2018a_AM-CA11-010,False,Rhizopogon_sp._AM-2018a_AM-CA11-027,98.74,False
 Rhizopogon sp. AM-2018a,Rhizopogon_sp._AM-2018a_AM-CA11-027,True,Rhizopogon_sp._AM-2018a_AM-CA11-027,100.0,False
@@ -13963,7 +14004,7 @@ Rhizopus delemar,Rhizopus_delemar_Type_II_NRRL_21446,False,Rhizopus_delemar_SE_P
 Rhizopus delemar,Rhizopus_delemar_Type_II_NRRL_21447,False,Rhizopus_delemar_SE_PDA7,99.93,True
 Rhizopus delemar,Rhizopus_delemar_Type_II_NRRL_21477,False,Rhizopus_delemar_SE_PDA7,99.91,True
 Rhizopus delemar,Rhizopus_delemar_Type_I_NRRL_21789,False,Rhizopus_delemar_SE_PDA7,99.94,True
-Rhizopus microsporus,Rhizopus_microsporus,False,Rhizopus_microsporus_B9738,96.47,False
+Rhizopus microsporus,Rhizopus_microsporus,False,Rhizopus_microsporus_B9738,96.46,False
 Rhizopus microsporus,Rhizopus_microsporus_56019,False,Rhizopus_microsporus_B9738,97.95,False
 Rhizopus microsporus,Rhizopus_microsporus_56028,False,Rhizopus_microsporus_B9738,,False
 Rhizopus microsporus,Rhizopus_microsporus_ATCC_11559,False,Rhizopus_microsporus_B9738,94.72,False
@@ -14256,7 +14297,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_460,False,Saccharomyces_cerevi
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_5-3004,False,Saccharomyces_cerevisiae_SX6,98.78,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_502,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_6464,False,Saccharomyces_cerevisiae_SX6,98.6,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_6P-33G-D373,False,Saccharomyces_cerevisiae_SX6,98.48,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_74-D694,False,Saccharomyces_cerevisiae_SX6,98.77,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_9464,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_98-5,False,Saccharomyces_cerevisiae_SX6,98.75,False
@@ -14275,19 +14315,11 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_AL3-h,False,Saccharomyces_cere
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_ANG.CJ.1,False,Saccharomyces_cerevisiae_SX6,98.84,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_ANG1,False,Saccharomyces_cerevisiae_SX6,98.79,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_ANGGW.1,False,Saccharomyces_cerevisiae_SX6,98.85,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_AOP25_D2_surf_bin_9,False,Saccharomyces_cerevisiae_SX6,98.68,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_ATCC_MYA-796,False,Saccharomyces_cerevisiae_SX6,98.86,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_ATCC_MYA-797,False,Saccharomyces_cerevisiae_SX6,98.86,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_AWRI1427,False,Saccharomyces_cerevisiae_SX6,98.6,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_AWRI1430,False,Saccharomyces_cerevisiae_SX6,98.83,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_AWRI1432,False,Saccharomyces_cerevisiae_SX6,98.43,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_AWRI1631,False,Saccharomyces_cerevisiae_SX6,98.59,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_AWRI2880,False,Saccharomyces_cerevisiae_SX6,98.84,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_AWRI2911,False,Saccharomyces_cerevisiae_SX6,98.75,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_AWRI767,False,Saccharomyces_cerevisiae_SX6,98.52,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_AWRI795,False,Saccharomyces_cerevisiae_SX6,98.42,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_AWRI796,False,Saccharomyces_cerevisiae_SX6,98.7,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_AWRI935,False,Saccharomyces_cerevisiae_SX6,97.48,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Awamori-101,False,Saccharomyces_cerevisiae_SX6,98.88,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_B1-1,False,Saccharomyces_cerevisiae_SX6,98.72,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_BAW-6,False,Saccharomyces_cerevisiae_SX6,98.8,False
@@ -14360,7 +14392,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CBS_493.94,False,Saccharomyces
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CBS_7960,False,Saccharomyces_cerevisiae_SX6,98.83,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CDRDR_sf_H,False,Saccharomyces_cerevisiae_SX6,98.86,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CEN.PK,False,Saccharomyces_cerevisiae_SX6,98.8,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CEN.PK113-7D,False,Saccharomyces_cerevisiae_SX6,98.81,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CEN.PK113-7D,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CEN.PK2-1C,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CEN.PK2-1Ca,False,Saccharomyces_cerevisiae_SX6,98.84,False
@@ -14385,9 +14416,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CLIB560,False,Saccharomyces_ce
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CLPY01,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CQJZ1.4,False,Saccharomyces_cerevisiae_SX6,98.78,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CRIRIwf_A11,False,Saccharomyces_cerevisiae_SX6,98.86,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CTeuk-1741,False,Saccharomyces_cerevisiae_SX6,98.94,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CTeuk-1822,False,Saccharomyces_cerevisiae_SX6,97.63,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_CTeuk-1829,False,Saccharomyces_cerevisiae_SX6,98.74,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_D273-10B,False,Saccharomyces_cerevisiae_SX6,98.83,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_DBL.1,False,Saccharomyces_cerevisiae_SX6,98.81,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_DBVPG1373,False,Saccharomyces_cerevisiae_SX6,98.88,False
@@ -14402,7 +14430,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_DGY1740,False,Saccharomyces_ce
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_DGY1744,False,Saccharomyces_cerevisiae_SX6,98.74,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_DGY1747,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_DGY1751,False,Saccharomyces_cerevisiae_SX6,98.7,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_DJJ01,False,Saccharomyces_cerevisiae_SX6,98.91,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_DJM4.1,False,Saccharomyces_cerevisiae_SX6,98.83,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_DX10-3,False,Saccharomyces_cerevisiae_SX6,98.78,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_EBY.VW4000,False,Saccharomyces_cerevisiae_SX6,98.88,False
@@ -14427,10 +14454,8 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_ETPN7,False,Saccharomyces_cere
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_ETPN8,False,Saccharomyces_cerevisiae_SX6,98.84,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_EthanolRed,False,Saccharomyces_cerevisiae_SX6,98.88,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Ethanol_Red,False,Saccharomyces_cerevisiae_SX6,98.83,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_F,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_F3-4,False,Saccharomyces_cerevisiae_SX6,98.74,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_F53,False,Saccharomyces_cerevisiae_SX6,98.74,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_FDAARGOS_613,False,Saccharomyces_cerevisiae_SX6,98.74,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_FELIX_MS184,False,Saccharomyces_cerevisiae_SX6,98.9,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_FELIX_MS185,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_FELIX_MS243,False,Saccharomyces_cerevisiae_SX6,98.74,False
@@ -14519,7 +14544,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_HLJ3,False,Saccharomyces_cerev
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_HLJ4,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_HLJ59,False,Saccharomyces_cerevisiae_SX6,98.83,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_HLJU1,False,Saccharomyces_cerevisiae_SX6,98.84,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_HN1,False,Saccharomyces_cerevisiae_SX6,98.7,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_HN1.9,False,Saccharomyces_cerevisiae_SX6,98.83,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_HN10,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_HN11,False,Saccharomyces_cerevisiae_SX6,98.76,False
@@ -14552,7 +14576,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_HZJZ5.4,False,Saccharomyces_ce
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_HZJZ5.5,False,Saccharomyces_cerevisiae_SX6,98.86,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Hm-1,False,Saccharomyces_cerevisiae_SX6,98.91,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_I-118,False,Saccharomyces_cerevisiae_SX6,98.81,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_I-25,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_I-30,False,Saccharomyces_cerevisiae_SX6,98.81,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_I-328,False,Saccharomyces_cerevisiae_SX6,98.83,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_I-329,False,Saccharomyces_cerevisiae_SX6,98.75,False
@@ -14560,7 +14583,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_I-566,False,Saccharomyces_cere
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_I14,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_ID41-6-161-I0,False,Saccharomyces_cerevisiae_SX6,98.85,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_ID41-6-161-U7,False,Saccharomyces_cerevisiae_SX6,98.85,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_IL-01,False,Saccharomyces_cerevisiae_SX6,98.5,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_IMF17,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_IMX2600,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_INSC1005,False,Saccharomyces_cerevisiae_SX6,98.75,False
@@ -14658,7 +14680,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_LW2591Y,False,Saccharomyces_ce
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_L_1374,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_L_1528,False,Saccharomyces_cerevisiae_SX6,98.74,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Lalvin_EC1118,False,Saccharomyces_cerevisiae_SX6,98.8,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Lalvin_L2056,False,Saccharomyces_cerevisiae_SX6,98.67,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Lalvin_QA23,False,Saccharomyces_cerevisiae_SX6,98.66,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Lava32_15,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Lava32_6,False,Saccharomyces_cerevisiae_SX6,98.85,False
@@ -14681,7 +14702,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_MAUN4,False,Saccharomyces_cere
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_MAUN5,False,Saccharomyces_cerevisiae_SX6,98.88,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_MBY1649,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_MCN1500_10C,False,Saccharomyces_cerevisiae_SX6,98.74,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_MCN1500_3B,False,Saccharomyces_cerevisiae_SX6,98.77,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_MCN1500_3C,False,Saccharomyces_cerevisiae_SX6,98.86,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_MEC4006,False,Saccharomyces_cerevisiae_SX6,98.73,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_MJ73,False,Saccharomyces_cerevisiae_SX6,98.76,False
@@ -14713,11 +14733,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_MUCL42908,False,Saccharomyces_
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Makgeolli,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_N15_4,False,Saccharomyces_cerevisiae_SX6,98.78,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NAM34-4C,False,Saccharomyces_cerevisiae_SX6,98.86,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NBRC_110416,False,Saccharomyces_cerevisiae_SX6,98.83,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NBRC_1346,False,Saccharomyces_cerevisiae_SX6,98.83,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NBRC_2043,False,Saccharomyces_cerevisiae_SX6,98.83,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NBRC_2044,False,Saccharomyces_cerevisiae_SX6,98.84,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NBRC_2375,False,Saccharomyces_cerevisiae_SX6,98.84,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NC-02,False,Saccharomyces_cerevisiae_SX6,98.92,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NCFS1,False,Saccharomyces_cerevisiae_SX6,98.81,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NCIM3186,False,Saccharomyces_cerevisiae_SX6,98.61,False
@@ -14780,7 +14795,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NCYC1408,False,Saccharomyces_c
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NCYC1409,False,Saccharomyces_cerevisiae_SX6,98.81,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NCYC1410,False,Saccharomyces_cerevisiae_SX6,98.86,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NCYC1413,False,Saccharomyces_cerevisiae_SX6,98.8,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NCYC1414,False,Saccharomyces_cerevisiae_SX6,98.82,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NCYC1415,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NCYC1444,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_NCYC1529,False,Saccharomyces_cerevisiae_SX6,98.8,False
@@ -15083,7 +15097,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_SGU90,False,Saccharomyces_cere
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_SHXU1,False,Saccharomyces_cerevisiae_SX6,98.86,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_SK1,False,Saccharomyces_cerevisiae_SX6,98.7,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_SK23,False,Saccharomyces_cerevisiae_SX6,98.47,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_SMY63,False,Saccharomyces_cerevisiae_SX6,98.81,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_SPSC01,False,Saccharomyces_cerevisiae_SX6,98.83,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_SRCM100587,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_SX1,False,Saccharomyces_cerevisiae_SX6,99.87,True
@@ -15176,7 +15189,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_WL1,False,Saccharomyces_cerevi
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_WL2,False,Saccharomyces_cerevisiae_SX6,98.84,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_WL3,False,Saccharomyces_cerevisiae_SX6,98.82,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_WL4,False,Saccharomyces_cerevisiae_SX6,98.86,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_WLP500,False,Saccharomyces_cerevisiae_SX6,98.78,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_WM11-3,False,Saccharomyces_cerevisiae_SX6,98.78,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_WM7-1,False,Saccharomyces_cerevisiae_SX6,98.77,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_WSERCsf_G4,False,Saccharomyces_cerevisiae_SX6,98.86,False
@@ -15192,11 +15204,9 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XJ4,False,Saccharomyces_cerevi
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XJ5,False,Saccharomyces_cerevisiae_SX6,98.85,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XJ6,False,Saccharomyces_cerevisiae_SX6,98.94,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XJ7,False,Saccharomyces_cerevisiae_SX6,98.92,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XJ7.3,False,Saccharomyces_cerevisiae_SX6,98.92,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XJN1,False,Saccharomyces_cerevisiae_SX6,98.84,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XJN2,False,Saccharomyces_cerevisiae_SX6,98.86,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XJN3,False,Saccharomyces_cerevisiae_SX6,98.83,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XP,False,Saccharomyces_cerevisiae_SX6,98.73,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XST,False,Saccharomyces_cerevisiae_SX6,98.78,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XXY26L.1,False,Saccharomyces_cerevisiae_SX6,98.37,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XXY30L.2,False,Saccharomyces_cerevisiae_SX6,98.35,False
@@ -15208,22 +15218,16 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XZ3.1,False,Saccharomyces_cere
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XZ4.1,False,Saccharomyces_cerevisiae_SX6,98.82,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XZ4.2,False,Saccharomyces_cerevisiae_SX6,98.81,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_XZ7,False,Saccharomyces_cerevisiae_SX6,98.82,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Y-567,False,Saccharomyces_cerevisiae_SX6,98.86,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Y10,False,Saccharomyces_cerevisiae_SX6,98.88,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Y12,False,Saccharomyces_cerevisiae_SX6,98.73,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Y169,False,Saccharomyces_cerevisiae_SX6,98.66,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Y2805,False,Saccharomyces_cerevisiae_SX6,98.73,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Y55,False,Saccharomyces_cerevisiae_SX6,98.83,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Y9,False,Saccharomyces_cerevisiae_SX6,98.52,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_Y9_Hap1,False,Saccharomyces_cerevisiae_SX6,98.9,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YA3,False,Saccharomyces_cerevisiae_SX6,98.86,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YAF019,False,Saccharomyces_cerevisiae_SX6,98.16,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YAF064,False,Saccharomyces_cerevisiae_SX6,98.73,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YAF129,False,Saccharomyces_cerevisiae_SX6,96.2,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YAF140,False,Saccharomyces_cerevisiae_SX6,97.75,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YAF153,False,Saccharomyces_cerevisiae_SX6,94.45,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YAF155,False,Saccharomyces_cerevisiae_SX6,90.02,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YAF156,False,Saccharomyces_cerevisiae_SX6,94.67,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YAL1,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YIIc17_E5,False,Saccharomyces_cerevisiae_SX6,98.73,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1078,False,Saccharomyces_cerevisiae_SX6,98.49,False
@@ -15265,7 +15269,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1402,False,Saccharomyces_ce
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1415,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1417,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1418,False,Saccharomyces_cerevisiae_SX6,98.97,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1419,False,Saccharomyces_cerevisiae_SX6,98.81,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1433,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1434,False,Saccharomyces_cerevisiae_SX6,98.86,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1439,False,Saccharomyces_cerevisiae_SX6,98.75,False
@@ -15275,7 +15278,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1447,False,Saccharomyces_ce
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM145,False,Saccharomyces_cerevisiae_SX6,98.73,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1450,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1460,False,Saccharomyces_cerevisiae_SX6,98.81,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1463,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1477,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1478,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM1479,False,Saccharomyces_cerevisiae_SX6,98.81,False
@@ -15293,9 +15295,7 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM244,False,Saccharomyces_cer
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM248,False,Saccharomyces_cerevisiae_SX6,98.42,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM269,False,Saccharomyces_cerevisiae_SX6,98.88,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM270,False,Saccharomyces_cerevisiae_SX6,98.8,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM271,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM280,False,Saccharomyces_cerevisiae_SX6,98.79,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM320,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM326,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM339,False,Saccharomyces_cerevisiae_SX6,98.87,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM421,False,Saccharomyces_cerevisiae_SX6,98.81,False
@@ -15308,7 +15308,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM456,False,Saccharomyces_cer
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM470,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM541,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM554,False,Saccharomyces_cerevisiae_SX6,98.8,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM555,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM627,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM653,False,Saccharomyces_cerevisiae_SX6,98.81,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_YJM681,False,Saccharomyces_cerevisiae_SX6,98.81,False
@@ -15472,7 +15471,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_bread001,False,Saccharomyces_c
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_bread002,False,Saccharomyces_cerevisiae_SX6,98.75,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_bread003,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_bread004,False,Saccharomyces_cerevisiae_SX6,98.8,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_db146,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_g833-1B,False,Saccharomyces_cerevisiae_SX6,98.83,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_kirkman,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_laboratory001,False,Saccharomyces_cerevisiae_SX6,98.74,False
@@ -15526,7 +15524,6 @@ Saccharomyces cerevisiae,Saccharomyces_cerevisiae_wine017,False,Saccharomyces_ce
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_wine018,False,Saccharomyces_cerevisiae_SX6,98.8,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_wine019,False,Saccharomyces_cerevisiae_SX6,98.74,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_x303,False,Saccharomyces_cerevisiae_SX6,98.75,False
-Saccharomyces cerevisiae,Saccharomyces_cerevisiae_yHQL694,False,Saccharomyces_cerevisiae_SX6,98.54,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_ySR127,False,Saccharomyces_cerevisiae_SX6,98.74,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_ySR128,False,Saccharomyces_cerevisiae_SX6,98.73,False
 Saccharomyces cerevisiae,Saccharomyces_cerevisiae_yT1291,False,Saccharomyces_cerevisiae_SX6,98.75,False
@@ -15614,7 +15611,7 @@ Saccharomyces eubayanus x Saccharomyces uvarum,Saccharomyces_eubayanus_x_Sacchar
 Saccharomyces eubayanus x Saccharomyces uvarum,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL565,True,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL565,100.0,False
 Saccharomyces eubayanus x Saccharomyces uvarum,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL566,False,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL565,99.49,True
 Saccharomyces eubayanus x Saccharomyces uvarum,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL567,False,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL565,99.36,True
-Saccharomyces eubayanus x Saccharomyces uvarum,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL569,False,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL565,99.33,True
+Saccharomyces eubayanus x Saccharomyces uvarum,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL569,False,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL565,99.36,True
 Saccharomyces eubayanus x Saccharomyces uvarum,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL570,False,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL565,99.56,True
 Saccharomyces eubayanus x Saccharomyces uvarum,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL572,False,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL565,99.02,True
 Saccharomyces eubayanus x Saccharomyces uvarum,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL573,False,Saccharomyces_eubayanus_x_Saccharomyces_uvarum_yHQL565,99.25,True
@@ -15623,27 +15620,26 @@ Saccharomyces eubayanus x Saccharomyces uvarum,Saccharomyces_eubayanus_x_Sacchar
 Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii,False,Saccharomyces_kudriavzevii_IFO1802,98.8,False
 Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_CBS8840,False,Saccharomyces_kudriavzevii_IFO1802,99.99,True
 Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_CR85,False,Saccharomyces_kudriavzevii_IFO1802,98.75,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1056,False,Saccharomyces_kudriavzevii_IFO1802,98.79,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1057,False,Saccharomyces_kudriavzevii_IFO1802,98.71,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1062,False,Saccharomyces_kudriavzevii_IFO1802,98.75,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1066,False,Saccharomyces_kudriavzevii_IFO1802,98.75,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1069,False,Saccharomyces_kudriavzevii_IFO1802,98.71,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1071,False,Saccharomyces_kudriavzevii_IFO1802,98.71,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1072,False,Saccharomyces_kudriavzevii_IFO1802,98.77,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1073,False,Saccharomyces_kudriavzevii_IFO1802,98.78,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1074,False,Saccharomyces_kudriavzevii_IFO1802,98.77,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1075,False,Saccharomyces_kudriavzevii_IFO1802,98.78,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1076,False,Saccharomyces_kudriavzevii_IFO1802,98.77,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1077,False,Saccharomyces_kudriavzevii_IFO1802,98.75,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1078,False,Saccharomyces_kudriavzevii_IFO1802,98.75,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1079,False,Saccharomyces_kudriavzevii_IFO1802,98.78,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1094,False,Saccharomyces_kudriavzevii_IFO1802,98.79,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_IFO10990,False,Saccharomyces_kudriavzevii_IFO1802,99.73,True
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_IFO10991,False,Saccharomyces_kudriavzevii_IFO1802,99.68,True
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1056,False,Saccharomyces_kudriavzevii_IFO1802,98.89,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1062,False,Saccharomyces_kudriavzevii_IFO1802,98.95,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1066,False,Saccharomyces_kudriavzevii_IFO1802,98.96,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1069,False,Saccharomyces_kudriavzevii_IFO1802,98.84,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1071,False,Saccharomyces_kudriavzevii_IFO1802,98.89,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1072,False,Saccharomyces_kudriavzevii_IFO1802,98.89,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1073,False,Saccharomyces_kudriavzevii_IFO1802,98.9,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1074,False,Saccharomyces_kudriavzevii_IFO1802,98.9,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1075,False,Saccharomyces_kudriavzevii_IFO1802,98.9,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1076,False,Saccharomyces_kudriavzevii_IFO1802,98.89,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1077,False,Saccharomyces_kudriavzevii_IFO1802,98.89,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1078,False,Saccharomyces_kudriavzevii_IFO1802,98.89,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1079,False,Saccharomyces_kudriavzevii_IFO1802,98.9,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_FM1094,False,Saccharomyces_kudriavzevii_IFO1802,98.95,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_IFO10990,False,Saccharomyces_kudriavzevii_IFO1802,99.84,True
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_IFO10991,False,Saccharomyces_kudriavzevii_IFO1802,99.85,True
 Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_IFO1802,True,Saccharomyces_kudriavzevii_IFO1802,100.0,False
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_IFO1803,False,Saccharomyces_kudriavzevii_IFO1802,95.8,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_IFO1803,False,Saccharomyces_kudriavzevii_IFO1802,95.84,False
 Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_IFO_1802,False,Saccharomyces_kudriavzevii_IFO1802,99.93,True
-Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_ZP591,False,Saccharomyces_kudriavzevii_IFO1802,98.79,False
+Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_ZP591,False,Saccharomyces_kudriavzevii_IFO1802,98.84,False
 Saccharomyces kudriavzevii,Saccharomyces_kudriavzevii_yHKS300,False,Saccharomyces_kudriavzevii_IFO1802,98.81,False
 Saccharomyces mikatae,Saccharomyces_mikatae_IFO1815,False,Saccharomyces_mikatae_NBRC_10994,94.82,False
 Saccharomyces mikatae,Saccharomyces_mikatae_IFO_1815,False,Saccharomyces_mikatae_NBRC_10994,94.72,False
@@ -15709,7 +15705,7 @@ Saccharomyces pastorianus,Saccharomyces_pastorianus_CBS1503,False,Saccharomyces_
 Saccharomyces pastorianus,Saccharomyces_pastorianus_CBS1513,False,Saccharomyces_pastorianus_CBS_1484,99.71,True
 Saccharomyces pastorianus,Saccharomyces_pastorianus_CBS1538,False,Saccharomyces_pastorianus_CBS_1484,99.81,True
 Saccharomyces pastorianus,Saccharomyces_pastorianus_CBS_1174,False,Saccharomyces_pastorianus_CBS_1484,99.78,True
-Saccharomyces pastorianus,Saccharomyces_pastorianus_CBS_1483,False,Saccharomyces_pastorianus_CBS_1484,99.69,True
+Saccharomyces pastorianus,Saccharomyces_pastorianus_CBS_1483,False,Saccharomyces_pastorianus_CBS_1484,99.68,True
 Saccharomyces pastorianus,Saccharomyces_pastorianus_CBS_1484,True,Saccharomyces_pastorianus_CBS_1484,100.0,False
 Saccharomyces pastorianus,Saccharomyces_pastorianus_CBS_1503,False,Saccharomyces_pastorianus_CBS_1484,99.63,True
 Saccharomyces pastorianus,Saccharomyces_pastorianus_CBS_1513,False,Saccharomyces_pastorianus_CBS_1484,99.34,True
@@ -15718,7 +15714,7 @@ Saccharomyces pastorianus,Saccharomyces_pastorianus_CBS_2156,False,Saccharomyces
 Saccharomyces pastorianus,Saccharomyces_pastorianus_CBS_2440,False,Saccharomyces_pastorianus_CBS_1484,99.7,True
 Saccharomyces pastorianus,Saccharomyces_pastorianus_CBS_5832,False,Saccharomyces_pastorianus_CBS_1484,99.96,True
 Saccharomyces pastorianus,Saccharomyces_pastorianus_CCY48_-_91,False,Saccharomyces_pastorianus_CBS_1484,99.69,True
-Saccharomyces pastorianus,Saccharomyces_pastorianus_DBVPG_6033i,False,Saccharomyces_pastorianus_CBS_1484,99.53,True
+Saccharomyces pastorianus,Saccharomyces_pastorianus_DBVPG_6033i,False,Saccharomyces_pastorianus_CBS_1484,99.54,True
 Saccharomyces pastorianus,Saccharomyces_pastorianus_DBVPG_6261i,False,Saccharomyces_pastorianus_CBS_1484,99.67,True
 Saccharomyces pastorianus,Saccharomyces_pastorianus_HA2560,False,Saccharomyces_pastorianus_CBS_1484,94.0,False
 Saccharomyces pastorianus,Saccharomyces_pastorianus_Hybrid_yeast_1,False,Saccharomyces_pastorianus_CBS_1484,99.45,True
@@ -15781,9 +15777,9 @@ Saccharomycetaceae sp.,Saccharomycetaceae_sp._CTeuk-1826,False,Saccharomycetacea
 Saccharomycetaceae sp.,Saccharomycetaceae_sp._CTeuk-1827,False,Saccharomycetaceae_sp._CTeuk-1823,99.92,True
 Saccharomycetaceae sp.,Saccharomycetaceae_sp._CTeuk-1828,False,Saccharomycetaceae_sp._CTeuk-1823,99.93,True
 Saccharomycetaceae sp.,Saccharomycetaceae_sp._CTeuk-1830,False,Saccharomycetaceae_sp._CTeuk-1823,,False
-Saccharomycetaceae sp.,Saccharomycetaceae_sp._CTeuk-1832,False,Saccharomycetaceae_sp._CTeuk-1823,99.85,True
+Saccharomycetaceae sp.,Saccharomycetaceae_sp._CTeuk-1832,False,Saccharomycetaceae_sp._CTeuk-1823,99.84,True
 Saccharomycetaceae sp.,Saccharomycetaceae_sp._CTeuk-1834,False,Saccharomycetaceae_sp._CTeuk-1823,,False
-Saccharomycetaceae sp.,Saccharomycetaceae_sp._CTeuk-1835,False,Saccharomycetaceae_sp._CTeuk-1823,97.12,False
+Saccharomycetaceae sp.,Saccharomycetaceae_sp._CTeuk-1835,False,Saccharomycetaceae_sp._CTeuk-1823,97.1,False
 Saccharomycetaceae sp.,Saccharomycetaceae_sp._CTeuk-1836,False,Saccharomycetaceae_sp._CTeuk-1823,98.24,False
 Saccharomycetales sp.,Saccharomycetales_sp._CTeuk-1144,False,Saccharomycetales_sp._CTeuk-1824,,False
 Saccharomycetales sp.,Saccharomycetales_sp._CTeuk-1437,False,Saccharomycetales_sp._CTeuk-1824,,False
@@ -15867,7 +15863,7 @@ Saccharomycopsis vini,Saccharomycopsis_vini_CBS_4110,False,Saccharomycopsis_vini
 Saccharomycopsis vini,Saccharomycopsis_vini_CBS_8420,False,Saccharomycopsis_vini_CBS_4097,96.02,False
 Saitozyma podzolica,Saitozyma_podzolica,False,Saitozyma_podzolica_DSM_27192,88.07,False
 Saitozyma podzolica,Saitozyma_podzolica_DSM_27192,True,Saitozyma_podzolica_DSM_27192,100.0,False
-Sanghuangporus baumii,Sanghuangporus_baumii_821,False,Sanghuangporus_baumii_KMRB15090420,88.17,False
+Sanghuangporus baumii,Sanghuangporus_baumii_821,False,Sanghuangporus_baumii_KMRB15090420,88.16,False
 Sanghuangporus baumii,Sanghuangporus_baumii_KMRB15090420,True,Sanghuangporus_baumii_KMRB15090420,100.0,False
 Sanghuangporus sanghuang,Sanghuangporus_sanghuang_KMRB14110725,True,Sanghuangporus_sanghuang_KMRB14110725,100.0,False
 Sanghuangporus sanghuang,Sanghuangporus_sanghuang_Kangneng,False,Sanghuangporus_sanghuang_KMRB14110725,92.24,False
@@ -16102,8 +16098,8 @@ Schizothecium sp. GE-2024h,Schizothecium_sp._GE-2024h_PSN935,False,Schizothecium
 Schizothecium sp. GE-2024i,Schizothecium_sp._GE-2024i_PSN1067,False,Schizothecium_sp._GE-2024i_PSN572_mat,99.76,True
 Schizothecium sp. GE-2024i,Schizothecium_sp._GE-2024i_PSN572_mat,True,Schizothecium_sp._GE-2024i_PSN572_mat,100.0,False
 Schizothecium sp. GE-2024i,Schizothecium_sp._GE-2024i_PSN708,False,Schizothecium_sp._GE-2024i_PSN572_mat,99.76,True
-Schizothecium sp. GE-2024i,Schizothecium_sp._GE-2024i_PSN831_mat,False,Schizothecium_sp._GE-2024i_PSN572_mat,99.8,True
-Schizothecium sp. GE-2024i,Schizothecium_sp._GE-2024i_PSN831_mat,False,Schizothecium_sp._GE-2024i_PSN572_mat,99.78,True
+Schizothecium sp. GE-2024i,Schizothecium_sp._GE-2024i_PSN831_Minus,False,Schizothecium_sp._GE-2024i_PSN572_mat,99.8,True
+Schizothecium sp. GE-2024i,Schizothecium_sp._GE-2024i_PSN831_Plus,False,Schizothecium_sp._GE-2024i_PSN572_mat,99.78,True
 Schizothecium sp. GE-2024j,Schizothecium_sp._GE-2024j_PSN580,False,Schizothecium_sp._GE-2024j_PSN776,99.85,True
 Schizothecium sp. GE-2024j,Schizothecium_sp._GE-2024j_PSN776,True,Schizothecium_sp._GE-2024j_PSN776,100.0,False
 Schizothecium sp. GE-2024k,Schizothecium_sp._GE-2024k_PSN584,False,Schizothecium_sp._GE-2024k_PSN709m,99.77,True
@@ -16215,7 +16211,7 @@ Serendipita vermifera,Serendipita_vermifera_NFPB0129,True,Serendipita_vermifera_
 Serpula lacrymans,Serpula_lacrymans_S7.3,True,Serpula_lacrymans_S7.3,100.0,False
 Serpula lacrymans,Serpula_lacrymans_S7.9,False,Serpula_lacrymans_S7.3,99.93,True
 Serpula lacrymans,Serpula_lacrymans_SHA17-1,False,Serpula_lacrymans_S7.3,92.21,False
-Serpula lacrymans,Serpula_lacrymans_SL198,False,Serpula_lacrymans_S7.3,98.68,False
+Serpula lacrymans,Serpula_lacrymans_SL198,False,Serpula_lacrymans_S7.3,98.64,False
 Serpula lacrymans,Serpula_lacrymans_SL200,False,Serpula_lacrymans_S7.3,99.91,True
 Simplicillium aogashimaense,Simplicillium_aogashimaense_72-15.1,False,Simplicillium_aogashimaense_ZM-2020,99.66,True
 Simplicillium aogashimaense,Simplicillium_aogashimaense_HWYR21,False,Simplicillium_aogashimaense_ZM-2020,99.59,True
@@ -16229,7 +16225,7 @@ Simplicillium lamellicola,Simplicillium_lamellicola_MUC9740,False,Simplicillium_
 Simplicillium lamellicola,Simplicillium_lamellicola_STG-96,False,Simplicillium_lamellicola,90.73,False
 Simplicillium lanosoniveum,Simplicillium_lanosoniveum_MUC56234,False,Simplicillium_lanosoniveum_MUC56433,95.46,False
 Simplicillium lanosoniveum,Simplicillium_lanosoniveum_MUC56315,False,Simplicillium_lanosoniveum_MUC56433,97.38,False
-Simplicillium lanosoniveum,Simplicillium_lanosoniveum_MUC56330,False,Simplicillium_lanosoniveum_MUC56433,99.48,True
+Simplicillium lanosoniveum,Simplicillium_lanosoniveum_MUC56330,False,Simplicillium_lanosoniveum_MUC56433,99.45,True
 Simplicillium lanosoniveum,Simplicillium_lanosoniveum_MUC56433,True,Simplicillium_lanosoniveum_MUC56433,100.0,False
 Smittium culicis,Smittium_culicis_GSMNP,False,Smittium_culicis_ID-206-W2,,False
 Smittium culicis,Smittium_culicis_ID-206-W2,True,Smittium_culicis_ID-206-W2,100.0,False
@@ -16337,6 +16333,17 @@ Sporothrix stenoceras,Sporothrix_stenoceras_CMW_5346,True,Sporothrix_stenoceras_
 Sporothrix stenoceras,Sporothrix_stenoceras_CMW_5347,False,Sporothrix_stenoceras_CMW_5346,100.0,True
 Sporothrix variecibatus,Sporothrix_variecibatus_CBS_121960,False,Sporothrix_variecibatus_CBS_121961,98.58,False
 Sporothrix variecibatus,Sporothrix_variecibatus_CBS_121961,True,Sporothrix_variecibatus_CBS_121961,100.0,False
+Spraguea lophii,Spraguea_lophii_42_110,True,Spraguea_lophii_42_110,100.0,False
+Spraguea lophii,Spraguea_lophii_Celtic_Deep,False,Spraguea_lophii_42_110,99.76,True
+Spraguea lophii,Spraguea_lophii_New_Brunswick_1,False,Spraguea_lophii_42_110,94.54,False
+Spraguea lophii,Spraguea_lophii_New_Brunswick_4,False,Spraguea_lophii_42_110,94.65,False
+Spraguea lophii,Spraguea_lophii_New_Brunswick_8,False,Spraguea_lophii_42_110,94.66,False
+Spraguea lophii,Spraguea_lophii_New_Brunswick_9,False,Spraguea_lophii_42_110,94.66,False
+Spraguea lophii,Spraguea_lophii_New_Jersey_JS61,False,Spraguea_lophii_42_110,94.55,False
+Spraguea lophii,Spraguea_lophii_New_Jersey_RM18,False,Spraguea_lophii_42_110,94.66,False
+Spraguea lophii,Spraguea_lophii_New_Jersey_RW92,False,Spraguea_lophii_42_110,94.65,False
+Spraguea lophii,Spraguea_lophii_North_Atlantic,False,Spraguea_lophii_42_110,99.82,True
+Spraguea lophii,Spraguea_lophii_RA12034,False,Spraguea_lophii_42_110,99.83,True
 Stachybotrys chartarum,Stachybotrys_chartarum_51-11,True,Stachybotrys_chartarum_51-11,100.0,False
 Stachybotrys chartarum,Stachybotrys_chartarum_IBT_40288,False,Stachybotrys_chartarum_51-11,99.05,True
 Stachybotrys chartarum,Stachybotrys_chartarum_IBT_40293,False,Stachybotrys_chartarum_51-11,99.1,True
@@ -16465,7 +16472,6 @@ Talaromyces pinophilus,Talaromyces_pinophilus_PSF-12_1,False,Talaromyces_pinophi
 Talaromyces pinophilus,Talaromyces_pinophilus_Y-94,False,Talaromyces_pinophilus_NA01,98.51,False
 Talaromyces pinophilus,Talaromyces_pinophilus_Y117,False,Talaromyces_pinophilus_NA01,98.57,False
 Talaromyces proteolyticus,Talaromyces_proteolyticus_NRRL_3378,True,Talaromyces_proteolyticus_NRRL_3378,100.0,False
-Talaromyces proteolyticus,Talaromyces_proteolyticus_NRRL_3378,False,Talaromyces_proteolyticus_NRRL_3378,100.0,True
 Talaromyces proteolyticus,Talaromyces_proteolyticus_PMI_201,False,Talaromyces_proteolyticus_NRRL_3378,97.56,False
 Talaromyces purpureogenus,Talaromyces_purpureogenus_F6103,False,Talaromyces_purpureogenus_Q2,99.27,True
 Talaromyces purpureogenus,Talaromyces_purpureogenus_F6201Q,False,Talaromyces_purpureogenus_Q2,99.36,True
@@ -16543,9 +16549,9 @@ Thielaviopsis punctulata,Thielaviopsis_punctulata_DSM_102798,False,Thielaviopsis
 Tilletia bromi,Tilletia_bromi_DAOMC_238035,True,Tilletia_bromi_DAOMC_238035,100.0,False
 Tilletia bromi,Tilletia_bromi_DAOMC_238055,False,Tilletia_bromi_DAOMC_238035,99.01,True
 Tilletia caries,Tilletia_caries_517,False,Tilletia_caries_TC-1-MSG-1,99.63,True
-Tilletia caries,Tilletia_caries_AA11,False,Tilletia_caries_TC-1-MSG-1,99.85,True
+Tilletia caries,Tilletia_caries_AA11,False,Tilletia_caries_TC-1-MSG-1,99.86,True
 Tilletia caries,Tilletia_caries_AI,False,Tilletia_caries_TC-1-MSG-1,99.81,True
-Tilletia caries,Tilletia_caries_AO,False,Tilletia_caries_TC-1-MSG-1,99.86,True
+Tilletia caries,Tilletia_caries_AO,False,Tilletia_caries_TC-1-MSG-1,99.87,True
 Tilletia caries,Tilletia_caries_AZH3,False,Tilletia_caries_TC-1-MSG-1,99.86,True
 Tilletia caries,Tilletia_caries_CBS_121951,False,Tilletia_caries_TC-1-MSG-1,99.93,True
 Tilletia caries,Tilletia_caries_CBS_323.32,False,Tilletia_caries_TC-1-MSG-1,99.86,True
@@ -17229,7 +17235,7 @@ Ustilago hordei,Ustilago_hordei_Uh1273,False,Ustilago_hordei_Uh805,99.74,True
 Ustilago hordei,Ustilago_hordei_Uh1278,False,Ustilago_hordei_Uh805,99.67,True
 Ustilago hordei,Ustilago_hordei_Uh359,False,Ustilago_hordei_Uh805,99.84,True
 Ustilago hordei,Ustilago_hordei_Uh364,False,Ustilago_hordei_Uh805,99.71,True
-Ustilago hordei,Ustilago_hordei_Uh4857-4,False,Ustilago_hordei_Uh805,99.9,True
+Ustilago hordei,Ustilago_hordei_Uh4857-4,False,Ustilago_hordei_Uh805,99.89,True
 Ustilago hordei,Ustilago_hordei_Uh805,True,Ustilago_hordei_Uh805,100.0,False
 Ustilago hordei,Ustilago_hordei_Uh811,False,Ustilago_hordei_Uh805,99.74,True
 Ustilago hordei,Ustilago_hordei_Uh818,False,Ustilago_hordei_Uh805,99.74,True
@@ -17245,6 +17251,11 @@ Ustilago xerochloae,Ustilago_xerochloae_UMa702,True,Ustilago_xerochloae_UMa702,1
 Ustulina deusta,Ustulina_deusta_CBS_826.72,False,Ustulina_deusta_IL1129,98.72,False
 Ustulina deusta,Ustulina_deusta_DSM_104547,False,Ustulina_deusta_IL1129,98.61,False
 Ustulina deusta,Ustulina_deusta_IL1129,True,Ustulina_deusta_IL1129,100.0,False
+Vairimorpha bombi,Vairimorpha_bombi_O17.01,True,Vairimorpha_bombi_O17.01,100.0,False
+Vairimorpha bombi,Vairimorpha_bombi_VR1,False,Vairimorpha_bombi_O17.01,99.88,True
+Vairimorpha ceranae,Vairimorpha_ceranae_BRL,False,Vairimorpha_ceranae_BRL01,99.58,True
+Vairimorpha ceranae,Vairimorpha_ceranae_BRL01,True,Vairimorpha_ceranae_BRL01,100.0,False
+Vairimorpha ceranae,Vairimorpha_ceranae_PA08_1199,False,Vairimorpha_ceranae_BRL01,99.62,True
 Vanderwaltozyma osmotolerans,Vanderwaltozyma_osmotolerans_AH1110,True,Vanderwaltozyma_osmotolerans_AH1110,100.0,False
 Vanderwaltozyma osmotolerans,Vanderwaltozyma_osmotolerans_AH1119,False,Vanderwaltozyma_osmotolerans_AH1110,99.73,True
 Vanderwaltozyma polyspora,Vanderwaltozyma_polyspora_DSM_70294,False,Vanderwaltozyma_polyspora_NRRL_Y-8283,99.9,True
@@ -17256,6 +17267,8 @@ Vanrija humicola,Vanrija_humicola_JCM_1457,True,Vanrija_humicola_JCM_1457,100.0,
 Vanrija humicola,Vanrija_humicola_UJ1,False,Vanrija_humicola_JCM_1457,98.53,False
 Varicellaria rhodocarpa,Varicellaria_rhodocarpa,False,Varicellaria_rhodocarpa_T1912,99.97,True
 Varicellaria rhodocarpa,Varicellaria_rhodocarpa_T1912,True,Varicellaria_rhodocarpa_T1912,100.0,False
+Vavraia culicis,Vavraia_culicis,True,Vavraia_culicis,100.0,False
+Vavraia culicis,Vavraia_culicis_floridensis,False,Vavraia_culicis,99.31,True
 Venturia asperata,Venturia_asperata_2202,False,Venturia_asperata_2349,99.31,True
 Venturia asperata,Venturia_asperata_2349,True,Venturia_asperata_2349,100.0,False
 Venturia asperata,Venturia_asperata_2353,False,Venturia_asperata_2349,99.28,True
@@ -17273,7 +17286,7 @@ Venturia inaequalis,Venturia_inaequalis_1389,False,Venturia_inaequalis_2508,96.8
 Venturia inaequalis,Venturia_inaequalis_1393,False,Venturia_inaequalis_2508,98.16,False
 Venturia inaequalis,Venturia_inaequalis_1639,False,Venturia_inaequalis_2508,98.79,False
 Venturia inaequalis,Venturia_inaequalis_1669,False,Venturia_inaequalis_2508,97.43,False
-Venturia inaequalis,Venturia_inaequalis_1680,False,Venturia_inaequalis_2508,98.68,False
+Venturia inaequalis,Venturia_inaequalis_1680,False,Venturia_inaequalis_2508,98.71,False
 Venturia inaequalis,Venturia_inaequalis_186,False,Venturia_inaequalis_2508,96.82,False
 Venturia inaequalis,Venturia_inaequalis_2199,False,Venturia_inaequalis_2508,98.1,False
 Venturia inaequalis,Venturia_inaequalis_2222,False,Venturia_inaequalis_2508,98.28,False
@@ -17289,36 +17302,36 @@ Venturia inaequalis,Venturia_inaequalis_2263,False,Venturia_inaequalis_2508,97.5
 Venturia inaequalis,Venturia_inaequalis_2266,False,Venturia_inaequalis_2508,97.09,False
 Venturia inaequalis,Venturia_inaequalis_2269,False,Venturia_inaequalis_2508,97.68,False
 Venturia inaequalis,Venturia_inaequalis_2389,False,Venturia_inaequalis_2508,,False
-Venturia inaequalis,Venturia_inaequalis_2446,False,Venturia_inaequalis_2508,98.05,False
+Venturia inaequalis,Venturia_inaequalis_2446,False,Venturia_inaequalis_2508,98.06,False
 Venturia inaequalis,Venturia_inaequalis_2447,False,Venturia_inaequalis_2508,98.24,False
 Venturia inaequalis,Venturia_inaequalis_2448,False,Venturia_inaequalis_2508,98.49,False
 Venturia inaequalis,Venturia_inaequalis_2449,False,Venturia_inaequalis_2508,98.51,False
-Venturia inaequalis,Venturia_inaequalis_2450,False,Venturia_inaequalis_2508,98.17,False
+Venturia inaequalis,Venturia_inaequalis_2450,False,Venturia_inaequalis_2508,98.18,False
 Venturia inaequalis,Venturia_inaequalis_2451,False,Venturia_inaequalis_2508,98.14,False
 Venturia inaequalis,Venturia_inaequalis_2452,False,Venturia_inaequalis_2508,98.55,False
 Venturia inaequalis,Venturia_inaequalis_2453,False,Venturia_inaequalis_2508,98.32,False
 Venturia inaequalis,Venturia_inaequalis_2454,False,Venturia_inaequalis_2508,98.16,False
 Venturia inaequalis,Venturia_inaequalis_2455,False,Venturia_inaequalis_2508,98.24,False
-Venturia inaequalis,Venturia_inaequalis_2456,False,Venturia_inaequalis_2508,98.24,False
-Venturia inaequalis,Venturia_inaequalis_2457,False,Venturia_inaequalis_2508,98.18,False
+Venturia inaequalis,Venturia_inaequalis_2456,False,Venturia_inaequalis_2508,98.25,False
+Venturia inaequalis,Venturia_inaequalis_2457,False,Venturia_inaequalis_2508,98.21,False
 Venturia inaequalis,Venturia_inaequalis_2458,False,Venturia_inaequalis_2508,98.44,False
-Venturia inaequalis,Venturia_inaequalis_2459,False,Venturia_inaequalis_2508,98.1,False
+Venturia inaequalis,Venturia_inaequalis_2459,False,Venturia_inaequalis_2508,98.12,False
 Venturia inaequalis,Venturia_inaequalis_2460,False,Venturia_inaequalis_2508,98.28,False
 Venturia inaequalis,Venturia_inaequalis_2461,False,Venturia_inaequalis_2508,98.43,False
 Venturia inaequalis,Venturia_inaequalis_2462,False,Venturia_inaequalis_2508,98.62,False
 Venturia inaequalis,Venturia_inaequalis_2463,False,Venturia_inaequalis_2508,98.32,False
 Venturia inaequalis,Venturia_inaequalis_2464,False,Venturia_inaequalis_2508,98.64,False
-Venturia inaequalis,Venturia_inaequalis_2465,False,Venturia_inaequalis_2508,98.35,False
+Venturia inaequalis,Venturia_inaequalis_2465,False,Venturia_inaequalis_2508,98.37,False
 Venturia inaequalis,Venturia_inaequalis_2466,False,Venturia_inaequalis_2508,98.51,False
 Venturia inaequalis,Venturia_inaequalis_2467,False,Venturia_inaequalis_2508,98.49,False
 Venturia inaequalis,Venturia_inaequalis_2468,False,Venturia_inaequalis_2508,98.34,False
-Venturia inaequalis,Venturia_inaequalis_2469,False,Venturia_inaequalis_2508,97.99,False
+Venturia inaequalis,Venturia_inaequalis_2469,False,Venturia_inaequalis_2508,98.01,False
 Venturia inaequalis,Venturia_inaequalis_2470,False,Venturia_inaequalis_2508,98.51,False
 Venturia inaequalis,Venturia_inaequalis_2471,False,Venturia_inaequalis_2508,98.66,False
 Venturia inaequalis,Venturia_inaequalis_2472,False,Venturia_inaequalis_2508,98.48,False
 Venturia inaequalis,Venturia_inaequalis_2473,False,Venturia_inaequalis_2508,98.46,False
 Venturia inaequalis,Venturia_inaequalis_2474,False,Venturia_inaequalis_2508,98.51,False
-Venturia inaequalis,Venturia_inaequalis_2475,False,Venturia_inaequalis_2508,98.45,False
+Venturia inaequalis,Venturia_inaequalis_2475,False,Venturia_inaequalis_2508,98.47,False
 Venturia inaequalis,Venturia_inaequalis_2476,False,Venturia_inaequalis_2508,98.55,False
 Venturia inaequalis,Venturia_inaequalis_2478,False,Venturia_inaequalis_2508,98.19,False
 Venturia inaequalis,Venturia_inaequalis_2479,False,Venturia_inaequalis_2508,98.2,False
@@ -17327,7 +17340,7 @@ Venturia inaequalis,Venturia_inaequalis_2481,False,Venturia_inaequalis_2508,98.1
 Venturia inaequalis,Venturia_inaequalis_2482,False,Venturia_inaequalis_2508,98.13,False
 Venturia inaequalis,Venturia_inaequalis_2483,False,Venturia_inaequalis_2508,98.51,False
 Venturia inaequalis,Venturia_inaequalis_2484,False,Venturia_inaequalis_2508,97.74,False
-Venturia inaequalis,Venturia_inaequalis_2485,False,Venturia_inaequalis_2508,98.41,False
+Venturia inaequalis,Venturia_inaequalis_2485,False,Venturia_inaequalis_2508,98.43,False
 Venturia inaequalis,Venturia_inaequalis_2486,False,Venturia_inaequalis_2508,97.62,False
 Venturia inaequalis,Venturia_inaequalis_2487,False,Venturia_inaequalis_2508,97.57,False
 Venturia inaequalis,Venturia_inaequalis_2488,False,Venturia_inaequalis_2508,97.61,False
@@ -17346,7 +17359,7 @@ Venturia inaequalis,Venturia_inaequalis_2507,False,Venturia_inaequalis_2508,97.9
 Venturia inaequalis,Venturia_inaequalis_2508,True,Venturia_inaequalis_2508,100.0,False
 Venturia inaequalis,Venturia_inaequalis_301,False,Venturia_inaequalis_2508,98.26,False
 Venturia inaequalis,Venturia_inaequalis_DMI_063113,False,Venturia_inaequalis_2508,98.68,False
-Venturia inaequalis,Venturia_inaequalis_EU-B04,False,Venturia_inaequalis_2508,98.3,False
+Venturia inaequalis,Venturia_inaequalis_EU-B04,False,Venturia_inaequalis_2508,98.32,False
 Venturia inaequalis,Venturia_inaequalis_EU-NL24,False,Venturia_inaequalis_2508,98.13,False
 Venturia inaequalis,Venturia_inaequalis_ICMP_13258,False,Venturia_inaequalis_2508,98.35,False
 Venturia inaequalis,Venturia_inaequalis_Rs552,False,Venturia_inaequalis_2508,97.91,False
@@ -17457,13 +17470,13 @@ Verticillium longisporum,Verticillium_longisporum_M230,False,Verticillium_longis
 Verticillium longisporum,Verticillium_longisporum_M233,False,Verticillium_longisporum_PD589,99.03,True
 Verticillium longisporum,Verticillium_longisporum_M281,False,Verticillium_longisporum_PD589,99.03,True
 Verticillium longisporum,Verticillium_longisporum_PD589,True,Verticillium_longisporum_PD589,100.0,False
-Verticillium longisporum,Verticillium_longisporum_VL1,False,Verticillium_longisporum_PD589,98.74,False
+Verticillium longisporum,Verticillium_longisporum_VL1,False,Verticillium_longisporum_PD589,98.69,False
 Verticillium longisporum,Verticillium_longisporum_VL2,False,Verticillium_longisporum_PD589,98.58,False
 Verticillium longisporum,Verticillium_longisporum_VL20,False,Verticillium_longisporum_PD589,98.97,False
 Verticillium longisporum,Verticillium_longisporum_VL40,False,Verticillium_longisporum_PD589,99.03,True
 Verticillium longisporum,Verticillium_longisporum_VL43,False,Verticillium_longisporum_PD589,99.08,True
 Verticillium longisporum,Verticillium_longisporum_VLB2,False,Verticillium_longisporum_PD589,99.03,True
-Verticillium longisporum,Verticillium_longisporum_Vl145c,False,Verticillium_longisporum_PD589,97.61,False
+Verticillium longisporum,Verticillium_longisporum_Vl145c,False,Verticillium_longisporum_PD589,97.6,False
 Verticillium longisporum,Verticillium_longisporum_Vl32,False,Verticillium_longisporum_PD589,99.45,True
 Verticillium nonalfalfae,Verticillium_nonalfalfae_118378,False,Verticillium_nonalfalfae_298093,99.97,True
 Verticillium nonalfalfae,Verticillium_nonalfalfae_172737,False,Verticillium_nonalfalfae_298093,99.99,True
@@ -17626,8 +17639,8 @@ Williopsis subsufficiens,Williopsis_subsufficiens_NG8.2,True,Williopsis_subsuffi
 Williopsis subsufficiens,Williopsis_subsufficiens_NRRL_YB-1657T,False,Williopsis_subsufficiens_NG8.2,92.59,False
 Williopsis vartiovaarae,Williopsis_vartiovaarae,False,Williopsis_vartiovaarae_NRRL_Y-6701,98.26,False
 Williopsis vartiovaarae,Williopsis_vartiovaarae_NRRL_Y-6701,True,Williopsis_vartiovaarae_NRRL_Y-6701,100.0,False
-Wolfiporia cocos,Wolfiporia_cocos_DCH_750,False,Wolfiporia_cocos_DCH_776_SS20,99.39,True
-Wolfiporia cocos,Wolfiporia_cocos_DCH_750_SS40,False,Wolfiporia_cocos_DCH_776_SS20,99.39,True
+Wolfiporia cocos,Wolfiporia_cocos_DCH_750,False,Wolfiporia_cocos_DCH_776_SS20,99.37,True
+Wolfiporia cocos,Wolfiporia_cocos_DCH_750_SS40,False,Wolfiporia_cocos_DCH_776_SS20,99.35,True
 Wolfiporia cocos,Wolfiporia_cocos_DCH_776_SS20,True,Wolfiporia_cocos_DCH_776_SS20,100.0,False
 Wolfiporia cocos,Wolfiporia_cocos_GDMCC_5.219,False,Wolfiporia_cocos_DCH_776_SS20,99.51,True
 Wolfiporia cocos,Wolfiporia_cocos_KMCC03342,False,Wolfiporia_cocos_DCH_776_SS20,99.62,True
@@ -17768,7 +17781,7 @@ Zalaria obscura,Zalaria_obscura_NU284,False,Zalaria_obscura_FKI-L7-BK-DRAB2,97.5
 Zancudomyces culisetae,Zancudomyces_culisetae_COL-18-3,False,Zancudomyces_culisetae_HAW-14-8,98.87,False
 Zancudomyces culisetae,Zancudomyces_culisetae_HAW-14-8,True,Zancudomyces_culisetae_HAW-14-8,100.0,False
 Zarea fungicola,Zarea_fungicola,True,Zarea_fungicola,100.0,False
-Zarea fungicola,Zarea_fungicola_Babe33,False,Zarea_fungicola,89.58,False
+Zarea fungicola,Zarea_fungicola_Babe33,False,Zarea_fungicola,89.59,False
 Zarea fungicola,Zarea_fungicola_MUC9781,False,Zarea_fungicola,99.97,True
 Zasmidium cellare,Zasmidium_cellare,False,Zasmidium_cellare_ATCC_36951,,False
 Zasmidium cellare,Zasmidium_cellare_ATCC_36951,True,Zasmidium_cellare_ATCC_36951,100.0,False
@@ -17848,7 +17861,6 @@ Zygosaccharomyces pseudobailii,Zygosaccharomyces_pseudobailii_PF2202,False,Zygos
 Zygosaccharomyces pseudobailii,Zygosaccharomyces_pseudobailii_PYCC9369,False,Zygosaccharomyces_pseudobailii,99.67,True
 Zygosaccharomyces pseudobailii,Zygosaccharomyces_pseudobailii_PYCC9374,False,Zygosaccharomyces_pseudobailii,99.7,True
 Zygosaccharomyces pseudobailii,Zygosaccharomyces_pseudobailii_PYCC9555,False,Zygosaccharomyces_pseudobailii,99.77,True
-Zygosaccharomyces rouxii,Zygosaccharomyces_rouxii,False,Zygosaccharomyces_rouxii_ATCC42981,99.66,True
 Zygosaccharomyces rouxii,Zygosaccharomyces_rouxii_ATCC42981,True,Zygosaccharomyces_rouxii_ATCC42981,100.0,False
 Zygosaccharomyces rouxii,Zygosaccharomyces_rouxii_C8,False,Zygosaccharomyces_rouxii_ATCC42981,98.86,False
 Zygosaccharomyces rouxii,Zygosaccharomyces_rouxii_CBS4838,False,Zygosaccharomyces_rouxii_ATCC42981,99.9,True
@@ -17893,6 +17905,7 @@ Zygosaccharomyces sapae,Zygosaccharomyces_sapae_ABT301,False,Zygosaccharomyces_s
 Zygosaccharomyces sapae,Zygosaccharomyces_sapae_CBS12607,False,Zygosaccharomyces_sapae_PYCC9313,99.87,True
 Zygosaccharomyces sapae,Zygosaccharomyces_sapae_CBS12608,False,Zygosaccharomyces_sapae_PYCC9313,99.84,True
 Zygosaccharomyces sapae,Zygosaccharomyces_sapae_CBS_12607,False,Zygosaccharomyces_sapae_PYCC9313,99.02,True
+Zygosaccharomyces sapae,Zygosaccharomyces_sapae_PYCC10392,False,Zygosaccharomyces_sapae_PYCC9313,98.51,False
 Zygosaccharomyces sapae,Zygosaccharomyces_sapae_PYCC9313,True,Zygosaccharomyces_sapae_PYCC9313,100.0,False
 Zygosaccharomyces siamensis,Zygosaccharomyces_siamensis_CBS12273,False,Zygosaccharomyces_siamensis_PYCC9244,99.5,True
 Zygosaccharomyces siamensis,Zygosaccharomyces_siamensis_CBS_12273,False,Zygosaccharomyces_siamensis_PYCC9244,99.62,True
@@ -17981,10 +17994,10 @@ Zymoseptoria tritici,Zymoseptoria_tritici_Zt118,False,Zymoseptoria_tritici_WAI33
 Zymoseptoria tritici,Zymoseptoria_tritici_Zt120,False,Zymoseptoria_tritici_WAI332,98.18,False
 Zymoseptoria tritici,Zymoseptoria_tritici_Zt148,False,Zymoseptoria_tritici_WAI332,98.18,False
 Zymoseptoria tritici,Zymoseptoria_tritici_Zt150,False,Zymoseptoria_tritici_WAI332,98.15,False
-Zymoseptoria tritici,Zymoseptoria_tritici_Zt151,False,Zymoseptoria_tritici_WAI332,98.14,False
+Zymoseptoria tritici,Zymoseptoria_tritici_Zt151,False,Zymoseptoria_tritici_WAI332,98.15,False
 Zymoseptoria tritici,Zymoseptoria_tritici_Zt153,False,Zymoseptoria_tritici_WAI332,98.18,False
 Zymoseptoria tritici,Zymoseptoria_tritici_Zt154,False,Zymoseptoria_tritici_WAI332,98.19,False
-Zymoseptoria tritici,Zymoseptoria_tritici_Zt155,False,Zymoseptoria_tritici_WAI332,98.23,False
+Zymoseptoria tritici,Zymoseptoria_tritici_Zt155,False,Zymoseptoria_tritici_WAI332,98.24,False
 Zymoseptoria tritici,Zymoseptoria_tritici_Zt289,False,Zymoseptoria_tritici_WAI332,97.73,False
 Zymoseptoria tritici,Zymoseptoria_tritici_Zt36,False,Zymoseptoria_tritici_WAI332,98.01,False
 Zymoseptoria tritici,Zymoseptoria_tritici_Zt469,False,Zymoseptoria_tritici_WAI332,97.43,False
