@@ -394,3 +394,6 @@ GCA_001611835.1_ASM161183v1,Saccharomyces cerevisiae Lalvin L2056 Lalvin L2056 -
 GCA_013368685.1_ASM1336868v1,Saccharomyces cerevisiae IL-01 IL-01 -- problematic, suppress (user decision 2026-10-05)
 GCA_025383845.1_ASM2538384v1,Saccharomyces cerevisiae F -- problematic, suppress (user decision 2026-10-05)
 GCA_050916155.1_ASM5091615v1,Saccharomyces cerevisiae SMY63 -- problematic, suppress (user decision 2026-10-05)
+GCA_000417025.1_ASM41702v1,Blumeria graminis f. sp. tritici JIW2 -- too small, suppress (user decision 2026-10-05)
+GCA_000441875.1_Bgt_70_1,Blumeria graminis f. sp. tritici Bgt-70 -- too fragmented, suppress (user decision 2026-10-05)
+GCA_000417865.1_Bgt_94202_1,Blumeria graminis f. sp. tritici 94202 -- too fragmented, suppress (user decision 2026-10-05)
