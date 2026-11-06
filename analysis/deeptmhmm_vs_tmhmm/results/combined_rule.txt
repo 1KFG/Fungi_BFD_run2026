@@ -1,0 +1,25 @@
+## TMHMM + SignalP rule vs TMHMM and DeepTMHMM (SwissProt, experimental labels)
+set         expected          subset                  TMHMM        TMHMM+SignalP            DeepTMHMM
+multipass   TM, >= 2 helices  all           92.5% (894/966)      92.4% (893/966)      91.1% (880/966)
+multipass   TM, >= 2 helices  heldout       91.3% (743/814)      91.2% (742/814)      89.6% (729/814)
+singlepass  TM, >= 1 helix    all           81.1% (270/333)      80.2% (267/333)      70.0% (233/333)
+singlepass  TM, >= 1 helix    heldout       80.4% (246/306)      79.7% (244/306)      68.3% (209/306)
+peripheral  no TM helix       all           99.0% (483/488)      99.2% (484/488)      98.4% (480/488)
+peripheral  no TM helix       heldout       99.3% (420/423)      99.5% (421/423)      98.6% (417/423)
+soluble     no TM helix       all          99.5% (995/1000)     99.5% (995/1000)     99.8% (998/1000)
+soluble     no TM helix       heldout       99.6% (752/755)      99.6% (752/755)      99.7% (753/755)
+signal      no TM helix (SP)  all           85.1% (143/168)      89.9% (151/168)      94.0% (158/168)
+signal      no TM helix (SP)  heldout         84.8% (67/79)        89.9% (71/79)        93.7% (74/79)
+secreted    no TM helix (SP)  all           92.1% (780/847)      97.6% (827/847)      99.4% (842/847)
+secreted    no TM helix (SP)  heldout       91.4% (587/642)      97.2% (624/642)      99.2% (637/642)
+
+## Single-pass proteins by type (held out): called >= 1 helix
+type I       n= 47  TMHMM  95.7% (45/47)  TMHMM+SignalP  93.6% (44/47)  DeepTMHMM  95.7% (45/47)
+type II      n= 61  TMHMM  90.2% (55/61)  TMHMM+SignalP  88.5% (54/61)  DeepTMHMM  67.2% (41/61)
+type III     n=  4  TMHMM 100.0% (4/4)  TMHMM+SignalP 100.0% (4/4)  DeepTMHMM  75.0% (3/4)
+type IV      n= 25  TMHMM  72.0% (18/25)  TMHMM+SignalP  72.0% (18/25)  DeepTMHMM  72.0% (18/25)
+unspecified  n=169  TMHMM  73.4% (124/169)  TMHMM+SignalP  73.4% (124/169)  DeepTMHMM  60.4% (102/169)
+
+## Experimental helix positions (featexp, helix match >= 5 shared residues)
+all      n=159  TMHMM: all helices placed  51.6% (82/159); TMHMM+SignalP: all helices placed  51.6% (82/159); DeepTMHMM: all helices placed  53.5% (85/159);
+heldout  n=116  TMHMM: all helices placed  50.0% (58/116); TMHMM+SignalP: all helices placed  50.0% (58/116); DeepTMHMM: all helices placed  45.7% (53/116);

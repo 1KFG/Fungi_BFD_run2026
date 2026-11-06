@@ -1,0 +1,13 @@
+set	expected	subset	n	tmhmm_correct	deeptmhmm_correct	extra
+multipass	TM, >= 2 helices	all	966	894	880	DeepTMHMM beta-barrel 1
+multipass	TM, >= 2 helices	heldout	814	743	729	DeepTMHMM beta-barrel 1
+singlepass	TM, >= 1 helix	all	333	270	233	
+singlepass	TM, >= 1 helix	heldout	306	246	209	
+peripheral	no TM helix	all	488	483	480	
+peripheral	no TM helix	heldout	423	420	417	
+soluble	no TM helix	all	1000	995	998	
+soluble	no TM helix	heldout	755	752	753	
+signal	no TM helix (SP)	all	168	143	158	DeepTMHMM SP call 100.0% (168/168); SignalP SP  97.6% (164/168)
+signal	no TM helix (SP)	heldout	79	67	74	DeepTMHMM SP call 100.0% (79/79); SignalP SP  96.2% (76/79)
+secreted	no TM helix (SP)	all	847	780	842	DeepTMHMM SP call  98.8% (837/847); SignalP SP  96.0% (813/847)
+secreted	no TM helix (SP)	heldout	642	587	637	DeepTMHMM SP call  98.4% (632/642); SignalP SP  95.0% (610/642)

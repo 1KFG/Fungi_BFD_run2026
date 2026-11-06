@@ -1,0 +1,61 @@
+
+## SwissProt fungal proteins with experimental labels
+set         expected           subset            TMHMM correct      DeepTMHMM correct  extra
+multipass   TM, >= 2 helices   all             92.5% (894/966)        91.1% (880/966)  DeepTMHMM beta-barrel 1
+multipass   TM, >= 2 helices   heldout         91.3% (743/814)        89.6% (729/814)  DeepTMHMM beta-barrel 1
+singlepass  TM, >= 1 helix     all             81.1% (270/333)        70.0% (233/333)  
+singlepass  TM, >= 1 helix     heldout         80.4% (246/306)        68.3% (209/306)  
+peripheral  no TM helix        all             99.0% (483/488)        98.4% (480/488)  
+peripheral  no TM helix        heldout         99.3% (420/423)        98.6% (417/423)  
+soluble     no TM helix        all            99.5% (995/1000)       99.8% (998/1000)  
+soluble     no TM helix        heldout         99.6% (752/755)        99.7% (753/755)  
+signal      no TM helix (SP)   all             85.1% (143/168)        94.0% (158/168)  DeepTMHMM SP call 100.0% (168/168); SignalP SP  97.6% (164/168)
+signal      no TM helix (SP)   heldout           84.8% (67/79)          93.7% (74/79)  DeepTMHMM SP call 100.0% (79/79); SignalP SP  96.2% (76/79)
+secreted    no TM helix (SP)   all             92.1% (780/847)        99.4% (842/847)  DeepTMHMM SP call  98.8% (837/847); SignalP SP  96.0% (813/847)
+secreted    no TM helix (SP)   heldout         91.4% (587/642)        99.2% (637/642)  DeepTMHMM SP call  98.4% (632/642); SignalP SP  95.0% (610/642)
+
+## Experimental helix positions (featexp; helix match = >= 5 shared residues)
+all      n=159  TMHMM: count  54.7% (87/159), all helices placed  51.6% (82/159), N-term side  61.5% (83/135)  DeepTMHMM: count  57.2% (91/159), all helices placed  53.5% (85/159), N-term side  84.3% (107/127)
+heldout  n=116  TMHMM: count  54.3% (63/116), all helices placed  50.0% (58/116), N-term side  63.2% (60/95)  DeepTMHMM: count  50.0% (58/116), all helices placed  45.7% (53/116), N-term side  79.8% (67/84)
+
+## BFD sample (no ground truth: agreement between tools), held-out proteins
+
+cterm_single: 300 held-out of 600 drawn (37 near training set); 297 genomes, 7 phyla
+  DeepTMHMM type: TM  48.3% (145/300), GLOB  27.3% (82/300), SP+TM  13.7% (41/300), SP  10.7% (32/300)
+  same helix count as TMHMM:  54.3% (163/300);  DeepTMHMM helices (7 = 7+): 0:114, 1:163, 2:16, 3:3, 4:2, 6:1, 7:1
+  SignalP 6 SP:  19.7% (59/300)
+
+multi7: 300 held-out of 600 drawn (51 near training set); 300 genomes, 9 phyla
+  DeepTMHMM type: TM  97.3% (292/300), SP+TM   2.7% (8/300)
+  same helix count as TMHMM:  48.7% (146/300);  DeepTMHMM helices (7 = 7+): 5:1, 6:10, 7:289
+  SignalP 6 SP:   2.0% (6/300)
+
+nterm_single: 300 held-out of 600 drawn (30 near training set); 299 genomes, 6 phyla
+  DeepTMHMM type: TM  43.7% (131/300), GLOB  29.7% (89/300), SP  20.3% (61/300), SP+TM   6.3% (19/300)
+  same helix count as TMHMM:  40.0% (120/300);  DeepTMHMM helices (7 = 7+): 0:150, 1:120, 2:24, 3:4, 4:1, 5:1
+  SignalP 6 SP:  12.3% (37/300)
+
+sp_overlap: 300 held-out of 600 drawn (65 near training set); 299 genomes, 10 phyla
+  DeepTMHMM type: SP  89.3% (268/300), SP+TM   6.3% (19/300), GLOB   2.3% (7/300), TM   2.0% (6/300)
+  same helix count as TMHMM:   7.7% (23/300);  DeepTMHMM helices (7 = 7+): 0:275, 1:23, 2:2
+  SignalP 6 SP: 100.0% (300/300)
+
+tm_pos: 1000 held-out of 2000 drawn (150 near training set); 422 genomes, 19 phyla
+  DeepTMHMM type: TM  68.8% (688/1000), GLOB  12.7% (127/1000), SP+TM  10.4% (104/1000), SP   8.1% (81/1000)
+  same helix count as TMHMM:  40.0% (400/1000);  DeepTMHMM helices (7 = 7+): 0:208, 1:203, 2:105, 3:29, 4:83, 5:34, 6:56, 7:282
+  SignalP 6 SP:  12.0% (120/1000)
+
+sp_only: 300 held-out of 600 drawn (41 near training set); 300 genomes, 15 phyla
+  DeepTMHMM type: SP  90.7% (272/300), GLOB   5.7% (17/300), SP+TM   3.3% (10/300), TM   0.3% (1/300)
+  same helix count as TMHMM:  96.3% (289/300);  DeepTMHMM helices (7 = 7+): 0:289, 1:11
+  SignalP 6 SP: 100.0% (300/300)
+
+tm_neg: 1000 held-out of 1726 drawn (186 near training set); 1000 genomes, 18 phyla
+  DeepTMHMM type: GLOB  91.4% (914/1000), SP   7.0% (70/1000), TM   1.3% (13/1000), SP+TM   0.3% (3/1000)
+  same helix count as TMHMM:  98.4% (984/1000);  DeepTMHMM helices (7 = 7+): 0:984, 1:9, 2:5, 5:1, 7:1
+  SignalP 6 SP:   5.7% (57/1000)
+
+gpi: 300 held-out of 600 drawn (32 near training set); 298 genomes, 7 phyla
+  DeepTMHMM type: SP  76.7% (230/300), GLOB  11.7% (35/300), SP+TM   6.3% (19/300), TM   5.3% (16/300)
+  same helix count as TMHMM:  76.7% (230/300);  DeepTMHMM helices (7 = 7+): 0:265, 1:23, 3:3, 4:2, 5:2, 6:2, 7:3
+  SignalP 6 SP:  77.3% (232/300)
