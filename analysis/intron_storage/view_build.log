@@ -1,0 +1,51 @@
+Building /scratch/jstajich/31828391/BFD.duckdb from /bigdata/stajichlab/shared/projects/BFD/Fungi_BFD_runs/tables
+SKIP: /bigdata/stajichlab/shared/projects/BFD/Fungi_BFD_runs/tables/swissprot_subject.parquet not found; SwissProt tables omitted.
+SKIP: /bigdata/stajichlab/shared/projects/BFD/Fungi_BFD_runs/tables/swissprot_best.parquet not found; swissprot_best view omitted.
+SKIP: /bigdata/stajichlab/shared/projects/BFD/Fungi_BFD_runs/tables/swissprot_subject_summary.parquet not found; swissprot_subject_summary view omitted.
+Build complete: /scratch/jstajich/31828391/BFD.duckdb (268K)
+┌────────────┬────────────────┐
+│ table_name │ estimated_size │
+│  varchar   │     int64      │
+├────────────┴────────────────┤
+│           0 rows            │
+└─────────────────────────────┘
+┌───────────────────────────┐
+│         view_name         │
+│          varchar          │
+├───────────────────────────┤
+│ _table_manifest           │
+│ aa_frequency              │
+│ asm_stats                 │
+│ busco_genome              │
+│ cazy                      │
+│ cazy_overview             │
+│ codon_frequency           │
+│ gene_CDS                  │
+│ gene_exons                │
+│ gene_info                 │
+│ gene_intergenic_distances │
+│ gene_introns              │
+│ gene_proteins             │
+│ gene_transcripts          │
+│ gene_trna                 │
+│ idp                       │
+│ idp_summary               │
+│ merops                    │
+│ pfam                      │
+│ predgpi                   │
+│ signalp                   │
+│ species                   │
+│ targetp                   │
+│ telomere_summary          │
+│ telomere_tracts           │
+│ tf_inventory              │
+│ tmhmm                     │
+│ v_protein_annotation      │
+│ v_species_summary         │
+│ v_telomere_both_ends      │
+│ wgd_ks                    │
+│ wgd_ks_summary            │
+│ wolfpsort                 │
+├───────────────────────────┤
+│          33 rows          │
+└───────────────────────────┘
