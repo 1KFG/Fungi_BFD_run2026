@@ -73,6 +73,16 @@ The `share` column is the fraction of total random variance at each level. The t
 - Shape peaks near dS 0.5 to 1.5 are positions as read by yn00. yn00 reads lower than codeml above about 0.5, so true divergence is likely higher.
 - The current tables are interim (7,384 genomes). One giant-family genome (*Jimgerdemannia lactiflua*) and *Pachysolen* are not yet in them.
 
+## Gene-set and hypothesis scripts (added 2026-11-07)
+
+| Script (job) | Output | What it does |
+|---|---|---|
+| `domain_geneset.py PF12013 OrsD` (`job_orsd.sh`) | `tables/geneset_OrsD_*.tsv` | Describes the gene set carrying one Pfam domain: dS-bin shares against all paralog genes, per-genome and per-class counts, protein length and Pfam model coverage, co-occurring domains, contig distance of recent pairs. |
+| `domain_te_context.py PF12013 OrsD` (`job_orsd_te.sh`) | `tables/geneset_OrsD_te_context*.tsv` | Tests whether recent carriers sit near genes with one of 15 TE Pfam domains. Controls: up to 5 non-carrier genes per focal gene from the same genome and protein-length class. Mantel-Haenszel odds ratio, strata genome x length class. |
+| `domain_deepdive.py PF12013 OrsD` (`job_orsd_deep.sh`) | `tables/geneset_OrsD_genome_enrichment.tsv`, `geneset_OrsD_Sorochytrium_genes.tsv` | Per-genome Fisher test of carrier recent share against the genome's other paralogs; gene table of one genome. |
+| `make_hypothesis_reports.py` (`job_hypothesis_reports.sh`) | `reports/H1_*.md/.pdf`, `H2_*`, `H3_*`, `reports/figures/fig16_OrsD.*` | Writes three hypothesis-testing reports. Every number is computed from the tables. Verdict rules are stated in each test. |
+
+Limits that apply to the hypothesis reports: interim tables (7,384 genomes); detector thresholds were chosen by inspecting positive controls; the TE-name pattern in H2.1 was written after seeing the result list; the TE marker in H3.5 is 15 Pfam domains and has low power.
 ## Repository copy (interim)
 
 This folder was committed to `Fungi_BFD_run2026` as `analysis/paralogoscope/` from the working copy in `paralogoscope_pilot/eval/explore/`. The numbers are from the interim tables (7,384 genomes).

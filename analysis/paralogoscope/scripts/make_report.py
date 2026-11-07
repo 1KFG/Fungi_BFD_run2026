@@ -311,7 +311,7 @@ w("""Interpretation, with limits.
 - Domain names are those in the Pfam table. Many top domains are named for transposases, integrases or retroelement proteins
   (for example Plavaka, KDZ, CxC, Tet_JBP, MULE, Transposase_21, rva_4, zf-RVT, Myb_DNA-bind_3 and _4, Cas12f1-like_TNB). I did not check each family description here. By name, this set points to transposon-derived gene models among recent duplicates.
   This matches the TE-like identical-copy profile in Section 4.
-- Spok-related names (SPOK2_N, OrsD) are enriched among recent paralogs, mainly in Ascomycota. I have not checked these families in the literature in this session.
+- SPOK2_N and OrsD (PF12013) are enriched among recent paralogs, mainly in Ascomycota. I did not verify what these families do. The OrsD gene set is examined in `reports/H3_OrsD_case_study.md`.
 - Y-bin genes are enriched for ribosomal-protein and translation-factor domains (L2, S4, S6e, L21e). Ribosomal-protein families are small and often multicopy, so duplicated models or processed copies are plausible. This is not tested here.
 - Several domains are of unknown function (DUF names, RRT15). They are reported as found and not interpreted.
 - CAZy families show almost no enrichment in the recent bin after stratification. Recent duplication of CAZymes is not a general feature of these data.
