@@ -1,0 +1,10 @@
+Loading samtools/1.22.1
+  Loading requirement: libdeflate/1.17 htslib/1.22.1
+== (2) intron sample
+40 sample.tsv
+parquet with seq 35589212; without seq 10991260
+rows,bases: 815178,73202272
+intron FASTA bgzip 26466349 + fai 35892489 + gzi 23808 = 62382646 bytes
+genome scaffolds.fa plain 1334944240; bgzip+fai+gzi 443136107
+coordinate check: 219 match, 0 differ
+genomes processed: 40

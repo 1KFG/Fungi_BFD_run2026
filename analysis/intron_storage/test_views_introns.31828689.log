@@ -1,0 +1,18 @@
+Loading samtools/1.22.1
+  Loading requirement: libdeflate/1.17 htslib/1.22.1
+== (1b) same queries on the old indexed db/BFD.duckdb
+10275  <- 1.889404758 s : SELECT count(*) FROM gene_proteins WHERE species_prefix='F77FFF1D'
+F77FFF1D_000002-T1,ATP-synt_10,PF05176.21,256,1.1e-74,250.2,0.0,1,1,1.3e-78,1.4e-74,249.8,0.0,13,254,81,324,73,326,F77FFF1D  <- 13.301454943 s : SELECT * FROM pfam WHERE protein_id='F77FFF1D_000002-T1'
+10275  <- 54.526329170 s : SELECT count(*) FROM v_protein_annotation WHERE LOCUSTAG='F77FFF1D'
+23451  <- 29.999975411 s : SELECT count(*) FROM v_species_summary
+pfam.parquet protein_id row groups: 2988,2987 (groups, groups overlapping previous)
+== (2) intron sample
+40 sample.tsv
+parquet with seq 35644455; without seq 11030826
+rows,bases: 815178,73202272
+intron FASTA bgzip 26466349 + fai 35892489 + gzi 23808 = 62382646 bytes
+genome scaffolds.fa plain 1334944240; bgzip+fai+gzi 443136107
+coordinate check: 190 match, 0 differ
+== (3) all scaffolds.fa
+scaffolds.fa plain: 23412 files, 831119228576 bytes; missing 0
+scaffolds.fa.gz present: 0
