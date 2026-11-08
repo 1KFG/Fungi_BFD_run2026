@@ -94,6 +94,16 @@ Limits that apply to the hypothesis reports: interim tables (7,384 genomes); det
 
 Limits: mode thresholds are exploratory and were not validated on held-out data. Gene order and dS cannot separate whole-genome duplication, hybrid, segmental and assembly duplication. Pairs are sampled (at most 5 per node) and identical CDS are collapsed, so block shares and breadth are lower bounds.
 
+## Block-level, wider-window and codeml scripts (added 2026-11-07)
+
+| Script (job) | Output | What it does |
+|---|---|---|
+| `dup_mode.py` v3 (`job_dupmode.sh`, `job_dupmode_w03.sh`) | `tables/dupmode_genome{TAG}.tsv.gz`; `data/dupmode_recent_pairs{TAG}.parquet`, `data/dupmode_blocks{TAG}.parquet` (not committed) | Adds strand concordance, retention, copy number (synteny depth), contig coverage and end-to-end flag per block. Window set by env `DUP_RECENT` (default 0.1), `DUP_NBR` (default 0.3), `DUP_TAG`. Wider window: `DUP_RECENT=0.3 DUP_NBR=0.5 DUP_TAG=_w03`. Version 2 is in `legacy/dup_mode_v2.py`. |
+| `dup_mode_tests.py`, `dup_block_tests.py` (`job_dupmode_blocks.sh`, env `DUP_TAG`) | `tables/dupmode_modes*{TAG}.tsv`, `dupmode_block_summary{TAG}.tsv`, `dupmode_block_controls{TAG}.tsv`, `dupmode_block_named{TAG}.tsv`, `dupmode_block_genome_classes{TAG}.tsv.gz` | Provisional modes and block-level descriptors by mode and control group. Block classes: scaffold_like (end-to-end, dS <= 0.01), multi_copy (copies > 2), two_copy. |
+| `../option_e_codeml/select_genomes.py`, `run_bundle.sh`, `submit_array.sh` | `option_e_codeml/ks/*.ks.tsv.gz` | Option E: codeml second pass for genomes with a possible interior peak (shape tiers A-C, excluding giants and genomes with an earlier codeml run). Same settings as the yn00 run except `--dnds-method codeml`; reads `nf_full/input/cds` and `paralogoscope_full/wgd_dmd`, writes only under `option_e_codeml/`. Cost model underestimates by about 2x. |
+| `optionE_compare.py` (`job_optionE_compare.sh`) | `tables/optionE_peak_shift.tsv`, `optionE_node_ratio.tsv`, `figures/fig18_optionE.*` | Peak position and node dS with codeml against yn00 for the same genomes (same gates and node-mean definition). |
+| `make_h5_report.py` (`job_h5.sh`) | `reports/H5_block_structure_window_codeml.md/.pdf` | Hypothesis report for block structure, the wider window and Option E. |
+
 ## Repository copy (interim)
 
 This folder was committed to `Fungi_BFD_run2026` as `analysis/paralogoscope/` from the working copy in `paralogoscope_pilot/eval/explore/`. The numbers are from the interim tables (7,384 genomes).

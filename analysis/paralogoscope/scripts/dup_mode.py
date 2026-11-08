@@ -3,7 +3,7 @@
 versus block duplication (WGD, segmental, hybrid with two assembled subgenomes, assembly duplication). v2 follows an independent review of v1
 (legacy/dup_mode_v1.py): fixes pair ordering on one contig, excludes tRNA genes, counts tandem runs and shared-gene pairs once, and uses a permutation null.
 Definitions (pairs from tables/wgd.ks.parquet; gene index = rank of the gene start on its contig among protein-coding genes, ties broken by gene_id):
-  recent pair   dS <= RECENT (0.1, identical-CDS pairs included). Neighbour candidates: pairs with dS <= NBR_DS (0.3).
+  recent pair   dS <= RECENT (default 0.1; env DUP_RECENT; identical-CDS pairs included). Neighbour candidates: pairs with dS <= NBR_DS (default 0.3; env DUP_NBR). Output files get the suffix of env DUP_TAG.
   order         each pair is stored with (contig, index) of gene 1 <= (contig, index) of gene 2, also when both genes are on one contig.
   class         tandem: same contig, |index difference| <= 5; cis_far: same contig, farther; trans: different contigs.
   eligible      both contigs hold >= 2K+1 protein-coding genes and the pair is not a same-contig pair with |index difference| <= 2K. Block shares use eligible pairs only.
@@ -13,18 +13,19 @@ Definitions (pairs from tables/wgd.ks.parquet; gene index = rank of the gene sta
   block         run of block pairs on one contig pair with index gaps <= K on both sides (>= 3 pairs). Block table: pairs, genes, median dS, dS IQR, share identical, contig coverage.
   breadth       genes in recent pairs / protein-coding genes in the genome.
 Limits: wgd.ks keeps at most 5 sampled pairs per tree node and collapses identical CDS, so breadth, family size and block shares are lower bounds.
-Outputs: data/dupmode_recent_pairs.parquet, data/dupmode_blocks.parquet, tables/dupmode_genome.tsv.gz."""
+Outputs: data/dupmode_recent_pairs{TAG}.parquet, data/dupmode_blocks{TAG}.parquet, tables/dupmode_genome.tsv.gz."""
 import os, numpy as np, pandas as pd, duckdb
 R="/bigdata/stajichlab/shared/projects/BFD/Fungi_BFD_runs"; E=f"{R}/paralogoscope_pilot/eval/explore"; TB=f"{R}/tables"
-RECENT, NBR_DS, K = 0.1, 0.3, 5
+RECENT=float(os.environ.get("DUP_RECENT",0.1)); NBR_DS=float(os.environ.get("DUP_NBR",0.3)); K=5; TAG=os.environ.get("DUP_TAG","")
+print("window",RECENT,"neighbour dS",NBR_DS,"tag",repr(TAG),flush=True)
 TMP=os.environ.get("CLAUDE_JOB_DIR", E+"/data")+"/duck_tmp"; os.makedirs(TMP,exist_ok=True)
 con=duckdb.connect(); con.execute(f"pragma temp_directory='{TMP}'; pragma threads=8; pragma memory_limit='90GB'")
 TE=["PF00078","PF07727","PF13456","PF00665","PF00872","PF20700","PF01609","PF13359","PF13843","PF03184","PF13358","PF02992","PF04754","PF10551","PF14372"]
-con.execute(f"""create table gi as select gene_id, chrom, start, row_number() over (partition by split_part(gene_id,'_',1), chrom order by start, gene_id) idx,
+con.execute(f"""create table gi as select gene_id, chrom, start, strand, row_number() over (partition by split_part(gene_id,'_',1), chrom order by start, gene_id) idx,
    row_number() over (partition by split_part(gene_id,'_',1), chrom order by hash(gene_id||'perm2026'), gene_id) idxn,
    count(*) over (partition by split_part(gene_id,'_',1), chrom) nct from '{TB}/gene_info.parquet' where gene_type='protein_coding'""")
 con.execute(f"create table pm as select distinct protein_id, gene_id from '{TB}/gene_proteins.parquet'")
-con.execute(f"""create table pr as select k.genome, k.family, k.status, k.dS, k.g1, k.g2, a.chrom ca, a.idx ia, a.idxn ian, a.nct na, b.chrom cb, b.idx ib, b.idxn ibn, b.nct nb
+con.execute(f"""create table pr as select k.genome, k.family, k.status, k.dS, k.g1, k.g2, a.chrom ca, a.idx ia, a.idxn ian, a.nct na, a.strand sa, b.strand sb, b.chrom cb, b.idx ib, b.idxn ibn, b.nct nb
    from '{TB}/wgd.ks.parquet' k join pm p1 on p1.protein_id=k.g1 join gi a on a.gene_id=p1.gene_id join pm p2 on p2.protein_id=k.g2 join gi b on b.gene_id=p2.gene_id
    where k.dS is not null and k.dS<={NBR_DS} and k.g1<>k.g2""")
 print("pairs dS<=0.3 with positions (protein-coding only):",con.sql("select count(*) from pr").fetchone(),flush=True)
@@ -33,7 +34,7 @@ def make_pn(tag,ia,ib):
     con.execute(f"""create table pn_{tag} as with s as (select *, (ca>cb or (ca=cb and {ia}>{ib})) sw from pr)
       select row_number() over () pid, genome, family, status, dS, g1, g2,
         case when sw then cb else ca end c1, case when sw then ca else cb end c2, case when sw then {ib} else {ia} end i1, case when sw then {ia} else {ib} end i2,
-        case when sw then nb else na end n1, case when sw then na else nb end n2 from s""")
+        case when sw then nb else na end n1, case when sw then na else nb end n2, case when sw then sb else sa end s1, case when sw then sa else sb end s2 from s""")
 def nbrs(tag):
     con.execute(f"drop table if exists nb_{tag}")
     con.execute(f"""create table nb_{tag} as select pid, max(n) n from (
@@ -43,14 +44,14 @@ def nbrs(tag):
        where p.dS<={RECENT} group by 1,2) group by 1""")
 make_pn("obs","ia","ib"); nbrs("obs"); print("observed done",flush=True)
 make_pn("null","ian","ibn"); nbrs("null"); print("null done",flush=True)
-con.execute(f"""create table rp as select p.pid, p.genome, p.family, p.status, p.dS, p.g1, p.g2, p.c1, p.c2, p.i1, p.i2, p.n1, p.n2,
+con.execute(f"""create table rp as select p.pid, p.genome, p.family, p.status, p.dS, p.g1, p.g2, p.c1, p.c2, p.i1, p.i2, p.n1, p.n2, p.s1, p.s2,
    case when p.c1=p.c2 and abs(p.i1-p.i2)<=5 then 'tandem' when p.c1=p.c2 then 'cis_far' else 'trans' end cls,
    (p.n1>={2*K+1} and p.n2>={2*K+1} and not (p.c1=p.c2 and abs(p.i1-p.i2)<={2*K})) eligible,
    coalesce(o.n,0) nbr_obs from pn_obs p left join nb_obs o using(pid) where p.dS<={RECENT}""")
 # the null table has its own pairs/order; attach null counts by pair identity (g1,g2) to keep a single pair-level table
-con.execute("""create table nn as select n.g1, n.g2, coalesce(b.n,0) nbr_null, (n.n1>=11 and n.n2>=11 and not (n.c1=n.c2 and abs(n.i1-n.i2)<=10)) elig_null from pn_null n left join nb_null b using(pid) where n.dS<=0.1""")
+con.execute(f"""create table nn as select n.g1, n.g2, coalesce(b.n,0) nbr_null, (n.n1>=11 and n.n2>=11 and not (n.c1=n.c2 and abs(n.i1-n.i2)<=10)) elig_null from pn_null n left join nb_null b using(pid) where n.dS<={RECENT}""")
 con.execute("create table rp2 as select r.*, coalesce(m.nbr_null,0) nbr_null, coalesce(m.elig_null,false) elig_null from rp r left join nn m on m.g1=r.g1 and m.g2=r.g2")
-con.execute(f"copy rp2 to '{E}/data/dupmode_recent_pairs.parquet' (format parquet, compression zstd)")
+con.execute(f"copy rp2 to '{E}/data/dupmode_recent_pairs{TAG}.parquet' (format parquet, compression zstd)")
 print("recent pairs:",con.sql("select count(*) from rp2").fetchone(),flush=True)
 # genome metrics
 con.execute("""create table gm as select genome, count(*) n_recent_pairs, sum((status='identical')::int) n_identical_pairs, avg((cls='tandem')::int) share_tandem,
@@ -63,21 +64,43 @@ con.execute("""create table fr as select genome, sum(ng) filter (where rk<=5)::d
 con.execute("create table gcount as select genome, count(distinct g) genes_recent from (select genome,g1 g from rp2 union select genome,g2 from rp2) group by 1")
 G=con.sql("select * from gm join fm using(genome) join fr using(genome) join gcount using(genome)").df()
 # blocks as units (eligible block pairs; run = same contig pair, index gaps <= K on both sides)
-B=con.sql("select genome,c1,c2,i1,i2,dS,status,n1,n2,g1,g2 from rp2 where eligible and nbr_obs>=2 order by genome,c1,c2,i1,i2").df()
+B=con.sql("select genome,c1,c2,i1,i2,dS,status,n1,n2,g1,g2,s1,s2 from rp2 where eligible and nbr_obs>=2 order by genome,c1,c2,i1,i2").df()
 if len(B):
     g=B.groupby(["genome","c1","c2"],sort=False)
     gap1=g.i1.diff().abs(); gap2=g.i2.diff().abs(); new=(gap1.isna())|(gap1>K)|(gap2>K)
     B["blk"]=new.cumsum()
+    def _ori(d):
+        if len(d)<3 or d.i1.nunique()<2 or d.i2.nunique()<2: return 0
+        return int(np.sign(np.corrcoef(d.i1,d.i2)[0,1]))
+    ori=B.groupby("blk").apply(_ori,include_groups=False).rename("orientation")
+    B=B.merge(ori,left_on="blk",right_index=True)
+    B["strand_ok"]=((B.s1==B.s2)==(B.orientation>0)).astype(int)    # in a direct block gene strands agree, in an inverted block they disagree
     blocks=B.groupby("blk").agg(genome=("genome","first"),c1=("c1","first"),c2=("c2","first"),n_pairs=("dS","size"),i1min=("i1","min"),i1max=("i1","max"),i2min=("i2","min"),i2max=("i2","max"),
-          median_dS=("dS","median"),dS_q25=("dS",lambda x:x.quantile(.25)),dS_q75=("dS",lambda x:x.quantile(.75)),share_identical=("status",lambda x:(x=="identical").mean()),n1=("n1","first"),n2=("n2","first")).reset_index()
+          genes1=("i1","nunique"),genes2=("i2","nunique"),median_dS=("dS","median"),dS_q25=("dS",lambda x:x.quantile(.25)),dS_q75=("dS",lambda x:x.quantile(.75)),share_identical=("status",lambda x:(x=="identical").mean()),
+          n1=("n1","first"),n2=("n2","first"),orientation=("orientation","first"),strand_concordance=("strand_ok","mean")).reset_index()
     blocks=blocks[blocks.n_pairs>=3].copy()
     blocks["span1"]=blocks.i1max-blocks.i1min+1; blocks["span2"]=blocks.i2max-blocks.i2min+1
-    blocks["retention"]=blocks.n_pairs/np.minimum(blocks.span1,blocks.span2)          # pairs per gene of the shorter span
-    blocks["coverage_smaller_contig"]=np.minimum(blocks.span1/blocks.n1, blocks.span2/blocks.n2)  # span of the block over the contig it sits on, the smaller fraction
-    blocks.to_parquet(f"{E}/data/dupmode_blocks.parquet",index=False)
+    blocks["retention1"]=blocks.genes1/blocks.span1; blocks["retention2"]=blocks.genes2/blocks.span2        # share of genes in each span with a sampled partner
+    blocks["retention"]=np.minimum(blocks.retention1,blocks.retention2); blocks["retention_asym"]=np.abs(blocks.retention1-blocks.retention2)
+    sm=blocks.n1<=blocks.n2                                                                                    # smaller contig of the two
+    blocks["coverage_smaller_contig"]=np.where(sm,blocks.span1/blocks.n1,blocks.span2/blocks.n2)
+    blocks["end_to_end"]=(blocks.coverage_smaller_contig>=0.8)
+    # synteny depth: for each block region, the number of blocks overlapping it by >= 50% on the same contig (own block counted); copies = depth + 1
+    reg=pd.concat([blocks[["blk","genome","c1","i1min","i1max"]].rename(columns={"c1":"c","i1min":"lo","i1max":"hi"}),blocks[["blk","genome","c2","i2min","i2max"]].rename(columns={"c2":"c","i2min":"lo","i2max":"hi"})])
+    depth={}
+    for (gnm,c),d in reg.groupby(["genome","c"]):
+        lo=d.lo.values; hi=d.hi.values; bid=d.blk.values
+        if len(d)==1: depth.update({(bid[0],c):1}); continue
+        ov=np.minimum(hi[:,None],hi[None,:])-np.maximum(lo[:,None],lo[None,:])+1; ln=np.minimum(hi-lo+1,(hi-lo+1)[:,None]); frac=ov/np.maximum(ln,1)
+        cnt=((frac>=0.5)&(bid[:,None]!=bid[None,:])).sum(1)+1
+        for b_,k_ in zip(bid,cnt): depth[(b_,c)]=max(depth.get((b_,c),0),int(k_))
+    blocks["depth1"]=[depth.get((b,c),1) for b,c in zip(blocks.blk,blocks.c1)]; blocks["depth2"]=[depth.get((b,c),1) for b,c in zip(blocks.blk,blocks.c2)]
+    blocks["copies"]=np.maximum(blocks.depth1,blocks.depth2)+1
+    blocks.to_parquet(f"{E}/data/dupmode_blocks{TAG}.parquet",index=False)
     bg=blocks.groupby("genome").agg(n_blocks=("blk","size"),n_block_pairs=("n_pairs","sum"),n_block_contig_pairs=("c1",lambda s:0),block_median_dS=("median_dS","median"),
         block_dS_mad=("median_dS",lambda x:float(np.median(np.abs(x-np.median(x))))),median_block_pairs=("n_pairs","median"),max_block_pairs=("n_pairs","max"),
-        block_retention_median=("retention","median"),block_coverage_median=("coverage_smaller_contig","median"),block_share_identical=("share_identical","mean")).reset_index()
+        block_retention_median=("retention","median"),block_retention_asym_median=("retention_asym","median"),block_coverage_median=("coverage_smaller_contig","median"),block_end_to_end_share=("end_to_end","mean"),
+        block_strand_concordance=("strand_concordance","median"),block_copies_median=("copies","median"),block_copies_gt2_share=("copies",lambda x:(x>2).mean()),block_share_identical=("share_identical","mean")).reset_index()
     cp=blocks.groupby("genome").apply(lambda d:d[["c1","c2"]].drop_duplicates().shape[0],include_groups=False).rename("n_block_contig_pairs2").reset_index()
     bg=bg.drop(columns="n_block_contig_pairs").merge(cp.rename(columns={"n_block_contig_pairs2":"n_block_contig_pairs"}),on="genome",how="left")
     bg["blocks_per_contig_pair"]=bg.n_blocks/bg.n_block_contig_pairs
@@ -100,5 +123,5 @@ for pre,g in pf.groupby("prefix"):
     te=g[g.acc.isin(TE)]; rows.append((pre,js(g.n_all.values.astype(float),g.n_rec.values.astype(float)),te.n_rec.sum()/max(nrec,1),nrec))
 J=pd.DataFrame(rows,columns=["prefix","js_pfam_recent_vs_proteome_descriptive","te_share_of_recent_domain_hits","recent_domain_hits"]); G=G.merge(J,on="prefix",how="left")
 G["block_excess"]=G.share_block-G.share_block_null
-G.to_csv(f"{E}/tables/dupmode_genome.tsv.gz",sep="\t",index=False)
+G.to_csv(f"{E}/tables/dupmode_genome{TAG}.tsv.gz",sep="\t",index=False)
 print(len(G),"genomes;",G[["breadth","share_tandem","share_cis_far","share_trans","share_eligible","share_block","share_block_null","top5_family_gene_share","n_blocks","block_median_dS"]].describe().round(3).to_string())
