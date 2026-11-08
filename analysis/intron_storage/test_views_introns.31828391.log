@@ -1,0 +1,60 @@
+Loading samtools/1.22.1
+  Loading requirement: libdeflate/1.17 htslib/1.22.1
+== (1) view build
+build 215 s; size 274432 bytes
+│ table_name │ estimated_size │
+│  varchar   │     int64      │
+├────────────┴────────────────┤
+│           0 rows            │
+└─────────────────────────────┘
+┌───────────────────────────┐
+│         view_name         │
+│          varchar          │
+├───────────────────────────┤
+│ _table_manifest           │
+│ aa_frequency              │
+│ asm_stats                 │
+│ busco_genome              │
+│ cazy                      │
+│ cazy_overview             │
+│ codon_frequency           │
+│ gene_CDS                  │
+│ gene_exons                │
+│ gene_info                 │
+│ gene_intergenic_distances │
+│ gene_introns              │
+│ gene_proteins             │
+│ gene_transcripts          │
+│ gene_trna                 │
+│ idp                       │
+│ idp_summary               │
+│ merops                    │
+│ pfam                      │
+│ predgpi                   │
+│ signalp                   │
+│ species                   │
+│ targetp                   │
+│ telomere_summary          │
+│ telomere_tracts           │
+│ tf_inventory              │
+│ tmhmm                     │
+│ v_protein_annotation      │
+│ v_species_summary         │
+│ v_telomere_both_ends      │
+│ wgd_ks                    │
+│ wgd_ks_summary            │
+│ wolfpsort                 │
+├───────────────────────────┤
+│          33 rows          │
+└───────────────────────────┘
+10275  <- 8.514362635 s : SELECT count(*) FROM gene_proteins WHERE species_prefix='F77FFF1D'
+F77FFF1D_000002-T1,ATP-synt_10,PF05176.21,256,1.1e-74,250.2,0.0,1,1,1.3e-78,1.4e-74,249.8,0.0,13,254,81,324,73,326,F77FFF1D  <- 15.922461820 s : SELECT * FROM pfam WHERE protein_id='F77FFF1D_000002-T1'
+10275  <- 68.764067154 s : SELECT count(*) FROM v_protein_annotation WHERE LOCUSTAG='F77FFF1D'
+23451  <- 34.916740394 s : SELECT count(*) FROM v_species_summary
+== (2) intron sample
+40 sample.tsv
+parquet with seq 35621158; without seq 11021546
+rows,bases: 815178,73202272
+Parser Error: syntax error at or near "("
+LINE 1: ... (HEADER false, QUOTE '', DELIMITER chr(1));
+                                                  ^

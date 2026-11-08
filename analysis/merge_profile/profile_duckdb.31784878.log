@@ -1,0 +1,23 @@
+host r25
+/bigdata/stajichlab/shared/projects/BFD/Fungi_BFD_runs/analysis/merge_profile/out_func/pf3.parquet: 16001169 rows from 1018 files in 102 s (pfam.sql)
+PF3_duckdb_only: 102.59 s wall, 354096 KB maxRSS
+pfam pf1 (python+types): b100be443553  pf3 (duckdb only): b100be443553
+/bigdata/stajichlab/shared/projects/BFD/Fungi_BFD_runs/analysis/merge_profile/out_func/pf1.parquet 870654156
+/bigdata/stajichlab/shared/projects/BFD/Fungi_BFD_runs/analysis/merge_profile/out_func/pf3.parquet 479521129
+PF2_python_x4: 47.50 s wall, 18252 KB maxRSS
+/bigdata/stajichlab/shared/projects/BFD/Fungi_BFD_runs/analysis/merge_profile/out_func/sp3.parquet: 95216248 rows from 1018 files in 532 s (swissprot_hits.sql)
+SP3_hits_redesign: 531.64 s wall, 20522612 KB maxRSS
+/bigdata/stajichlab/shared/projects/BFD/Fungi_BFD_runs/analysis/merge_profile/out_func/sp0.parquet 6355786234
+/bigdata/stajichlab/shared/projects/BFD/Fungi_BFD_runs/analysis/merge_profile/out_func/sp3.parquet 1722927562
+┌──────────┬──────────┬──────────┬──────────┐
+│ rows_old │ rows_new │ proteins │ max_rank │
+│  int64   │  int64   │  int64   │  uint8   │
+├──────────┼──────────┼──────────┼──────────┤
+│ 95216248 │ 95216248 │  6840126 │       20 │
+└──────────┴──────────┴──────────┴──────────┘
+┌─────────┬─────────────┬───────────┬───────────────┬──────────┬─────────────┐
+│ matched │ pident_same │ qcov_same │ bitscore_same │ aln_same │ evalue_same │
+│  int64  │   int128    │  int128   │    int128     │  int128  │   int128    │
+├─────────┼─────────────┼───────────┼───────────────┼──────────┼─────────────┤
+│  200000 │      200000 │    200000 │        200000 │   200000 │      200000 │
+└─────────┴─────────────┴───────────┴───────────────┴──────────┴─────────────┘
