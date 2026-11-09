@@ -104,6 +104,12 @@ Limits: mode thresholds are exploratory and were not validated on held-out data.
 | `optionE_compare.py` (`job_optionE_compare.sh`) | `tables/optionE_peak_shift.tsv`, `optionE_node_ratio.tsv`, `figures/fig18_optionE.*` | Peak position and node dS with codeml against yn00 for the same genomes (same gates and node-mean definition). |
 | `make_h5_report.py` (`job_h5.sh`) | `reports/H5_block_structure_window_codeml.md/.pdf` | Hypothesis report for block structure, the wider window and Option E. |
 
+## PF01328 (UPO) case study scripts (added 2026-11-09)
+- `upo_pf01328.py`: sampling coverage by copy number per genome, dS bins by UPO clade and catalytic core (annotation from the separate UPO session, read only), duplication class and block membership of recent UPO-UPO pairs. Job file `job_upo2.sh`. The first description of the gene set used `domain_geneset.py PF01328 UPO` (`job_upo.sh`).
+- `upo_strat.py`: Mantel-Haenszel odds ratio over genomes for block membership and tandem class (UPO pairs against other recent pairs in the same genome), leave-one-genome-out range, top-5-genome removal, per-genome sign test. Job file `job_upo3.sh`. Pairs within a genome are not independent, so p-values are optimistic.
+- `upo_perm.py`: genome-conditional permutation test (10,000 permutations). The family-level null moves all pairs of one family together and is the one to trust. Job file `job_upo4.sh`. Result: tandem enrichment holds in all subsets (z 7-9); block enrichment is not supported (p 0.056 for all genomes, no excess in genomes with at least 10 UPO pairs).
+- Limits: interim 7,384-genome tables; only 43% of UPO proteins in those tables are in a gated pair; the tandem class depends on the near-tandem threshold in `dup_mode.py`, which was not varied; clade labels come from the other session's classifier.
+
 ## Repository copy (interim)
 
 This folder was committed to `Fungi_BFD_run2026` as `analysis/paralogoscope/` from the working copy in `paralogoscope_pilot/eval/explore/`. The numbers are from the interim tables (7,384 genomes).

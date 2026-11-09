@@ -1,0 +1,13 @@
+test	subset	OR_or_value	ci_lo_or_value2	ci_hi	p_mh	strata	upo_pairs
+block_membership	all genomes	1.360122505899393	1.1645525215128363	1.5885356794821501	0.00010546837364876151	181.0	846.0
+block_membership	top5 UPO genomes removed	1.9051109160217283	1.5644329327832152	2.31997647600537	1.06277479787321e-10	176.0	625.0
+block_membership	leave-one-out (30 largest UPO genomes) min OR	1.3331002791309048					
+block_membership	leave-one-out max OR	1.5110807375040152					
+block_membership	per-genome diff (UPO-other), genomes with >=10 each: n=18, median diff, share>0	-0.04507276467992333	0.4444444444444444			18.0	
+block_membership	sign test p (share of genomes with UPO>other)	0.8145294189453125				18.0	
+tandem_class	all genomes	3.3464669703515697	2.770987665051448	4.041461939689324	1.952923906375618e-40	375.0	1436.0
+tandem_class	top5 UPO genomes removed	3.638000697996269	2.980778129099399	4.440132242455807	1.941741671883124e-42	370.0	1187.0
+tandem_class	leave-one-out (30 largest UPO genomes) min OR	3.252619578901329					
+tandem_class	leave-one-out max OR	3.464867265963404					
+tandem_class	per-genome diff (UPO-other), genomes with >=10 each: n=27, median diff, share>0	-0.004515290415269891	0.4444444444444444			27.0	
+tandem_class	sign test p (share of genomes with UPO>other)	0.7011080384254456				27.0	
