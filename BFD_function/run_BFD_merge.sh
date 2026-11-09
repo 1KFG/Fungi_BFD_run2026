@@ -21,7 +21,8 @@ export APPTAINER_CACHEDIR=${APPTAINER_CACHEDIR:-/bigdata/stajichlab/shared/singu
 
 mkdir -p logs/nextflow
 
-WORKTREE=/bigdata/stajichlab/shared/projects/BFD/Fungi_BFD
+# WORKTREE can be overridden to run a branch worktree, e.g. WORKTREE=/path sbatch run_BFD_merge.sh
+WORKTREE=${WORKTREE:-/bigdata/stajichlab/shared/projects/BFD/Fungi_BFD}
 PARAMS_FILE=$WORKTREE/nextflow/param_files/params_merge_only.yaml
 
 if [ ! -f "$PARAMS_FILE" ]; then

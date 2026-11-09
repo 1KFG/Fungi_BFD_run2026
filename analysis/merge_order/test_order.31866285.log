@@ -1,0 +1,12 @@
+/scratch/jstajich/31866285/OLD.parquet: 33277970 rows from 1020 files; types from 300 files (13 s), build 33 s; exon_id:
+OLD overlap: 269,256
+OLD lookup FD66FC27_005939-T1.exon1: .4345 s
+OLD lookup FD66FC27_005939-T1.exon1: .4408 s
+OLD genome FD66FC27: 40645 rows, .4613 s
+/scratch/jstajich/31866285/NEW.parquet: 33277970 rows from 1020 files; types from 300 files (5 s), build 16 s; exon_id:V
+NEW overlap: 269,109
+NEW lookup FCBA10ED_011701-T1.exon2: .0375 s
+NEW lookup FCBA10ED_011701-T1.exon2: .0372 s
+NEW genome FCBA10ED: 29819 rows, .0385 s
+old_rows,new_rows,only_old
+33277970,33277970,0
