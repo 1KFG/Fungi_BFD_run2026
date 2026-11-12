@@ -1,0 +1,51 @@
+# Rerun FIND_TELOMERES for all genomes after the motif and orientation fix in Fungi_BFD commit 7426dbc
+# (telomere_both_ends = true, G-strand labels, overlapping hits dropped). Producer only: no merge, no DuckDB.
+# Derived from params_gene_stats_rerun.yaml (run_gene_stats off, run_telomeres on).
+# Use through rebuild_telomeres.sh. Pass N_TEST=<n> there for a timing test on the first n genomes.
+
+pipeline: BFD
+n_test: 0
+run_setup: true   # relink input/ to the .gz predict_results (input/dna links dangle after compression)
+
+# Merge control
+skip_merge: true
+merge_all: true
+merge_if_stale: true
+# Tools set aside: TargetP results exist for 125 genomes only (DeepLoc replaces it);
+# Infernal has results for 15 genomes only (not run for BFD yet).
+skip_merges: "MERGE_TARGETP,MERGE_INFERNAL"
+run_build_duckdb: false
+
+# Producers off: merges read existing files under results/
+run_pfam: false
+run_cazy: false
+run_merops: false
+run_swissprot: false
+run_infernal: false
+run_deeptmhmm: false
+run_signalp: false
+run_tmhmm: false
+run_targetp: false
+run_idp: false
+run_wolfpsort: false
+run_predgpi: false
+run_busco_genome: false
+run_busco_pep: false
+run_eggnog: false
+run_phobius: false
+run_tcdb: false
+run_antismash: false
+run_trnascan: false
+run_cazy_cgc: false
+run_asm_stats: false
+run_telomeres: true
+run_aa_freq: false
+run_codon_freq: false
+run_intergenic: false
+run_gene_stats: false
+run_chrom_info: false
+
+# MERGE_TF reads the Pfam domtblout files. Set true to build tf_inventory.parquet.
+run_tf: false
+# Built from params.swissprot_dat; gated the same way (dat newer than table).
+run_swissprot_annot: false
