@@ -1,5 +1,5 @@
 #!/usr/bin/bash -l
-#SBATCH -N 1 -n 1 -c 8 --mem 16gb --time 1-00:00:00 -p short
+#SBATCH -N 1 -n 1 -c 8 --mem 16gb --time 3-00:00:00 -p epyc
 #SBATCH --job-name=rebuild_telomeres
 #SBATCH --output=logs/rebuild_telomeres.%j.log
 #
@@ -12,10 +12,16 @@
 #   bash rebuild_telomeres.sh status               # counts only, changes nothing (slow: scans the store)
 #   bash rebuild_telomeres.sh stage                # dry run: shows what would move
 #   bash rebuild_telomeres.sh stage --go           # move the old store into the backup dir
-#   N_TEST=20 sbatch rebuild_telomeres.sh run      # timing test: first 20 genomes only
+#   N_TEST=20 FORCE=1 sbatch --time 04:00:00 rebuild_telomeres.sh run   # timing test: first 20 genomes
 #   bash rebuild_telomeres.sh timing               # FIND_TELOMERES run times from the latest trace
-#   sbatch -p batch --time 3-00:00:00 rebuild_telomeres.sh run   # all genomes
-#   sbatch -p batch --time 1-00:00:00 rebuild_telomeres.sh merge # parquet tables + pipeline DuckDB
+#   FORCE=1 sbatch rebuild_telomeres.sh run        # all genomes
+#   FORCE=1 sbatch --time 1-00:00:00 rebuild_telomeres.sh merge  # parquet tables + pipeline DuckDB
+#
+# Queues: the head job and every Nextflow task go to one partition, QUEUE (default epyc).
+# The pipeline profile sends telomere, setup, merge and duckdb tasks to 'short' and some
+# to 'batch'; queue_override_<QUEUE>.config (written by this script) replaces that.
+# To change it: QUEUE=stajichlab FORCE=1 sbatch -p stajichlab rebuild_telomeres.sh run
+# The #SBATCH header sets the head job's partition (-p epyc); override it on the command line.
 #   bash rebuild_telomeres.sh verify               # check files and compare with the old tables
 #   bash rebuild_telomeres.sh clean --go           # delete the backup after verify passes
 #
@@ -91,6 +97,22 @@ count_files() {
 
 fix_ts() { git -C "$WORKTREE" show -s --format=%cI "$FIX_COMMIT"; }
 
+QUEUE=${QUEUE:-epyc}
+# Write a Nextflow config that puts every process this script can start on one partition.
+queue_config() {
+    local f="$RUNDIR/queue_override_${QUEUE}.config"
+    cat > "$f" <<EOF
+// Written by rebuild_telomeres.sh. All tasks of this run go to the '$QUEUE' partition.
+process {
+    withLabel: 'telomeres' { queue = '$QUEUE' }
+    withLabel: 'setup'     { queue = '$QUEUE' }
+    withLabel: 'merge'     { queue = '$QUEUE' }
+    withLabel: 'duckdb'    { queue = '$QUEUE' }
+}
+EOF
+    echo "$f"
+}
+
 case "$MODE" in
 status)
     echo "store:   $STORE"
@@ -143,6 +165,7 @@ run)
     NXF_OPTS="-Xms512m -Xmx12g" \
     nextflow run "$WORKTREE/nextflow/main.nf" \
         -c "$WORKTREE/nextflow/nextflow.config" \
+        -c "$(queue_config)" \
         -profile BFD \
         -params-file "$RUNDIR/params_telomeres_rerun.yaml" \
         "${extra[@]}"
@@ -195,6 +218,7 @@ merge)
     NXF_OPTS="-Xms512m -Xmx12g" \
     nextflow run "$WORKTREE/nextflow/main.nf" \
         -c "$WORKTREE/nextflow/nextflow.config" \
+        -c "$(queue_config)" \
         -profile BFD \
         -params-file "$RUNDIR/params_merge_after_telomeres.yaml" \
         -resume
