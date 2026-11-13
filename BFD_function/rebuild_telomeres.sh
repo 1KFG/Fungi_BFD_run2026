@@ -157,8 +157,16 @@ run)
     check_no_live_run
     [ -e "$BACKUP/.stage_complete" ] || die "run stage --go first"
     export_nf_env
-    extra=()
-    [ -n "${N_TEST:-}" ] && { extra+=(--n_test "$N_TEST"); echo "TEST RUN: first $N_TEST genomes only"; }
+    # n_test goes in through a params file. A command-line --n_test is a string and
+    # fails the pipeline's integer parameter validation.
+    params="$RUNDIR/params_telomeres_rerun.yaml"
+    if [ -n "${N_TEST:-}" ]; then
+        [[ "$N_TEST" =~ ^[0-9]+$ ]] || die "N_TEST must be an integer"
+        params="$RUNDIR/params_telomeres_test.yaml"
+        sed "s/^n_test:.*/n_test: $N_TEST/" "$RUNDIR/params_telomeres_rerun.yaml" > "$params"
+        grep -q "^n_test: $N_TEST\$" "$params" || die "could not set n_test in $params"
+        echo "TEST RUN: first $N_TEST genomes only ($params)"
+    fi
     # No -resume on purpose: FIND_TELOMERES has no code-hash guard, so a cached task from
     # before the fix could restore old output into the store. storeDir still skips
     # genomes that finished in this run, so a failed run can be started again as is.
@@ -167,8 +175,7 @@ run)
         -c "$WORKTREE/nextflow/nextflow.config" \
         -c "$(queue_config)" \
         -profile BFD \
-        -params-file "$RUNDIR/params_telomeres_rerun.yaml" \
-        "${extra[@]}"
+        -params-file "$params"
     ;;
 
 timing)
