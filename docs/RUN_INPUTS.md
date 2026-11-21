@@ -40,7 +40,21 @@ The Kubernetes path is unaffected: `nextflow/k8/bin/nf-job.sh` copies `samples.c
 from the Fungi_BFD clone at `/workspace/repo`, which is the owning repo, and `cp`
 follows the link.
 
-## `suppress.txt`
+## `suppress.txt` is a symlink too
 
-Still a hand-maintained second copy of `Fungi_BFD/data/curation/suppress.txt`
-(byte-identical as of 2026-11-20). Same problem, not yet resolved.
+`suppress.txt` here is a symlink to `../Fungi_BFD/data/curation/suppress.txt`,
+for the same reason and under the same rule as `samples.csv`: **Fungi_BFD owns it**.
+
+It had been a hand-maintained second copy. The two happened to be byte-identical on
+2026-11-20, but only because someone had just made the same three edits twice; the
+tracked copy here was three decisions behind its own working file. Add a suppression
+in `Fungi_BFD/data/curation/suppress.txt` and it applies here at once.
+
+The per-run launch directories under this repo already pointed at the top-level file
+(`do_annotation_wave3/suppress.txt -> ../suppress.txt` and about two dozen more), so
+they now resolve through it in two hops to the Fungi_BFD copy. A run that needs its
+own list keeps a real file instead and names it in its params, as
+`do_annotation_wave3` does with `suppress_wave3.txt`.
+
+The Kubernetes path is unaffected: `profile_interproscan6_k8s.config` sets an absolute
+`/workspace/suppress.txt`, and `interproscan6_k8s.nf` guards it with `.exists()`.
